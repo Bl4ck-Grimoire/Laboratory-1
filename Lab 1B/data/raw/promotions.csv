@@ -1,0 +1,7 @@
+﻿promotion_code,product_id,start_date,end_date,discount_pct,campaign_name
+PROMO10,P001,2026-02-10,2026-02-28,0.1,Coffee Week
+PROMO15,P004,2026-03-01,2026-03-20,0.15,Kitchen Days
+PROMO12,P005,2026-03-15,2026-04-05,0.12,Audio Campaign
+PROMO08,P009,2026-02-20,2026-03-10,0.08,Home Office
+PROMO20,P013,2026-04-01,2026-04-25,0.2,Personal Care Month
+PROMO10B,P007,2026-04-10,2026-04-30,0.1,Wearables Week

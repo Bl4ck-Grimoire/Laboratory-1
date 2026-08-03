@@ -1,0 +1,2812 @@
+[
+  {
+    "id_linea": "L00241",
+    "fecha": "18/03/2026",
+    "sucursal": "S02",
+    "codigo_producto": "P008",
+    "unidades": 1,
+    "precio": 78000,
+    "promocion": null,
+    "medio_pago": "Transfer"
+  },
+  {
+    "id_linea": "L00242",
+    "fecha": "15/03/2026",
+    "sucursal": "S02",
+    "codigo_producto": "P003",
+    "unidades": 1,
+    "precio": 175000,
+    "promocion": null,
+    "medio_pago": "Card"
+  },
+  {
+    "id_linea": "L00243",
+    "fecha": "24/03/2026",
+    "sucursal": "S02",
+    "codigo_producto": "P005",
+    "unidades": 1,
+    "precio": 220000,
+    "promocion": null,
+    "medio_pago": "Card"
+  },
+  {
+    "id_linea": "L00244",
+    "fecha": "13/04/2026",
+    "sucursal": "S02",
+    "codigo_producto": "P007",
+    "unidades": 1,
+    "precio": 310000,
+    "promocion": "PROMO10B",
+    "medio_pago": "Transfer"
+  },
+  {
+    "id_linea": "L00245",
+    "fecha": "08/04/2026",
+    "sucursal": "S02",
+    "codigo_producto": "P009",
+    "unidades": 1,
+    "precio": 92000,
+    "promocion": null,
+    "medio_pago": "Transfer"
+  },
+  {
+    "id_linea": "L00246",
+    "fecha": "23/03/2026",
+    "sucursal": "S02",
+    "codigo_producto": "P002",
+    "unidades": 1,
+    "precio": 285000,
+    "promocion": null,
+    "medio_pago": "Transfer"
+  },
+  {
+    "id_linea": "L00247",
+    "fecha": "19/03/2026",
+    "sucursal": "S02",
+    "codigo_producto": "P009",
+    "unidades": 1,
+    "precio": 92000,
+    "promocion": null,
+    "medio_pago": "Transfer"
+  },
+  {
+    "id_linea": "L00248",
+    "fecha": "18/02/2026",
+    "sucursal": "S02",
+    "codigo_producto": "P012",
+    "unidades": 1,
+    "precio": 35000,
+    "promocion": null,
+    "medio_pago": "Card"
+  },
+  {
+    "id_linea": "L00249",
+    "fecha": "13/02/2026",
+    "sucursal": "S02",
+    "codigo_producto": "P012",
+    "unidades": 1,
+    "precio": 35000,
+    "promocion": null,
+    "medio_pago": "Cash"
+  },
+  {
+    "id_linea": "L00250",
+    "fecha": "14/02/2026",
+    "sucursal": "S02",
+    "codigo_producto": "P006",
+    "unidades": 1,
+    "precio": 165000,
+    "promocion": null,
+    "medio_pago": "Card"
+  },
+  {
+    "id_linea": "L00251",
+    "fecha": "28/02/2026",
+    "sucursal": "S02",
+    "codigo_producto": "P001",
+    "unidades": 1,
+    "precio": 145000,
+    "promocion": null,
+    "medio_pago": "Transfer"
+  },
+  {
+    "id_linea": "L00252",
+    "fecha": "26/02/2026",
+    "sucursal": "S02",
+    "codigo_producto": "P010",
+    "unidades": 1,
+    "precio": 115000,
+    "promocion": null,
+    "medio_pago": "Transfer"
+  },
+  {
+    "id_linea": "L00253",
+    "fecha": "14/03/2026",
+    "sucursal": "S02",
+    "codigo_producto": "P004",
+    "unidades": 1,
+    "precio": 390000,
+    "promocion": "PROMO15",
+    "medio_pago": "Card"
+  },
+  {
+    "id_linea": "L00254",
+    "fecha": "18/02/2026",
+    "sucursal": "S02",
+    "codigo_producto": "P004",
+    "unidades": 2,
+    "precio": 390000,
+    "promocion": null,
+    "medio_pago": "Transfer"
+  },
+  {
+    "id_linea": "L00255",
+    "fecha": "05/03/2026",
+    "sucursal": "S02",
+    "codigo_producto": "P013",
+    "unidades": 1,
+    "precio": 135000,
+    "promocion": null,
+    "medio_pago": "Cash"
+  },
+  {
+    "id_linea": "L00256",
+    "fecha": "22/03/2026",
+    "sucursal": "S02",
+    "codigo_producto": "P005",
+    "unidades": 1,
+    "precio": 220000,
+    "promocion": "PROMO12",
+    "medio_pago": "Transfer"
+  },
+  {
+    "id_linea": "L00257",
+    "fecha": "05/02/2026",
+    "sucursal": "S02",
+    "codigo_producto": "P003",
+    "unidades": 2,
+    "precio": 175000,
+    "promocion": null,
+    "medio_pago": "Cash"
+  },
+  {
+    "id_linea": "L00258",
+    "fecha": "22/02/2026",
+    "sucursal": "S02",
+    "codigo_producto": "P012",
+    "unidades": 1,
+    "precio": 35000,
+    "promocion": null,
+    "medio_pago": "Cash"
+  },
+  {
+    "id_linea": "L00259",
+    "fecha": "05/04/2026",
+    "sucursal": "S02",
+    "codigo_producto": "P010",
+    "unidades": 1,
+    "precio": 115000,
+    "promocion": null,
+    "medio_pago": "Card"
+  },
+  {
+    "id_linea": "L00260",
+    "fecha": "07/03/2026",
+    "sucursal": "S02",
+    "codigo_producto": "P004",
+    "unidades": 2,
+    "precio": 390000,
+    "promocion": null,
+    "medio_pago": "Transfer"
+  },
+  {
+    "id_linea": "L00261",
+    "fecha": "20/02/2026",
+    "sucursal": "S02",
+    "codigo_producto": "P007",
+    "unidades": -1,
+    "precio": 310000,
+    "promocion": null,
+    "medio_pago": "Cash"
+  },
+  {
+    "id_linea": "L00262",
+    "fecha": "29/04/2026",
+    "sucursal": "S02",
+    "codigo_producto": "P005",
+    "unidades": 3,
+    "precio": 220000,
+    "promocion": null,
+    "medio_pago": "Cash"
+  },
+  {
+    "id_linea": "L00263",
+    "fecha": "19/04/2026",
+    "sucursal": "S02",
+    "codigo_producto": "P005",
+    "unidades": 1,
+    "precio": 220000,
+    "promocion": null,
+    "medio_pago": "Card"
+  },
+  {
+    "id_linea": "L00264",
+    "fecha": "28/04/2026",
+    "sucursal": "S02",
+    "codigo_producto": "P012",
+    "unidades": 1,
+    "precio": 35000,
+    "promocion": null,
+    "medio_pago": "Transfer"
+  },
+  {
+    "id_linea": "L00265",
+    "fecha": "23/03/2026",
+    "sucursal": "S02",
+    "codigo_producto": "P003",
+    "unidades": 2,
+    "precio": 175000,
+    "promocion": null,
+    "medio_pago": "Transfer"
+  },
+  {
+    "id_linea": "L00266",
+    "fecha": "29/03/2026",
+    "sucursal": "S02",
+    "codigo_producto": "P012",
+    "unidades": 1,
+    "precio": 35000,
+    "promocion": null,
+    "medio_pago": "Transfer"
+  },
+  {
+    "id_linea": "L00267",
+    "fecha": "12/02/2026",
+    "sucursal": "S02",
+    "codigo_producto": "P001",
+    "unidades": 1,
+    "precio": 145000,
+    "promocion": null,
+    "medio_pago": "Cash"
+  },
+  {
+    "id_linea": "L00268",
+    "fecha": "17/02/2026",
+    "sucursal": "S02",
+    "codigo_producto": "P002",
+    "unidades": 4,
+    "precio": 285000,
+    "promocion": null,
+    "medio_pago": "Card"
+  },
+  {
+    "id_linea": "L00269",
+    "fecha": "03/02/2026",
+    "sucursal": "S02",
+    "codigo_producto": "P003",
+    "unidades": 4,
+    "precio": 175000,
+    "promocion": null,
+    "medio_pago": "Card"
+  },
+  {
+    "id_linea": "L00270",
+    "fecha": "07/03/2026",
+    "sucursal": "S02",
+    "codigo_producto": "P010",
+    "unidades": 1,
+    "precio": 115000,
+    "promocion": null,
+    "medio_pago": "Transfer"
+  },
+  {
+    "id_linea": "L00271",
+    "fecha": "22/02/2026",
+    "sucursal": "S02",
+    "codigo_producto": "P003",
+    "unidades": 2,
+    "precio": 175000,
+    "promocion": null,
+    "medio_pago": "Transfer"
+  },
+  {
+    "id_linea": "L00272",
+    "fecha": "21/02/2026",
+    "sucursal": "S02",
+    "codigo_producto": "P001",
+    "unidades": 1,
+    "precio": 145000,
+    "promocion": null,
+    "medio_pago": "Card"
+  },
+  {
+    "id_linea": "L00273",
+    "fecha": "11/03/2026",
+    "sucursal": "S02",
+    "codigo_producto": "P008",
+    "unidades": 3,
+    "precio": 78000,
+    "promocion": null,
+    "medio_pago": "Cash"
+  },
+  {
+    "id_linea": "L00274",
+    "fecha": "20/02/2026",
+    "sucursal": "S02",
+    "codigo_producto": "P006",
+    "unidades": 1,
+    "precio": 165000,
+    "promocion": null,
+    "medio_pago": "Transfer"
+  },
+  {
+    "id_linea": "L00275",
+    "fecha": "01/03/2026",
+    "sucursal": "S02",
+    "codigo_producto": "P001",
+    "unidades": 2,
+    "precio": 145000,
+    "promocion": null,
+    "medio_pago": "Transfer"
+  },
+  {
+    "id_linea": "L00276",
+    "fecha": "31/03/2026",
+    "sucursal": "S02",
+    "codigo_producto": "P005",
+    "unidades": 2,
+    "precio": 220000,
+    "promocion": null,
+    "medio_pago": "Card"
+  },
+  {
+    "id_linea": "L00277",
+    "fecha": "03/04/2026",
+    "sucursal": "S02",
+    "codigo_producto": "P009",
+    "unidades": 1,
+    "precio": 92000,
+    "promocion": null,
+    "medio_pago": "Card"
+  },
+  {
+    "id_linea": "L00278",
+    "fecha": "28/03/2026",
+    "sucursal": "S02",
+    "codigo_producto": "P008",
+    "unidades": 1,
+    "precio": 78000,
+    "promocion": null,
+    "medio_pago": "Card"
+  },
+  {
+    "id_linea": "L00279",
+    "fecha": "06/03/2026",
+    "sucursal": "S02",
+    "codigo_producto": "P004",
+    "unidades": 1,
+    "precio": 390000,
+    "promocion": "PROMO15",
+    "medio_pago": "Cash"
+  },
+  {
+    "id_linea": "L00280",
+    "fecha": "23/03/2026",
+    "sucursal": "S02",
+    "codigo_producto": "P013",
+    "unidades": 1,
+    "precio": 135000,
+    "promocion": null,
+    "medio_pago": "Cash"
+  },
+  {
+    "id_linea": "L00281",
+    "fecha": "28/02/2026",
+    "sucursal": "S02",
+    "codigo_producto": "P009",
+    "unidades": 1,
+    "precio": 92000,
+    "promocion": "PROMO08",
+    "medio_pago": "Cash"
+  },
+  {
+    "id_linea": "L00282",
+    "fecha": "25/04/2026",
+    "sucursal": "S02",
+    "codigo_producto": "P012",
+    "unidades": 1,
+    "precio": 35000,
+    "promocion": null,
+    "medio_pago": "Transfer"
+  },
+  {
+    "id_linea": "L00283",
+    "fecha": "13/04/2026",
+    "sucursal": "S02",
+    "codigo_producto": "P004",
+    "unidades": 1,
+    "precio": 390000,
+    "promocion": null,
+    "medio_pago": "Cash"
+  },
+  {
+    "id_linea": "L00284",
+    "fecha": "10/02/2026",
+    "sucursal": "S02",
+    "codigo_producto": "P009",
+    "unidades": 1,
+    "precio": 92000,
+    "promocion": null,
+    "medio_pago": "Cash"
+  },
+  {
+    "id_linea": "L00285",
+    "fecha": "12/04/2026",
+    "sucursal": "S02",
+    "codigo_producto": "P012",
+    "unidades": 2,
+    "precio": 35000,
+    "promocion": null,
+    "medio_pago": "Transfer"
+  },
+  {
+    "id_linea": "L00286",
+    "fecha": "10/03/2026",
+    "sucursal": "S02",
+    "codigo_producto": "P013",
+    "unidades": 1,
+    "precio": 135000,
+    "promocion": null,
+    "medio_pago": "CASH"
+  },
+  {
+    "id_linea": "L00287",
+    "fecha": "18/02/2026",
+    "sucursal": "S02",
+    "codigo_producto": "P009",
+    "unidades": 2,
+    "precio": 92000,
+    "promocion": null,
+    "medio_pago": "Cash"
+  },
+  {
+    "id_linea": "L00288",
+    "fecha": "26/02/2026",
+    "sucursal": "S02",
+    "codigo_producto": "P005",
+    "unidades": 3,
+    "precio": 220000,
+    "promocion": null,
+    "medio_pago": "Cash"
+  },
+  {
+    "id_linea": "L00289",
+    "fecha": "13/03/2026",
+    "sucursal": "S02",
+    "codigo_producto": "P006",
+    "unidades": 1,
+    "precio": 165000,
+    "promocion": null,
+    "medio_pago": "Cash"
+  },
+  {
+    "id_linea": "L00290",
+    "fecha": "28/04/2026",
+    "sucursal": "S02",
+    "codigo_producto": "P010",
+    "unidades": 1,
+    "precio": 115000,
+    "promocion": null,
+    "medio_pago": "Card"
+  },
+  {
+    "id_linea": "L00291",
+    "fecha": "28/03/2026",
+    "sucursal": "S02",
+    "codigo_producto": "P012",
+    "unidades": 1,
+    "precio": 35000,
+    "promocion": null,
+    "medio_pago": "Card"
+  },
+  {
+    "id_linea": "L00292",
+    "fecha": "07/02/2026",
+    "sucursal": "S02",
+    "codigo_producto": "P012",
+    "unidades": 1,
+    "precio": 35000,
+    "promocion": null,
+    "medio_pago": "Cash"
+  },
+  {
+    "id_linea": "L00293",
+    "fecha": "27/02/2026",
+    "sucursal": "S02",
+    "codigo_producto": "P008",
+    "unidades": 1,
+    "precio": 78000,
+    "promocion": null,
+    "medio_pago": "Card"
+  },
+  {
+    "id_linea": "L00294",
+    "fecha": "13/02/2026",
+    "sucursal": "S02",
+    "codigo_producto": "P003",
+    "unidades": 2,
+    "precio": 175000,
+    "promocion": null,
+    "medio_pago": "Transfer"
+  },
+  {
+    "id_linea": "L00295",
+    "fecha": "12/03/2026",
+    "sucursal": "S02",
+    "codigo_producto": "P005",
+    "unidades": 1,
+    "precio": 220000,
+    "promocion": null,
+    "medio_pago": "Card"
+  },
+  {
+    "id_linea": "L00296",
+    "fecha": "17/04/2026",
+    "sucursal": "S02",
+    "codigo_producto": "P003",
+    "unidades": 1,
+    "precio": 175000,
+    "promocion": null,
+    "medio_pago": "Transfer"
+  },
+  {
+    "id_linea": "L00297",
+    "fecha": "16/04/2026",
+    "sucursal": "S02",
+    "codigo_producto": "P012",
+    "unidades": 1,
+    "precio": 35000,
+    "promocion": null,
+    "medio_pago": "Transfer"
+  },
+  {
+    "id_linea": "L00298",
+    "fecha": "15/02/2026",
+    "sucursal": "S02",
+    "codigo_producto": "P014",
+    "unidades": 3,
+    "precio": 198000,
+    "promocion": null,
+    "medio_pago": "Card"
+  },
+  {
+    "id_linea": "L00299",
+    "fecha": "27/03/2026",
+    "sucursal": "S02",
+    "codigo_producto": "P015",
+    "unidades": 2,
+    "precio": 86000,
+    "promocion": null,
+    "medio_pago": "Transfer"
+  },
+  {
+    "id_linea": "L00300",
+    "fecha": "18/03/2026",
+    "sucursal": "S02",
+    "codigo_producto": "P010",
+    "unidades": 1,
+    "precio": 115000,
+    "promocion": null,
+    "medio_pago": "Cash"
+  },
+  {
+    "id_linea": "L00301",
+    "fecha": "11/04/2026",
+    "sucursal": "s02",
+    "codigo_producto": "P005",
+    "unidades": 1,
+    "precio": 220000,
+    "promocion": null,
+    "medio_pago": "Cash"
+  },
+  {
+    "id_linea": "L00302",
+    "fecha": "14/03/2026",
+    "sucursal": "S02",
+    "codigo_producto": "P010",
+    "unidades": 2,
+    "precio": 115000,
+    "promocion": null,
+    "medio_pago": "Card"
+  },
+  {
+    "id_linea": "L00303",
+    "fecha": "16/04/2026",
+    "sucursal": "S02",
+    "codigo_producto": "P010",
+    "unidades": 1,
+    "precio": 115000,
+    "promocion": null,
+    "medio_pago": "Cash"
+  },
+  {
+    "id_linea": "L00304",
+    "fecha": "02/03/2026",
+    "sucursal": "S02",
+    "codigo_producto": "P004",
+    "unidades": 2,
+    "precio": 390000,
+    "promocion": null,
+    "medio_pago": "Cash"
+  },
+  {
+    "id_linea": "L00305",
+    "fecha": "22/02/2026",
+    "sucursal": "S02",
+    "codigo_producto": "P001",
+    "unidades": 2,
+    "precio": 145000,
+    "promocion": null,
+    "medio_pago": "Card"
+  },
+  {
+    "id_linea": "L00306",
+    "fecha": "23/04/2026",
+    "sucursal": "S02",
+    "codigo_producto": "P005",
+    "unidades": 2,
+    "precio": 220000,
+    "promocion": null,
+    "medio_pago": "Transfer"
+  },
+  {
+    "id_linea": "L00307",
+    "fecha": "19/02/2026",
+    "sucursal": "S02",
+    "codigo_producto": "P005",
+    "unidades": 2,
+    "precio": 220000,
+    "promocion": null,
+    "medio_pago": "Card"
+  },
+  {
+    "id_linea": "L00308",
+    "fecha": "10/03/2026",
+    "sucursal": "S02",
+    "codigo_producto": "P005",
+    "unidades": 4,
+    "precio": 220000,
+    "promocion": null,
+    "medio_pago": "Cash"
+  },
+  {
+    "id_linea": "L00309",
+    "fecha": "13/02/2026",
+    "sucursal": "S02",
+    "codigo_producto": "P003",
+    "unidades": 1,
+    "precio": 175000,
+    "promocion": null,
+    "medio_pago": "Card"
+  },
+  {
+    "id_linea": "L00310",
+    "fecha": "29/04/2026",
+    "sucursal": "S02",
+    "codigo_producto": "P013",
+    "unidades": 1,
+    "precio": 135000,
+    "promocion": null,
+    "medio_pago": "Cash"
+  },
+  {
+    "id_linea": "L00311",
+    "fecha": "05/04/2026",
+    "sucursal": "S02",
+    "codigo_producto": "P013",
+    "unidades": 1,
+    "precio": "$220000",
+    "promocion": "PROMO20",
+    "medio_pago": "Transfer"
+  },
+  {
+    "id_linea": "L00312",
+    "fecha": "15/04/2026",
+    "sucursal": "S02",
+    "codigo_producto": "P005",
+    "unidades": 1,
+    "precio": 220000,
+    "promocion": null,
+    "medio_pago": "Transfer"
+  },
+  {
+    "id_linea": "L00313",
+    "fecha": "08/04/2026",
+    "sucursal": "S02",
+    "codigo_producto": "P005",
+    "unidades": 1,
+    "precio": 220000,
+    "promocion": null,
+    "medio_pago": "Card"
+  },
+  {
+    "id_linea": "L00314",
+    "fecha": "28/04/2026",
+    "sucursal": "S02",
+    "codigo_producto": "P011",
+    "unidades": 1,
+    "precio": 138000,
+    "promocion": null,
+    "medio_pago": "Transfer"
+  },
+  {
+    "id_linea": "L00315",
+    "fecha": "07/03/2026",
+    "sucursal": "S02",
+    "codigo_producto": "P014",
+    "unidades": 2,
+    "precio": 198000,
+    "promocion": null,
+    "medio_pago": "Transfer"
+  },
+  {
+    "id_linea": "L00316",
+    "fecha": "17/02/2026",
+    "sucursal": "S02",
+    "codigo_producto": "P002",
+    "unidades": 1,
+    "precio": 285000,
+    "promocion": null,
+    "medio_pago": "Card"
+  },
+  {
+    "id_linea": "L00317",
+    "fecha": "26/02/2026",
+    "sucursal": "S02",
+    "codigo_producto": "P002",
+    "unidades": 1,
+    "precio": 285000,
+    "promocion": null,
+    "medio_pago": "Transfer"
+  },
+  {
+    "id_linea": "L00318",
+    "fecha": "19/04/2026",
+    "sucursal": "S02",
+    "codigo_producto": "P004",
+    "unidades": 1,
+    "precio": 390000,
+    "promocion": null,
+    "medio_pago": "Cash"
+  },
+  {
+    "id_linea": "L00319",
+    "fecha": "17/02/2026",
+    "sucursal": "S02",
+    "codigo_producto": "P015",
+    "unidades": 1,
+    "precio": 86000,
+    "promocion": null,
+    "medio_pago": "Transfer"
+  },
+  {
+    "id_linea": "L00320",
+    "fecha": "04/03/2026",
+    "sucursal": "S02",
+    "codigo_producto": "P008",
+    "unidades": 2,
+    "precio": 78000,
+    "promocion": null,
+    "medio_pago": "Cash"
+  },
+  {
+    "id_linea": "L00321",
+    "fecha": "10/02/2026",
+    "sucursal": "S02",
+    "codigo_producto": "P010",
+    "unidades": 2,
+    "precio": 115000,
+    "promocion": null,
+    "medio_pago": "Card"
+  },
+  {
+    "id_linea": "L00322",
+    "fecha": "21/02/2026",
+    "sucursal": "S02",
+    "codigo_producto": "P013",
+    "unidades": 1,
+    "precio": 135000,
+    "promocion": null,
+    "medio_pago": "Transfer"
+  },
+  {
+    "id_linea": "L00323",
+    "fecha": "02/02/2026",
+    "sucursal": "S02",
+    "codigo_producto": "P010",
+    "unidades": 1,
+    "precio": 115000,
+    "promocion": null,
+    "medio_pago": "Card"
+  },
+  {
+    "id_linea": "L00324",
+    "fecha": "10/03/2026",
+    "sucursal": "S02",
+    "codigo_producto": "P009",
+    "unidades": 1,
+    "precio": 92000,
+    "promocion": null,
+    "medio_pago": "Transfer"
+  },
+  {
+    "id_linea": "L00325",
+    "fecha": "23/02/2026",
+    "sucursal": "S02",
+    "codigo_producto": "P009",
+    "unidades": 2,
+    "precio": 92000,
+    "promocion": null,
+    "medio_pago": "Card"
+  },
+  {
+    "id_linea": "L00326",
+    "fecha": "29/03/2026",
+    "sucursal": "S02",
+    "codigo_producto": "P002",
+    "unidades": 2,
+    "precio": 285000,
+    "promocion": null,
+    "medio_pago": "Cash"
+  },
+  {
+    "id_linea": "L00327",
+    "fecha": "20/03/2026",
+    "sucursal": "S02",
+    "codigo_producto": "P013",
+    "unidades": 2,
+    "precio": 135000,
+    "promocion": null,
+    "medio_pago": "Transfer"
+  },
+  {
+    "id_linea": "L00328",
+    "fecha": "09/03/2026",
+    "sucursal": "S02",
+    "codigo_producto": "P003",
+    "unidades": 1,
+    "precio": 175000,
+    "promocion": null,
+    "medio_pago": "Card"
+  },
+  {
+    "id_linea": "L00329",
+    "fecha": "16/02/2026",
+    "sucursal": "S02",
+    "codigo_producto": "P012",
+    "unidades": 1,
+    "precio": 35000,
+    "promocion": null,
+    "medio_pago": "Cash"
+  },
+  {
+    "id_linea": "L00330",
+    "fecha": "27/04/2026",
+    "sucursal": "S02",
+    "codigo_producto": "P009",
+    "unidades": 1,
+    "precio": 92000,
+    "promocion": null,
+    "medio_pago": "Card"
+  },
+  {
+    "id_linea": "L00331",
+    "fecha": "27/03/2026",
+    "sucursal": "S02",
+    "codigo_producto": "P002",
+    "unidades": 1,
+    "precio": 285000,
+    "promocion": null,
+    "medio_pago": "Card"
+  },
+  {
+    "id_linea": "L00332",
+    "fecha": "16/02/2026",
+    "sucursal": "S02",
+    "codigo_producto": "P005",
+    "unidades": 1,
+    "precio": 220000,
+    "promocion": null,
+    "medio_pago": "Card"
+  },
+  {
+    "id_linea": "L00333",
+    "fecha": "06/03/2026",
+    "sucursal": "S02",
+    "codigo_producto": "P002",
+    "unidades": 1,
+    "precio": 285000,
+    "promocion": null,
+    "medio_pago": "Cash"
+  },
+  {
+    "id_linea": "L00334",
+    "fecha": "24/02/2026",
+    "sucursal": "S02",
+    "codigo_producto": "P004",
+    "unidades": 1,
+    "precio": 390000,
+    "promocion": null,
+    "medio_pago": "Card"
+  },
+  {
+    "id_linea": "L00335",
+    "fecha": "12/03/2026",
+    "sucursal": "S02",
+    "codigo_producto": "P009",
+    "unidades": 1,
+    "precio": 92000,
+    "promocion": null,
+    "medio_pago": "Card"
+  },
+  {
+    "id_linea": "L00336",
+    "fecha": "11/04/2026",
+    "sucursal": "S02",
+    "codigo_producto": "P013",
+    "unidades": 1,
+    "precio": 135000,
+    "promocion": "PROMO20",
+    "medio_pago": "Card"
+  },
+  {
+    "id_linea": "L00337",
+    "fecha": "16/03/2026",
+    "sucursal": "S02",
+    "codigo_producto": "P001",
+    "unidades": 1,
+    "precio": 145000,
+    "promocion": null,
+    "medio_pago": "Card"
+  },
+  {
+    "id_linea": "L00338",
+    "fecha": "17/04/2026",
+    "sucursal": "S02",
+    "codigo_producto": "P003",
+    "unidades": 1,
+    "precio": 175000,
+    "promocion": null,
+    "medio_pago": "Transfer"
+  },
+  {
+    "id_linea": "L00339",
+    "fecha": "23/03/2026",
+    "sucursal": "S02",
+    "codigo_producto": "P012",
+    "unidades": 2,
+    "precio": 35000,
+    "promocion": null,
+    "medio_pago": "Cash"
+  },
+  {
+    "id_linea": "L00340",
+    "fecha": "07/04/2026",
+    "sucursal": "S02",
+    "codigo_producto": "P008",
+    "unidades": 2,
+    "precio": 78000,
+    "promocion": null,
+    "medio_pago": "Transfer"
+  },
+  {
+    "id_linea": "L00341",
+    "fecha": "17/02/2026",
+    "sucursal": "S02",
+    "codigo_producto": "P015",
+    "unidades": 1,
+    "precio": 86000,
+    "promocion": null,
+    "medio_pago": "Transfer"
+  },
+  {
+    "id_linea": "L00342",
+    "fecha": "16/04/2026",
+    "sucursal": "S02",
+    "codigo_producto": "P011",
+    "unidades": 2,
+    "precio": 138000,
+    "promocion": null,
+    "medio_pago": "Card"
+  },
+  {
+    "id_linea": "L00343",
+    "fecha": "14/02/2026",
+    "sucursal": "S02",
+    "codigo_producto": "P002",
+    "unidades": 3,
+    "precio": 285000,
+    "promocion": null,
+    "medio_pago": "Cash"
+  },
+  {
+    "id_linea": "L00344",
+    "fecha": "25/04/2026",
+    "sucursal": "S02",
+    "codigo_producto": "P009",
+    "unidades": 1,
+    "precio": 92000,
+    "promocion": null,
+    "medio_pago": "Card"
+  },
+  {
+    "id_linea": "L00345",
+    "fecha": "26/02/2026",
+    "sucursal": "S02",
+    "codigo_producto": "P015",
+    "unidades": 1,
+    "precio": 86000,
+    "promocion": null,
+    "medio_pago": "Cash"
+  },
+  {
+    "id_linea": "L00346",
+    "fecha": "04/02/2026",
+    "sucursal": "S02",
+    "codigo_producto": "P003",
+    "unidades": 1,
+    "precio": 175000,
+    "promocion": null,
+    "medio_pago": "Transfer"
+  },
+  {
+    "id_linea": "L00347",
+    "fecha": "13/02/2026",
+    "sucursal": "S02",
+    "codigo_producto": "P002",
+    "unidades": 2,
+    "precio": 285000,
+    "promocion": null,
+    "medio_pago": "Card"
+  },
+  {
+    "id_linea": "L00348",
+    "fecha": "13/04/2026",
+    "sucursal": "S02",
+    "codigo_producto": "P014",
+    "unidades": 2,
+    "precio": 198000,
+    "promocion": null,
+    "medio_pago": "Cash"
+  },
+  {
+    "id_linea": "L00349",
+    "fecha": "18/02/2026",
+    "sucursal": "S02",
+    "codigo_producto": "P010",
+    "unidades": 1,
+    "precio": 115000,
+    "promocion": null,
+    "medio_pago": "Card"
+  },
+  {
+    "id_linea": "L00350",
+    "fecha": "30/04/2026",
+    "sucursal": "S02",
+    "codigo_producto": "P004",
+    "unidades": 1,
+    "precio": 390000,
+    "promocion": null,
+    "medio_pago": "Transfer"
+  },
+  {
+    "id_linea": "L00351",
+    "fecha": "06/04/2026",
+    "sucursal": "S02",
+    "codigo_producto": "P010",
+    "unidades": 3,
+    "precio": 115000,
+    "promocion": null,
+    "medio_pago": "Cash"
+  },
+  {
+    "id_linea": "L00352",
+    "fecha": "28/03/2026",
+    "sucursal": "S02",
+    "codigo_producto": "P010",
+    "unidades": 1,
+    "precio": 115000,
+    "promocion": null,
+    "medio_pago": "Transfer"
+  },
+  {
+    "id_linea": "L00353",
+    "fecha": "08/02/2026",
+    "sucursal": "S02",
+    "codigo_producto": "P013",
+    "unidades": 1,
+    "precio": 135000,
+    "promocion": null,
+    "medio_pago": "Cash"
+  },
+  {
+    "id_linea": "L00354",
+    "fecha": "06/02/2026",
+    "sucursal": "S02",
+    "codigo_producto": "P010",
+    "unidades": 2,
+    "precio": 115000,
+    "promocion": null,
+    "medio_pago": "Cash"
+  },
+  {
+    "id_linea": "L00355",
+    "fecha": "29/03/2026",
+    "sucursal": "S02",
+    "codigo_producto": "P013",
+    "unidades": 1,
+    "precio": 135000,
+    "promocion": null,
+    "medio_pago": "Cash"
+  },
+  {
+    "id_linea": "L00356",
+    "fecha": "17/02/2026",
+    "sucursal": "S02",
+    "codigo_producto": "P012",
+    "unidades": 1,
+    "precio": 35000,
+    "promocion": null,
+    "medio_pago": "Transfer"
+  },
+  {
+    "id_linea": "L00357",
+    "fecha": "23/02/2026",
+    "sucursal": "S02",
+    "codigo_producto": "P009",
+    "unidades": 2,
+    "precio": 92000,
+    "promocion": "PROMO08",
+    "medio_pago": "Transfer"
+  },
+  {
+    "id_linea": "L00358",
+    "fecha": "11/03/2026",
+    "sucursal": "S02",
+    "codigo_producto": "P014",
+    "unidades": 1,
+    "precio": 198000,
+    "promocion": null,
+    "medio_pago": "Cash"
+  },
+  {
+    "id_linea": "L00359",
+    "fecha": "08/04/2026",
+    "sucursal": "S02",
+    "codigo_producto": "P011",
+    "unidades": 1,
+    "precio": 138000,
+    "promocion": null,
+    "medio_pago": "Cash"
+  },
+  {
+    "id_linea": "L00360",
+    "fecha": "23/03/2026",
+    "sucursal": "S02",
+    "codigo_producto": "P009",
+    "unidades": 1,
+    "precio": 92000,
+    "promocion": null,
+    "medio_pago": "Cash"
+  },
+  {
+    "id_linea": "L00361",
+    "fecha": "19/04/2026",
+    "sucursal": "S02",
+    "codigo_producto": "P006",
+    "unidades": 3,
+    "precio": 165000,
+    "promocion": null,
+    "medio_pago": "Card"
+  },
+  {
+    "id_linea": "L00362",
+    "fecha": "23/04/2026",
+    "sucursal": "S02",
+    "codigo_producto": "P011",
+    "unidades": 1,
+    "precio": 138000,
+    "promocion": null,
+    "medio_pago": "Card"
+  },
+  {
+    "id_linea": "L00363",
+    "fecha": "06/02/2026",
+    "sucursal": "S02",
+    "codigo_producto": "P009",
+    "unidades": 1,
+    "precio": 92000,
+    "promocion": null,
+    "medio_pago": "Card"
+  },
+  {
+    "id_linea": "L00364",
+    "fecha": "03/04/2026",
+    "sucursal": "S02",
+    "codigo_producto": "P008",
+    "unidades": 1,
+    "precio": 78000,
+    "promocion": null,
+    "medio_pago": "Transfer"
+  },
+  {
+    "id_linea": "L00365",
+    "fecha": "22/02/2026",
+    "sucursal": "S02",
+    "codigo_producto": "P009",
+    "unidades": 2,
+    "precio": 92000,
+    "promocion": null,
+    "medio_pago": "Card"
+  },
+  {
+    "id_linea": "L00366",
+    "fecha": "01/02/2026",
+    "sucursal": "S02",
+    "codigo_producto": "P001",
+    "unidades": 1,
+    "precio": 145000,
+    "promocion": null,
+    "medio_pago": "Transfer"
+  },
+  {
+    "id_linea": "L00367",
+    "fecha": "07/03/2026",
+    "sucursal": "S02",
+    "codigo_producto": "P015",
+    "unidades": 1,
+    "precio": 86000,
+    "promocion": null,
+    "medio_pago": "Cash"
+  },
+  {
+    "id_linea": "L00368",
+    "fecha": "27/04/2026",
+    "sucursal": "S02",
+    "codigo_producto": "P012",
+    "unidades": 2,
+    "precio": 35000,
+    "promocion": null,
+    "medio_pago": "Card"
+  },
+  {
+    "id_linea": "L00369",
+    "fecha": "12/04/2026",
+    "sucursal": "S02",
+    "codigo_producto": "P004",
+    "unidades": 2,
+    "precio": 390000,
+    "promocion": null,
+    "medio_pago": "Transfer"
+  },
+  {
+    "id_linea": "L00370",
+    "fecha": "01/04/2026",
+    "sucursal": "S02",
+    "codigo_producto": "P014",
+    "unidades": 1,
+    "precio": 198000,
+    "promocion": null,
+    "medio_pago": "Cash"
+  },
+  {
+    "id_linea": "L00371",
+    "fecha": "15/02/2026",
+    "sucursal": "S02",
+    "codigo_producto": "P010",
+    "unidades": 1,
+    "precio": 115000,
+    "promocion": null,
+    "medio_pago": "Transfer"
+  },
+  {
+    "id_linea": "L00372",
+    "fecha": "01/04/2026",
+    "sucursal": "S02",
+    "codigo_producto": "P008",
+    "unidades": 2,
+    "precio": 78000,
+    "promocion": null,
+    "medio_pago": "Card"
+  },
+  {
+    "id_linea": "L00373",
+    "fecha": "05/03/2026",
+    "sucursal": "S02",
+    "codigo_producto": "P005",
+    "unidades": 1,
+    "precio": 220000,
+    "promocion": null,
+    "medio_pago": "Card"
+  },
+  {
+    "id_linea": "L00374",
+    "fecha": "02/03/2026",
+    "sucursal": "S02",
+    "codigo_producto": "P012",
+    "unidades": 1,
+    "precio": 35000,
+    "promocion": null,
+    "medio_pago": "Card"
+  },
+  {
+    "id_linea": "L00375",
+    "fecha": "20/02/2026",
+    "sucursal": "S02",
+    "codigo_producto": "P012",
+    "unidades": 1,
+    "precio": 35000,
+    "promocion": null,
+    "medio_pago": "Card"
+  },
+  {
+    "id_linea": "L00376",
+    "fecha": "14/04/2026",
+    "sucursal": "S02",
+    "codigo_producto": "P012",
+    "unidades": 2,
+    "precio": 35000,
+    "promocion": null,
+    "medio_pago": "Cash"
+  },
+  {
+    "id_linea": "L00377",
+    "fecha": "22/04/2026",
+    "sucursal": "S02",
+    "codigo_producto": "P009",
+    "unidades": 1,
+    "precio": 92000,
+    "promocion": null,
+    "medio_pago": "Card"
+  },
+  {
+    "id_linea": "L00378",
+    "fecha": "12/04/2026",
+    "sucursal": "S02",
+    "codigo_producto": "P009",
+    "unidades": 1,
+    "precio": 92000,
+    "promocion": null,
+    "medio_pago": "Card"
+  },
+  {
+    "id_linea": "L00379",
+    "fecha": "31/03/2026",
+    "sucursal": "S02",
+    "codigo_producto": "P009",
+    "unidades": 3,
+    "precio": 92000,
+    "promocion": null,
+    "medio_pago": "Cash"
+  },
+  {
+    "id_linea": "L00380",
+    "fecha": "01/04/2026",
+    "sucursal": "S02",
+    "codigo_producto": "P011",
+    "unidades": 1,
+    "precio": 138000,
+    "promocion": null,
+    "medio_pago": "Cash"
+  },
+  {
+    "id_linea": "L00381",
+    "fecha": "28/02/2026",
+    "sucursal": "S02",
+    "codigo_producto": "P009",
+    "unidades": 1,
+    "precio": 92000,
+    "promocion": "PROMO08",
+    "medio_pago": "Card"
+  },
+  {
+    "id_linea": "L00382",
+    "fecha": "05/03/2026",
+    "sucursal": "S02",
+    "codigo_producto": "P007",
+    "unidades": 2,
+    "precio": 310000,
+    "promocion": null,
+    "medio_pago": "Card"
+  },
+  {
+    "id_linea": "L00383",
+    "fecha": "09/03/2026",
+    "sucursal": "S02",
+    "codigo_producto": "P013",
+    "unidades": 2,
+    "precio": 135000,
+    "promocion": null,
+    "medio_pago": "Cash"
+  },
+  {
+    "id_linea": "L00384",
+    "fecha": "14/03/2026",
+    "sucursal": "S02",
+    "codigo_producto": "P001",
+    "unidades": 3,
+    "precio": 145000,
+    "promocion": null,
+    "medio_pago": "Transfer"
+  },
+  {
+    "id_linea": "L00385",
+    "fecha": "10/02/2026",
+    "sucursal": "S02",
+    "codigo_producto": "P004",
+    "unidades": 1,
+    "precio": 390000,
+    "promocion": null,
+    "medio_pago": "Card"
+  },
+  {
+    "id_linea": "L00386",
+    "fecha": "27/03/2026",
+    "sucursal": "S02",
+    "codigo_producto": "P008",
+    "unidades": 1,
+    "precio": 78000,
+    "promocion": null,
+    "medio_pago": "Cash"
+  },
+  {
+    "id_linea": "L00387",
+    "fecha": "29/04/2026",
+    "sucursal": "S02",
+    "codigo_producto": "P011",
+    "unidades": 1,
+    "precio": 138000,
+    "promocion": null,
+    "medio_pago": "Cash"
+  },
+  {
+    "id_linea": "L00388",
+    "fecha": "14/02/2026",
+    "sucursal": "S02",
+    "codigo_producto": "P008",
+    "unidades": 1,
+    "precio": 78000,
+    "promocion": null,
+    "medio_pago": "Card"
+  },
+  {
+    "id_linea": "L00389",
+    "fecha": "15/02/2026",
+    "sucursal": "S02",
+    "codigo_producto": "P012",
+    "unidades": 1,
+    "precio": 35000,
+    "promocion": null,
+    "medio_pago": "Cash"
+  },
+  {
+    "id_linea": "L00390",
+    "fecha": "03/03/2026",
+    "sucursal": "S02",
+    "codigo_producto": "P008",
+    "unidades": 1,
+    "precio": 78000,
+    "promocion": null,
+    "medio_pago": "Card"
+  },
+  {
+    "id_linea": "L00391",
+    "fecha": "18/04/2026",
+    "sucursal": "S02",
+    "codigo_producto": "P015",
+    "unidades": 2,
+    "precio": 86000,
+    "promocion": null,
+    "medio_pago": "Cash"
+  },
+  {
+    "id_linea": "L00392",
+    "fecha": "26/04/2026",
+    "sucursal": "S02",
+    "codigo_producto": "P011",
+    "unidades": 1,
+    "precio": 138000,
+    "promocion": null,
+    "medio_pago": "Card"
+  },
+  {
+    "id_linea": "L00393",
+    "fecha": "14/04/2026",
+    "sucursal": "S02",
+    "codigo_producto": "P013",
+    "unidades": 1,
+    "precio": 135000,
+    "promocion": "PROMO20",
+    "medio_pago": "Cash"
+  },
+  {
+    "id_linea": "L00394",
+    "fecha": "26/03/2026",
+    "sucursal": "S02",
+    "codigo_producto": "P002",
+    "unidades": 1,
+    "precio": 285000,
+    "promocion": null,
+    "medio_pago": "Transfer"
+  },
+  {
+    "id_linea": "L00395",
+    "fecha": "27/04/2026",
+    "sucursal": "S02",
+    "codigo_producto": "P004",
+    "unidades": 2,
+    "precio": 390000,
+    "promocion": null,
+    "medio_pago": "Card"
+  },
+  {
+    "id_linea": "L00396",
+    "fecha": "17/02/2026",
+    "sucursal": "S02",
+    "codigo_producto": "P011",
+    "unidades": 1,
+    "precio": 138000,
+    "promocion": null,
+    "medio_pago": "Card"
+  },
+  {
+    "id_linea": "L00397",
+    "fecha": "13/03/2026",
+    "sucursal": "S02",
+    "codigo_producto": "P008",
+    "unidades": 1,
+    "precio": 78000,
+    "promocion": null,
+    "medio_pago": "Card"
+  },
+  {
+    "id_linea": "L00398",
+    "fecha": "03/02/2026",
+    "sucursal": "S02",
+    "codigo_producto": "P008",
+    "unidades": 2,
+    "precio": 78000,
+    "promocion": null,
+    "medio_pago": "Card"
+  },
+  {
+    "id_linea": "L00399",
+    "fecha": "20/04/2026",
+    "sucursal": "S02",
+    "codigo_producto": "P003",
+    "unidades": 1,
+    "precio": 175000,
+    "promocion": null,
+    "medio_pago": "Card"
+  },
+  {
+    "id_linea": "L00400",
+    "fecha": "15/02/2026",
+    "sucursal": "S02",
+    "codigo_producto": "P001",
+    "unidades": 2,
+    "precio": 145000,
+    "promocion": "PROMO10",
+    "medio_pago": "Transfer"
+  },
+  {
+    "id_linea": "L00401",
+    "fecha": "28/03/2026",
+    "sucursal": "S02",
+    "codigo_producto": "P012",
+    "unidades": 1,
+    "precio": 35000,
+    "promocion": null,
+    "medio_pago": "Transfer"
+  },
+  {
+    "id_linea": "L00402",
+    "fecha": "07/03/2026",
+    "sucursal": "S02",
+    "codigo_producto": "P004",
+    "unidades": 1,
+    "precio": 390000,
+    "promocion": "PROMO15",
+    "medio_pago": "Card"
+  },
+  {
+    "id_linea": "L00403",
+    "fecha": "08/04/2026",
+    "sucursal": "S02",
+    "codigo_producto": "P008",
+    "unidades": 1,
+    "precio": 78000,
+    "promocion": null,
+    "medio_pago": "Cash"
+  },
+  {
+    "id_linea": "L00404",
+    "fecha": "18/03/2026",
+    "sucursal": "S02",
+    "codigo_producto": "P005",
+    "unidades": 2,
+    "precio": 220000,
+    "promocion": "PROMO12",
+    "medio_pago": "Transfer"
+  },
+  {
+    "id_linea": "L00405",
+    "fecha": "27/04/2026",
+    "sucursal": "S02",
+    "codigo_producto": "P005",
+    "unidades": 1,
+    "precio": 220000,
+    "promocion": null,
+    "medio_pago": "Card"
+  },
+  {
+    "id_linea": "L00406",
+    "fecha": "25/02/2026",
+    "sucursal": "S02",
+    "codigo_producto": "P003",
+    "unidades": 1,
+    "precio": 175000,
+    "promocion": null,
+    "medio_pago": "Transfer"
+  },
+  {
+    "id_linea": "L00407",
+    "fecha": "28/04/2026",
+    "sucursal": "S02",
+    "codigo_producto": "P010",
+    "unidades": 1,
+    "precio": 115000,
+    "promocion": null,
+    "medio_pago": "Card"
+  },
+  {
+    "id_linea": "L00408",
+    "fecha": "20/04/2026",
+    "sucursal": "S02",
+    "codigo_producto": "P005",
+    "unidades": 1,
+    "precio": 220000,
+    "promocion": null,
+    "medio_pago": "Transfer"
+  },
+  {
+    "id_linea": "L00409",
+    "fecha": "26/02/2026",
+    "sucursal": "S02",
+    "codigo_producto": "P007",
+    "unidades": 1,
+    "precio": 310000,
+    "promocion": null,
+    "medio_pago": "Card"
+  },
+  {
+    "id_linea": "L00410",
+    "fecha": "03/03/2026",
+    "sucursal": "S02",
+    "codigo_producto": "P005",
+    "unidades": 2,
+    "precio": 220000,
+    "promocion": null,
+    "medio_pago": "Card"
+  },
+  {
+    "id_linea": "L00411",
+    "fecha": "17/04/2026",
+    "sucursal": "S02",
+    "codigo_producto": "P004",
+    "unidades": 2,
+    "precio": 390000,
+    "promocion": null,
+    "medio_pago": "Transfer"
+  },
+  {
+    "id_linea": "L00412",
+    "fecha": "27/03/2026",
+    "sucursal": "S02",
+    "codigo_producto": "P009",
+    "unidades": 2,
+    "precio": 92000,
+    "promocion": null,
+    "medio_pago": "Card"
+  },
+  {
+    "id_linea": "L00413",
+    "fecha": "02/04/2026",
+    "sucursal": "S02",
+    "codigo_producto": "P013",
+    "unidades": 2,
+    "precio": 135000,
+    "promocion": "PROMO20",
+    "medio_pago": "Transfer"
+  },
+  {
+    "id_linea": "L00414",
+    "fecha": "14/03/2026",
+    "sucursal": "S02",
+    "codigo_producto": "P001",
+    "unidades": 1,
+    "precio": 145000,
+    "promocion": null,
+    "medio_pago": "Cash"
+  },
+  {
+    "id_linea": "L00415",
+    "fecha": "24/03/2026",
+    "sucursal": "S02",
+    "codigo_producto": "P014",
+    "unidades": 2,
+    "precio": 198000,
+    "promocion": null,
+    "medio_pago": "Transfer"
+  },
+  {
+    "id_linea": "L00416",
+    "fecha": "10/03/2026",
+    "sucursal": "S02",
+    "codigo_producto": "P015",
+    "unidades": 2,
+    "precio": 86000,
+    "promocion": null,
+    "medio_pago": "Cash"
+  },
+  {
+    "id_linea": "L00417",
+    "fecha": "10/04/2026",
+    "sucursal": "S02",
+    "codigo_producto": "P013",
+    "unidades": 1,
+    "precio": 135000,
+    "promocion": "PROMO20",
+    "medio_pago": "Cash"
+  },
+  {
+    "id_linea": "L00418",
+    "fecha": "20/02/2026",
+    "sucursal": "S02",
+    "codigo_producto": "P005",
+    "unidades": 3,
+    "precio": 220000,
+    "promocion": null,
+    "medio_pago": "Cash"
+  },
+  {
+    "id_linea": "L00419",
+    "fecha": "05/04/2026",
+    "sucursal": "S02",
+    "codigo_producto": "P012",
+    "unidades": 1,
+    "precio": 35000,
+    "promocion": null,
+    "medio_pago": "Cash"
+  },
+  {
+    "id_linea": "L00420",
+    "fecha": "07/04/2026",
+    "sucursal": "S02",
+    "codigo_producto": "P004",
+    "unidades": 2,
+    "precio": 390000,
+    "promocion": null,
+    "medio_pago": "Card"
+  },
+  {
+    "id_linea": "L00421",
+    "fecha": "22/02/2026",
+    "sucursal": "S02",
+    "codigo_producto": "P008",
+    "unidades": 1,
+    "precio": 78000,
+    "promocion": null,
+    "medio_pago": "Transfer"
+  },
+  {
+    "id_linea": "L00422",
+    "fecha": "09/02/2026",
+    "sucursal": "S02",
+    "codigo_producto": "P013",
+    "unidades": 1,
+    "precio": 135000,
+    "promocion": null,
+    "medio_pago": "Transfer"
+  },
+  {
+    "id_linea": "L00423",
+    "fecha": "17/02/2026",
+    "sucursal": "S02",
+    "codigo_producto": "P012",
+    "unidades": 2,
+    "precio": 35000,
+    "promocion": null,
+    "medio_pago": "Card"
+  },
+  {
+    "id_linea": "L00424",
+    "fecha": "11/04/2026",
+    "sucursal": "S02",
+    "codigo_producto": "P009",
+    "unidades": 1,
+    "precio": 92000,
+    "promocion": null,
+    "medio_pago": "Transfer"
+  },
+  {
+    "id_linea": "L00425",
+    "fecha": "25/04/2026",
+    "sucursal": "S02",
+    "codigo_producto": "P005",
+    "unidades": 2,
+    "precio": 220000,
+    "promocion": null,
+    "medio_pago": "Transfer"
+  },
+  {
+    "id_linea": "L00426",
+    "fecha": "08/02/2026",
+    "sucursal": "S02",
+    "codigo_producto": "P013",
+    "unidades": 1,
+    "precio": 135000,
+    "promocion": null,
+    "medio_pago": "Transfer"
+  },
+  {
+    "id_linea": "L00427",
+    "fecha": "21/02/2026",
+    "sucursal": "S02",
+    "codigo_producto": "P006",
+    "unidades": 3,
+    "precio": 165000,
+    "promocion": null,
+    "medio_pago": "Transfer"
+  },
+  {
+    "id_linea": "L00428",
+    "fecha": "15/03/2026",
+    "sucursal": "S02",
+    "codigo_producto": "P008",
+    "unidades": 2,
+    "precio": 78000,
+    "promocion": null,
+    "medio_pago": "Card"
+  },
+  {
+    "id_linea": "L00429",
+    "fecha": "17/04/2026",
+    "sucursal": "S02",
+    "codigo_producto": "P005",
+    "unidades": 1,
+    "precio": 220000,
+    "promocion": null,
+    "medio_pago": "Card"
+  },
+  {
+    "id_linea": "L00430",
+    "fecha": "08/04/2026",
+    "sucursal": "S02",
+    "codigo_producto": "P008",
+    "unidades": 1,
+    "precio": 78000,
+    "promocion": null,
+    "medio_pago": "Transfer"
+  },
+  {
+    "id_linea": "L00431",
+    "fecha": "20/03/2026",
+    "sucursal": "S02",
+    "codigo_producto": "P005",
+    "unidades": 1,
+    "precio": 220000,
+    "promocion": "PROMO12",
+    "medio_pago": "Cash"
+  },
+  {
+    "id_linea": "L00432",
+    "fecha": "22/04/2026",
+    "sucursal": "S02",
+    "codigo_producto": "P006",
+    "unidades": 1,
+    "precio": 165000,
+    "promocion": null,
+    "medio_pago": "Cash"
+  },
+  {
+    "id_linea": "L00433",
+    "fecha": "17/02/2026",
+    "sucursal": "S02",
+    "codigo_producto": "P003",
+    "unidades": 1,
+    "precio": 175000,
+    "promocion": null,
+    "medio_pago": "Card"
+  },
+  {
+    "id_linea": "L00434",
+    "fecha": "19/02/2026",
+    "sucursal": "S02",
+    "codigo_producto": "P009",
+    "unidades": 1,
+    "precio": 92000,
+    "promocion": null,
+    "medio_pago": "Transfer"
+  },
+  {
+    "id_linea": "L00435",
+    "fecha": "14/04/2026",
+    "sucursal": "S02",
+    "codigo_producto": "P007",
+    "unidades": 1,
+    "precio": 310000,
+    "promocion": "PROMO10B",
+    "medio_pago": "Card"
+  },
+  {
+    "id_linea": "L00436",
+    "fecha": "05/04/2026",
+    "sucursal": "S02",
+    "codigo_producto": "P003",
+    "unidades": 2,
+    "precio": 175000,
+    "promocion": null,
+    "medio_pago": "Cash"
+  },
+  {
+    "id_linea": "L00437",
+    "fecha": "25/02/2026",
+    "sucursal": "S02",
+    "codigo_producto": "P002",
+    "unidades": 1,
+    "precio": 285000,
+    "promocion": null,
+    "medio_pago": "Cash"
+  },
+  {
+    "id_linea": "L00438",
+    "fecha": "29/04/2026",
+    "sucursal": "S02",
+    "codigo_producto": "P008",
+    "unidades": 2,
+    "precio": 78000,
+    "promocion": null,
+    "medio_pago": "Card"
+  },
+  {
+    "id_linea": "L00439",
+    "fecha": "19/02/2026",
+    "sucursal": "S02",
+    "codigo_producto": "P013",
+    "unidades": 1,
+    "precio": 135000,
+    "promocion": null,
+    "medio_pago": "Card"
+  },
+  {
+    "id_linea": "L00440",
+    "fecha": "10/03/2026",
+    "sucursal": "S02",
+    "codigo_producto": "P010",
+    "unidades": 1,
+    "precio": 115000,
+    "promocion": null,
+    "medio_pago": "Transfer"
+  },
+  {
+    "id_linea": "L00441",
+    "fecha": "10/04/2026",
+    "sucursal": "S02",
+    "codigo_producto": "P009",
+    "unidades": 2,
+    "precio": 92000,
+    "promocion": null,
+    "medio_pago": "Card"
+  },
+  {
+    "id_linea": "L00442",
+    "fecha": "03/03/2026",
+    "sucursal": "S02",
+    "codigo_producto": "P012",
+    "unidades": 1,
+    "precio": 35000,
+    "promocion": null,
+    "medio_pago": "Cash"
+  },
+  {
+    "id_linea": "L00443",
+    "fecha": "08/04/2026",
+    "sucursal": "S02",
+    "codigo_producto": "P010",
+    "unidades": 1,
+    "precio": 115000,
+    "promocion": null,
+    "medio_pago": "Card"
+  },
+  {
+    "id_linea": "L00444",
+    "fecha": "08/03/2026",
+    "sucursal": "S02",
+    "codigo_producto": "P002",
+    "unidades": 1,
+    "precio": 285000,
+    "promocion": null,
+    "medio_pago": "Transfer"
+  },
+  {
+    "id_linea": "L00445",
+    "fecha": "27/04/2026",
+    "sucursal": "S02",
+    "codigo_producto": "P009",
+    "unidades": 2,
+    "precio": 92000,
+    "promocion": null,
+    "medio_pago": "Card"
+  },
+  {
+    "id_linea": "L00446",
+    "fecha": "16/02/2026",
+    "sucursal": "S02",
+    "codigo_producto": "P002",
+    "unidades": 2,
+    "precio": 285000,
+    "promocion": null,
+    "medio_pago": "Cash"
+  },
+  {
+    "id_linea": "L00447",
+    "fecha": "03/04/2026",
+    "sucursal": "S02",
+    "codigo_producto": "P008",
+    "unidades": 3,
+    "precio": 78000,
+    "promocion": null,
+    "medio_pago": "Cash"
+  },
+  {
+    "id_linea": "L00448",
+    "fecha": "10/03/2026",
+    "sucursal": "S02",
+    "codigo_producto": "P009",
+    "unidades": 1,
+    "precio": 92000,
+    "promocion": "PROMO08",
+    "medio_pago": "Transfer"
+  },
+  {
+    "id_linea": "L00449",
+    "fecha": "01/02/2026",
+    "sucursal": "S02",
+    "codigo_producto": "P001",
+    "unidades": 2,
+    "precio": 145000,
+    "promocion": null,
+    "medio_pago": "Cash"
+  },
+  {
+    "id_linea": "L00450",
+    "fecha": "20/04/2026",
+    "sucursal": "S02",
+    "codigo_producto": "P010",
+    "unidades": 2,
+    "precio": 115000,
+    "promocion": null,
+    "medio_pago": "Card"
+  },
+  {
+    "id_linea": "L00451",
+    "fecha": "15/03/2026",
+    "sucursal": "S02",
+    "codigo_producto": "P001",
+    "unidades": 3,
+    "precio": 145000,
+    "promocion": null,
+    "medio_pago": "Cash"
+  },
+  {
+    "id_linea": "L00452",
+    "fecha": "07/02/2026",
+    "sucursal": "S02",
+    "codigo_producto": "P010",
+    "unidades": 1,
+    "precio": 115000,
+    "promocion": null,
+    "medio_pago": "Cash"
+  },
+  {
+    "id_linea": "L00453",
+    "fecha": "08/03/2026",
+    "sucursal": "S02",
+    "codigo_producto": "P008",
+    "unidades": 1,
+    "precio": 78000,
+    "promocion": null,
+    "medio_pago": "Transfer"
+  },
+  {
+    "id_linea": "L00454",
+    "fecha": "29/03/2026",
+    "sucursal": "S02",
+    "codigo_producto": "P001",
+    "unidades": 1,
+    "precio": 145000,
+    "promocion": null,
+    "medio_pago": "Cash"
+  },
+  {
+    "id_linea": "L00455",
+    "fecha": "23/04/2026",
+    "sucursal": "S02",
+    "codigo_producto": "P005",
+    "unidades": 1,
+    "precio": 220000,
+    "promocion": null,
+    "medio_pago": "Cash"
+  },
+  {
+    "id_linea": "L00456",
+    "fecha": "10/03/2026",
+    "sucursal": "S02",
+    "codigo_producto": "P012",
+    "unidades": 1,
+    "precio": 35000,
+    "promocion": null,
+    "medio_pago": "Transfer"
+  },
+  {
+    "id_linea": "L00457",
+    "fecha": "17/04/2026",
+    "sucursal": "S02",
+    "codigo_producto": "P014",
+    "unidades": 1,
+    "precio": 198000,
+    "promocion": null,
+    "medio_pago": "Card"
+  },
+  {
+    "id_linea": "L00458",
+    "fecha": "09/04/2026",
+    "sucursal": "S02",
+    "codigo_producto": "P004",
+    "unidades": 2,
+    "precio": 390000,
+    "promocion": null,
+    "medio_pago": "Card"
+  },
+  {
+    "id_linea": "L00459",
+    "fecha": "20/04/2026",
+    "sucursal": "S02",
+    "codigo_producto": "P006",
+    "unidades": 1,
+    "precio": 165000,
+    "promocion": null,
+    "medio_pago": "Card"
+  },
+  {
+    "id_linea": "L00460",
+    "fecha": "12/04/2026",
+    "sucursal": "S02",
+    "codigo_producto": "P007",
+    "unidades": 1,
+    "precio": 310000,
+    "promocion": "PROMO10B",
+    "medio_pago": "Card"
+  },
+  {
+    "id_linea": "L00461",
+    "fecha": "10/04/2026",
+    "sucursal": "S02",
+    "codigo_producto": "P009",
+    "unidades": 1,
+    "precio": 92000,
+    "promocion": null,
+    "medio_pago": "Cash"
+  },
+  {
+    "id_linea": "L00462",
+    "fecha": "21/02/2026",
+    "sucursal": "S02",
+    "codigo_producto": "P008",
+    "unidades": 3,
+    "precio": 78000,
+    "promocion": null,
+    "medio_pago": "Transfer"
+  },
+  {
+    "id_linea": "L00463",
+    "fecha": "24/02/2026",
+    "sucursal": "S02",
+    "codigo_producto": "P008",
+    "unidades": 2,
+    "precio": 78000,
+    "promocion": null,
+    "medio_pago": "Transfer"
+  },
+  {
+    "id_linea": "L00464",
+    "fecha": "08/04/2026",
+    "sucursal": "S02",
+    "codigo_producto": "P013",
+    "unidades": 1,
+    "precio": 135000,
+    "promocion": null,
+    "medio_pago": "Card"
+  },
+  {
+    "id_linea": "L00465",
+    "fecha": "20/02/2026",
+    "sucursal": "S02",
+    "codigo_producto": "P006",
+    "unidades": 2,
+    "precio": 165000,
+    "promocion": null,
+    "medio_pago": "Card"
+  },
+  {
+    "id_linea": "L00466",
+    "fecha": "02/04/2026",
+    "sucursal": "S02",
+    "codigo_producto": "P012",
+    "unidades": 2,
+    "precio": 35000,
+    "promocion": null,
+    "medio_pago": "Cash"
+  },
+  {
+    "id_linea": "L00467",
+    "fecha": "31/03/2026",
+    "sucursal": "S02",
+    "codigo_producto": "P008",
+    "unidades": 1,
+    "precio": 78000,
+    "promocion": null,
+    "medio_pago": "Cash"
+  },
+  {
+    "id_linea": "L00468",
+    "fecha": "21/02/2026",
+    "sucursal": "S02",
+    "codigo_producto": "P004",
+    "unidades": 1,
+    "precio": 390000,
+    "promocion": null,
+    "medio_pago": "Card"
+  },
+  {
+    "id_linea": "L00469",
+    "fecha": "25/02/2026",
+    "sucursal": "S02",
+    "codigo_producto": "P003",
+    "unidades": 1,
+    "precio": 175000,
+    "promocion": null,
+    "medio_pago": "Card"
+  },
+  {
+    "id_linea": "L00470",
+    "fecha": "25/04/2026",
+    "sucursal": "S02",
+    "codigo_producto": "P010",
+    "unidades": 1,
+    "precio": 115000,
+    "promocion": null,
+    "medio_pago": "Transfer"
+  },
+  {
+    "id_linea": "L00471",
+    "fecha": "26/02/2026",
+    "sucursal": "S02",
+    "codigo_producto": "P010",
+    "unidades": 2,
+    "precio": 115000,
+    "promocion": null,
+    "medio_pago": "Cash"
+  },
+  {
+    "id_linea": "L00472",
+    "fecha": "10/03/2026",
+    "sucursal": "S02",
+    "codigo_producto": "P005",
+    "unidades": 1,
+    "precio": 220000,
+    "promocion": null,
+    "medio_pago": "Transfer"
+  },
+  {
+    "id_linea": "L00473",
+    "fecha": "27/04/2026",
+    "sucursal": "S02",
+    "codigo_producto": "P014",
+    "unidades": 3,
+    "precio": 198000,
+    "promocion": null,
+    "medio_pago": "Cash"
+  },
+  {
+    "id_linea": "L00474",
+    "fecha": "13/04/2026",
+    "sucursal": "S02",
+    "codigo_producto": "P007",
+    "unidades": 1,
+    "precio": 310000,
+    "promocion": null,
+    "medio_pago": "Cash"
+  },
+  {
+    "id_linea": "L00475",
+    "fecha": "25/04/2026",
+    "sucursal": "S02",
+    "codigo_producto": "P012",
+    "unidades": 1,
+    "precio": 35000,
+    "promocion": null,
+    "medio_pago": "Card"
+  },
+  {
+    "id_linea": "L00476",
+    "fecha": "17/02/2026",
+    "sucursal": "S02",
+    "codigo_producto": "P003",
+    "unidades": 1,
+    "precio": 175000,
+    "promocion": null,
+    "medio_pago": "Transfer"
+  },
+  {
+    "id_linea": "L00477",
+    "fecha": "27/04/2026",
+    "sucursal": "S02",
+    "codigo_producto": "P003",
+    "unidades": 1,
+    "precio": 175000,
+    "promocion": null,
+    "medio_pago": "Card"
+  },
+  {
+    "id_linea": "L00478",
+    "fecha": "21/02/2026",
+    "sucursal": "S02",
+    "codigo_producto": "P012",
+    "unidades": 1,
+    "precio": 35000,
+    "promocion": null,
+    "medio_pago": "Cash"
+  },
+  {
+    "id_linea": "L00479",
+    "fecha": "06/04/2026",
+    "sucursal": "S02",
+    "codigo_producto": "P008",
+    "unidades": 3,
+    "precio": 78000,
+    "promocion": null,
+    "medio_pago": "Transfer"
+  },
+  {
+    "id_linea": "L00480",
+    "fecha": "20/03/2026",
+    "sucursal": "S02",
+    "codigo_producto": "P008",
+    "unidades": 1,
+    "precio": 78000,
+    "promocion": null,
+    "medio_pago": "Cash"
+  },
+  {
+    "id_linea": "L00481",
+    "fecha": "15/02/2026",
+    "sucursal": "S02",
+    "codigo_producto": "P004",
+    "unidades": 1,
+    "precio": 390000,
+    "promocion": null,
+    "medio_pago": "Transfer"
+  },
+  {
+    "id_linea": "L00482",
+    "fecha": "23/02/2026",
+    "sucursal": "S02",
+    "codigo_producto": "P003",
+    "unidades": 1,
+    "precio": 175000,
+    "promocion": null,
+    "medio_pago": "Card"
+  },
+  {
+    "id_linea": "L00483",
+    "fecha": "04/02/2026",
+    "sucursal": "S02",
+    "codigo_producto": "P006",
+    "unidades": 1,
+    "precio": 165000,
+    "promocion": null,
+    "medio_pago": "Card"
+  },
+  {
+    "id_linea": "L00484",
+    "fecha": "08/04/2026",
+    "sucursal": "S02",
+    "codigo_producto": "P008",
+    "unidades": 3,
+    "precio": 78000,
+    "promocion": null,
+    "medio_pago": "Transfer"
+  },
+  {
+    "id_linea": "L00485",
+    "fecha": "22/03/2026",
+    "sucursal": "S02",
+    "codigo_producto": "P009",
+    "unidades": 2,
+    "precio": 92000,
+    "promocion": null,
+    "medio_pago": "Cash"
+  },
+  {
+    "id_linea": "L00486",
+    "fecha": "17/03/2026",
+    "sucursal": "S02",
+    "codigo_producto": "P001",
+    "unidades": 1,
+    "precio": 145000,
+    "promocion": null,
+    "medio_pago": "Card"
+  },
+  {
+    "id_linea": "L00487",
+    "fecha": "04/04/2026",
+    "sucursal": "S02",
+    "codigo_producto": "P012",
+    "unidades": 1,
+    "precio": 35000,
+    "promocion": null,
+    "medio_pago": "Card"
+  },
+  {
+    "id_linea": "L00488",
+    "fecha": "18/02/2026",
+    "sucursal": "S02",
+    "codigo_producto": "P010",
+    "unidades": 1,
+    "precio": 115000,
+    "promocion": null,
+    "medio_pago": "Cash"
+  },
+  {
+    "id_linea": "L00489",
+    "fecha": "08/03/2026",
+    "sucursal": "S02",
+    "codigo_producto": "P003",
+    "unidades": 3,
+    "precio": 175000,
+    "promocion": null,
+    "medio_pago": "Cash"
+  },
+  {
+    "id_linea": "L00490",
+    "fecha": "08/04/2026",
+    "sucursal": "S02",
+    "codigo_producto": "P009",
+    "unidades": 2,
+    "precio": 92000,
+    "promocion": null,
+    "medio_pago": "Cash"
+  },
+  {
+    "id_linea": "L00491",
+    "fecha": "20/03/2026",
+    "sucursal": "S02",
+    "codigo_producto": "P003",
+    "unidades": 2,
+    "precio": 175000,
+    "promocion": null,
+    "medio_pago": "Card"
+  },
+  {
+    "id_linea": "L00492",
+    "fecha": "03/04/2026",
+    "sucursal": "S02",
+    "codigo_producto": "P013",
+    "unidades": 2,
+    "precio": 135000,
+    "promocion": null,
+    "medio_pago": "Cash"
+  },
+  {
+    "id_linea": "L00493",
+    "fecha": "22/03/2026",
+    "sucursal": "S02",
+    "codigo_producto": "P012",
+    "unidades": 3,
+    "precio": 35000,
+    "promocion": null,
+    "medio_pago": "Card"
+  },
+  {
+    "id_linea": "L00494",
+    "fecha": "14/02/2026",
+    "sucursal": "S02",
+    "codigo_producto": "P012",
+    "unidades": 1,
+    "precio": 35000,
+    "promocion": null,
+    "medio_pago": "Card"
+  },
+  {
+    "id_linea": "L00495",
+    "fecha": "11/02/2026",
+    "sucursal": "S02",
+    "codigo_producto": "P012",
+    "unidades": 1,
+    "precio": 35000,
+    "promocion": null,
+    "medio_pago": "Transfer"
+  },
+  {
+    "id_linea": "L00496",
+    "fecha": "27/04/2026",
+    "sucursal": "S02",
+    "codigo_producto": "P003",
+    "unidades": 2,
+    "precio": 175000,
+    "promocion": null,
+    "medio_pago": "Transfer"
+  },
+  {
+    "id_linea": "L00497",
+    "fecha": "22/02/2026",
+    "sucursal": "S02",
+    "codigo_producto": "P008",
+    "unidades": 1,
+    "precio": 78000,
+    "promocion": null,
+    "medio_pago": "Transfer"
+  },
+  {
+    "id_linea": "L00498",
+    "fecha": "17/02/2026",
+    "sucursal": "S02",
+    "codigo_producto": "P003",
+    "unidades": 1,
+    "precio": 175000,
+    "promocion": null,
+    "medio_pago": "Card"
+  },
+  {
+    "id_linea": "L00499",
+    "fecha": "11/02/2026",
+    "sucursal": "S02",
+    "codigo_producto": "P005",
+    "unidades": 1,
+    "precio": 220000,
+    "promocion": null,
+    "medio_pago": "Cash"
+  },
+  {
+    "id_linea": "L00500",
+    "fecha": "25/03/2026",
+    "sucursal": "S02",
+    "codigo_producto": "P006",
+    "unidades": 1,
+    "precio": 165000,
+    "promocion": null,
+    "medio_pago": "Cash"
+  },
+  {
+    "id_linea": "L00501",
+    "fecha": "14/04/2026",
+    "sucursal": "S02",
+    "codigo_producto": "P005",
+    "unidades": 1,
+    "precio": 220000,
+    "promocion": null,
+    "medio_pago": "Transfer"
+  },
+  {
+    "id_linea": "L00502",
+    "fecha": "24/03/2026",
+    "sucursal": "S02",
+    "codigo_producto": "P011",
+    "unidades": 2,
+    "precio": 138000,
+    "promocion": null,
+    "medio_pago": "Transfer"
+  },
+  {
+    "id_linea": "L00503",
+    "fecha": "08/02/2026",
+    "sucursal": "S02",
+    "codigo_producto": "P009",
+    "unidades": 2,
+    "precio": 92000,
+    "promocion": null,
+    "medio_pago": "Cash"
+  },
+  {
+    "id_linea": "L00504",
+    "fecha": "14/03/2026",
+    "sucursal": "S02",
+    "codigo_producto": "P005",
+    "unidades": 1,
+    "precio": 220000,
+    "promocion": null,
+    "medio_pago": "Transfer"
+  },
+  {
+    "id_linea": "L00505",
+    "fecha": "10/03/2026",
+    "sucursal": "S02",
+    "codigo_producto": "P009",
+    "unidades": 2,
+    "precio": 92000,
+    "promocion": null,
+    "medio_pago": "Cash"
+  },
+  {
+    "id_linea": "L00506",
+    "fecha": "29/03/2026",
+    "sucursal": "S02",
+    "codigo_producto": "P012",
+    "unidades": 1,
+    "precio": 35000,
+    "promocion": null,
+    "medio_pago": "Transfer"
+  },
+  {
+    "id_linea": "L00507",
+    "fecha": "13/04/2026",
+    "sucursal": "S02",
+    "codigo_producto": "P004",
+    "unidades": 1,
+    "precio": 390000,
+    "promocion": null,
+    "medio_pago": "Transfer"
+  },
+  {
+    "id_linea": "L00508",
+    "fecha": "01/02/2026",
+    "sucursal": "S02",
+    "codigo_producto": "P012",
+    "unidades": 2,
+    "precio": 35000,
+    "promocion": null,
+    "medio_pago": "Cash"
+  },
+  {
+    "id_linea": "L00509",
+    "fecha": "12/04/2026",
+    "sucursal": "S02",
+    "codigo_producto": "P010",
+    "unidades": 3,
+    "precio": 115000,
+    "promocion": null,
+    "medio_pago": "Card"
+  },
+  {
+    "id_linea": "L00510",
+    "fecha": "27/02/2026",
+    "sucursal": "S02",
+    "codigo_producto": "P008",
+    "unidades": 1,
+    "precio": 78000,
+    "promocion": null,
+    "medio_pago": "Card"
+  },
+  {
+    "id_linea": "L00511",
+    "fecha": "01/03/2026",
+    "sucursal": "S02",
+    "codigo_producto": "P009",
+    "unidades": 1,
+    "precio": 92000,
+    "promocion": null,
+    "medio_pago": "Card"
+  },
+  {
+    "id_linea": "L00512",
+    "fecha": "24/02/2026",
+    "sucursal": "S02",
+    "codigo_producto": "P009",
+    "unidades": 1,
+    "precio": 92000,
+    "promocion": "PROMO08",
+    "medio_pago": "Cash"
+  },
+  {
+    "id_linea": "L00513",
+    "fecha": "09/02/2026",
+    "sucursal": "S02",
+    "codigo_producto": "P003",
+    "unidades": 1,
+    "precio": 175000,
+    "promocion": null,
+    "medio_pago": "Transfer"
+  },
+  {
+    "id_linea": "L00514",
+    "fecha": "16/02/2026",
+    "sucursal": "S02",
+    "codigo_producto": "P001",
+    "unidades": 3,
+    "precio": 145000,
+    "promocion": null,
+    "medio_pago": "Transfer"
+  },
+  {
+    "id_linea": "L00515",
+    "fecha": "24/04/2026",
+    "sucursal": "S02",
+    "codigo_producto": "P006",
+    "unidades": 1,
+    "precio": 165000,
+    "promocion": null,
+    "medio_pago": "Card"
+  },
+  {
+    "id_linea": "L00516",
+    "fecha": "15/02/2026",
+    "sucursal": "S02",
+    "codigo_producto": "P009",
+    "unidades": 1,
+    "precio": 92000,
+    "promocion": null,
+    "medio_pago": "Cash"
+  },
+  {
+    "id_linea": "L00517",
+    "fecha": "27/03/2026",
+    "sucursal": "S02",
+    "codigo_producto": "P006",
+    "unidades": 2,
+    "precio": 165000,
+    "promocion": null,
+    "medio_pago": "Cash"
+  },
+  {
+    "id_linea": "L00518",
+    "fecha": "30/04/2026",
+    "sucursal": "S02",
+    "codigo_producto": "P007",
+    "unidades": 1,
+    "precio": 310000,
+    "promocion": null,
+    "medio_pago": "Transfer"
+  },
+  {
+    "id_linea": "L00519",
+    "fecha": "25/02/2026",
+    "sucursal": "S02",
+    "codigo_producto": "P003",
+    "unidades": 1,
+    "precio": 175000,
+    "promocion": null,
+    "medio_pago": "Transfer"
+  },
+  {
+    "id_linea": "L00520",
+    "fecha": "26/03/2026",
+    "sucursal": "S02",
+    "codigo_producto": "P012",
+    "unidades": 1,
+    "precio": 35000,
+    "promocion": null,
+    "medio_pago": "Cash"
+  },
+  {
+    "id_linea": "L00294",
+    "fecha": "13/02/2026",
+    "sucursal": "S02",
+    "codigo_producto": "P003",
+    "unidades": 2,
+    "precio": 175000,
+    "promocion": null,
+    "medio_pago": "Transfer"
+  }
+]

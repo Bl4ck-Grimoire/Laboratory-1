@@ -1,0 +1,16 @@
+﻿product_id,product_name,category,list_price,unit_cost
+P001,Coffee Maker Basic,Small Appliances,145000,98000
+P002,Coffee Maker Premium,Small Appliances,285000,205000
+P003,Blender 500W,Small Appliances,175000,122000
+P004,Air Fryer 4L,Small Appliances,390000,295000
+P005,Wireless Headphones,Electronics,220000,155000
+P006,Bluetooth Speaker,Electronics,165000,112000
+P007,Smartwatch Active,Electronics,310000,225000
+P008,USB-C Charger,Electronics,78000,43000
+P009,Desk Lamp LED,Home & Office,92000,51000
+P010,Ergonomic Mouse,Home & Office,115000,67000
+P011,Keyboard Compact,Home & Office,138000,81000
+P012,Notebook Pack,Home & Office,35000,17000
+P013,Hair Dryer,Personal Care,135000,88000
+P014,Electric Shaver,Personal Care,198000,142000
+P015,Digital Scale,Personal Care,86000,47000
