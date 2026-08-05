@@ -1,26 +1,10 @@
-"""
-transform.py
-
-Transform block for the retail analytics ETL pipeline. Split into four
-stages, matching the workshop instructions:
-
-    1. combine_sales(...)   -> stack the three raw extracts together
-    2. profile_sales(...)   -> data quality profiling (read-only, no changes)
-    3. clean_sales(...)     -> cleaning & harmonization rules
-    4. integrate_sales(...) -> join with reference tables + derived columns
-    5. validate_sales(...)  -> final quality gate before loading
-
-Each function does one job, so the profiling numbers you see are always
-about the data right before the cleaning step that responds to them.
-"""
-
 import pandas as pd
 import numpy as np
 
 
-# --------------------------------------------------------------------
+
 # 1) Combine raw extracts
-# --------------------------------------------------------------------
+
 
 def combine_sales(cali_df, bogota_df, medellin_df):
     """
@@ -33,21 +17,12 @@ def combine_sales(cali_df, bogota_df, medellin_df):
     return combined
 
 
-# --------------------------------------------------------------------
+
 # 2) Profiling
-# --------------------------------------------------------------------
+
 
 def profile_sales(df):
-    """
-    Build a compact profiling summary of the combined (but still raw)
-    transaction data. This function only reads the data -- it never
-    modifies df or drops rows.
-
-    Returns
-    -------
-    dict : profiling summary, structured so it can be dropped straight
-    into the README or printed to the log.
-    """
+    
     profile = {}
 
     profile['row_count'] = len(df)
@@ -63,7 +38,6 @@ def profile_sales(df):
     profile['invalid_quantity_zero_or_negative'] = int((qty_numeric <= 0).sum())
 
     # Invalid prices: not numeric, or numeric but <= 0
-    # (price sometimes arrives as "$220000" or a negative number, see raw sources)
     price_numeric = pd.to_numeric(
         df['unit_price'].astype(str).str.replace('$', '', regex=False).str.strip(),
         errors='coerce'
@@ -74,9 +48,7 @@ def profile_sales(df):
     # Invalid dates: cannot be parsed under any of the 3 known formats
     profile['invalid_date_count'] = int(_count_unparseable_dates(df['sale_date']))
 
-    # Distinct values for selected categorical fields (raw, before cleaning --
-    # this is what justifies the casing/whitespace/missing-marker rules
-    # applied in clean_sales)
+    # Distinct values for selected categorical fields
     profile['distinct_store_id_raw'] = sorted(df['store_id'].dropna().unique().tolist())
     profile['distinct_payment_method_raw'] = sorted(df['payment_method'].dropna().unique().tolist())
     profile['distinct_product_id_raw'] = sorted(df['product_id'].dropna().unique().tolist())
@@ -87,11 +59,7 @@ def profile_sales(df):
 
 
 def _count_unparseable_dates(date_series):
-    """
-    Try to parse each date string using the three known source formats
-    (ISO from Cali, DD/MM/YYYY from Bogotá, MM-DD-YYYY from Medellín).
-    A value is "unparseable" if none of the three formats work.
-    """
+
     formats = ['%Y-%m-%d', '%d/%m/%Y', '%m-%d-%Y']
     unparseable = 0
     for value in date_series:
@@ -111,9 +79,9 @@ def _count_unparseable_dates(date_series):
     return unparseable
 
 
-# --------------------------------------------------------------------
+
 # 3) Cleaning & harmonization
-# --------------------------------------------------------------------
+
 
 def _parse_multi_format_date(value):
     """Parse a single date string trying the three known source formats."""
@@ -129,28 +97,12 @@ def _parse_multi_format_date(value):
 
 
 def clean_sales(df):
-    """
-    Apply cleaning rules justified by profile_sales() findings:
+ 
+    #Apply cleaning rules justified by profile_sales() findings
 
-    - Standardize column names (already common schema) and ID values
-      (uppercase, trimmed) so joins with reference tables do not fail
-      on casing/whitespace mismatches.
-    - Trim whitespace and standardize casing on text fields
-      (payment_method had entries like ' card ' mixed with 'Card').
-    - Parse the three different date formats into a single date dtype.
-    - Convert quantity and unit_price to numeric (unit_price sometimes
-      arrives as "$220000").
-    - Remove duplicated sale_line_id, keeping the first valid occurrence.
-    - Reject rows with unparseable dates, quantity <= 0, or unit_price <= 0.
-    - Represent missing promotion codes consistently (NaN -> "NONE").
-
-    Returns
-    -------
-    (clean_df, rejected_df, rejection_summary)
-    """
     working = df.copy()
 
-    # --- Standardize IDs and text fields --------------------------------
+    #Standardize IDs and text fields
     working['sale_line_id'] = working['sale_line_id'].astype(str).str.strip().str.upper()
     working['store_id'] = working['store_id'].astype(str).str.strip().str.upper()
     working['product_id'] = working['product_id'].astype(str).str.strip().str.upper()
@@ -159,24 +111,18 @@ def clean_sales(df):
     )
     working['payment_method'] = working['payment_method'].replace({'Nan': np.nan})
 
-    # --- Promotion code: consistent missing representation --------------
-    # Missing promotions show up in several disguises across sources:
-    #   - an actual NaN (CSV/JSON empty field)
-    #   - the literal string "None" (XML <promo_code /> empty element,
-    #     read by ElementTree as None, then stringified by astype(str))
-    #   - the literal string "N/A" (found in the Medellín XML extract)
-    # All of these must collapse to the same "NONE" marker so promotion
-    # joins and reporting treat "no promotion" consistently.
+    #Promotion code: consistent = missing representation
+    
     working['promotion_code'] = working['promotion_code'].astype(str).str.strip().str.upper()
     working['promotion_code'] = working['promotion_code'].replace(
         {'NAN': 'NONE', 'NONE': 'NONE', 'N/A': 'NONE', 'NA': 'NONE', '': 'NONE'}
     )
     working['promotion_code'] = working['promotion_code'].fillna('NONE')
 
-    # --- Parse dates ------------------------------------------------------
+    #Parse dates
     working['sale_date'] = working['sale_date'].apply(_parse_multi_format_date)
 
-    # --- Numeric conversion ------------------------------------------------
+    #Numeric conversion 
     working['quantity'] = pd.to_numeric(working['quantity'], errors='coerce')
     working['unit_price'] = pd.to_numeric(
         working['unit_price'].astype(str).str.replace('$', '', regex=False).str.strip(),
@@ -185,22 +131,22 @@ def clean_sales(df):
 
     rejected_frames = []
 
-    # --- Reject invalid dates ----------------------------------------------
+    #Reject invalid dates
     invalid_date_mask = working['sale_date'].isnull()
     rejected_frames.append(_tag_rejection(working[invalid_date_mask], 'invalid_date'))
     working = working[~invalid_date_mask]
 
-    # --- Reject quantity <= 0 or missing -----------------------------------
+    #Reject quantity <= 0 or missing 
     invalid_qty_mask = working['quantity'].isnull() | (working['quantity'] <= 0)
     rejected_frames.append(_tag_rejection(working[invalid_qty_mask], 'invalid_quantity'))
     working = working[~invalid_qty_mask]
 
-    # --- Reject unit_price <= 0 or missing ----------------------------------
+    #Reject unit_price <= 0 or missing
     invalid_price_mask = working['unit_price'].isnull() | (working['unit_price'] <= 0)
     rejected_frames.append(_tag_rejection(working[invalid_price_mask], 'invalid_unit_price'))
     working = working[~invalid_price_mask]
 
-    # --- Remove duplicated sale_line_id, keep first valid occurrence --------
+    #Remove duplicated sale_line_id, keep first valid occurrence
     dup_mask = working['sale_line_id'].duplicated(keep='first')
     rejected_frames.append(_tag_rejection(working[dup_mask], 'duplicate_sale_line_id'))
     working = working[~dup_mask]
@@ -226,28 +172,18 @@ def _tag_rejection(df, reason):
     return tagged
 
 
-# --------------------------------------------------------------------
+
 # 4) Transformation & integration with reference tables
-# --------------------------------------------------------------------
+
 
 def integrate_sales(clean_df, products_df, stores_df, promotions_df, targets_df):
-    """
-    Join cleaned transactions with the reference tables and compute the
-    derived business columns required by the selected business
-    requirements (Lab 1A, points 4 and 6):
 
-        product_name, category            <- products.csv
-        store_name, city, region          <- stores.csv
-        discount_pct, campaign_name       <- promotions.csv (by promotion_code)
-        gross_sales = quantity * unit_price
-        discount_amount = gross_sales * discount_pct
-        net_sales = gross_sales - discount_amount
-        month, week, day_name             <- from sale_date
-        sales_target                      <- monthly_targets.csv (by store_id + month)
-    """
+    #Join cleaned transactions with the reference tables and compute the derived business columns required by the selected business
+    #requirements (Lab 1A, points 4 and 6):
+
     df = clean_df.copy()
 
-    # --- Product master ---------------------------------------------------
+    #Product master 
     products = products_df.copy()
     products['product_id'] = products['product_id'].astype(str).str.strip().str.upper()
     df = df.merge(
@@ -255,7 +191,7 @@ def integrate_sales(clean_df, products_df, stores_df, promotions_df, targets_df)
         on='product_id', how='left'
     )
 
-    # --- Store master --------------------------------------------------
+    #Store master
     stores = stores_df.copy()
     stores['store_id'] = stores['store_id'].astype(str).str.strip().str.upper()
     df = df.merge(
@@ -263,7 +199,7 @@ def integrate_sales(clean_df, products_df, stores_df, promotions_df, targets_df)
         on='store_id', how='left'
     )
 
-    # --- Promotions (only discount_pct and campaign_name are needed) ----
+    #Promotions only discount_pct and campaign_name are needed
     promos = promotions_df.copy()
     promos['promotion_code'] = promos['promotion_code'].astype(str).str.strip().str.upper()
     promos = promos[['promotion_code', 'discount_pct', 'campaign_name']].drop_duplicates('promotion_code')
@@ -271,17 +207,17 @@ def integrate_sales(clean_df, products_df, stores_df, promotions_df, targets_df)
     df['discount_pct'] = df['discount_pct'].fillna(0.0)
     df['campaign_name'] = df['campaign_name'].fillna('No Campaign')
 
-    # --- Derived sales metrics ----------------------------------------
+    #Derived sales metrics
     df['gross_sales'] = df['quantity'] * df['unit_price']
     df['discount_amount'] = df['gross_sales'] * df['discount_pct']
     df['net_sales'] = df['gross_sales'] - df['discount_amount']
 
-    # --- Date-derived fields --------------------------------------------
+    #Date-derived fields
     df['month'] = df['sale_date'].dt.strftime('%Y-%m')
     df['week'] = df['sale_date'].dt.isocalendar().week.astype(int)
     df['day_name'] = df['sale_date'].dt.day_name()
 
-    # --- Monthly sales target -------------------------------------------
+    #Monthly sales target
     targets = targets_df.copy()
     targets['store_id'] = targets['store_id'].astype(str).str.strip().str.upper()
     targets = targets.rename(columns={'month': 'month'})
@@ -293,26 +229,12 @@ def integrate_sales(clean_df, products_df, stores_df, promotions_df, targets_df)
     return df
 
 
-# --------------------------------------------------------------------
-# 5) Validation (final quality gate before loading)
-# --------------------------------------------------------------------
+
+# 5) Validation
+
 
 def validate_sales(df, products_df, stores_df):
-    """
-    Run the final validation checks before loading. Returns a dict with
-    a boolean 'passed' flag plus the detail of every check, so main.py
-    can decide whether to stop the pipeline and what to write to the log.
-
-    Checks:
-        - sale_line_id is unique
-        - required identifiers and dates are not null
-        - quantity, unit_price, gross_sales, net_sales are positive
-        - every product matches the product master
-        - every store matches the store master
-        - net_sales == gross_sales - discount_amount
-        - (extra) discount_pct is within [0, 1]
-        - (extra) sale_date is not in the future relative to today
-    """
+    
     results = {}
     valid_products = set(products_df['product_id'].astype(str).str.strip().str.upper())
     valid_stores = set(stores_df['store_id'].astype(str).str.strip().str.upper())

@@ -1,24 +1,3 @@
-"""
-main.py
-
-Entry point for the retail analytics ETL pipeline. Runs the full flow
-in order:
-
-    1. Extract   -> raw sales sources (CSV, JSON, XML) + reference tables
-    2. Profile   -> data quality summary on the combined raw transactions
-    3. Clean     -> harmonization + rejection of invalid rows
-    4. Integrate -> join with reference tables + derived columns
-    5. Validate  -> final quality gate before loading
-    6. Load      -> data/processed/integrated_sales.csv + SQLite database
-
-Every stage logs a start/end message and a row count to logs/log_file.txt.
-If the validation stage fails on a critical check, the pipeline stops
-before loading and records the reason in the log.
-
-Run from the project root with:
-    python src/main.py
-"""
-
 import os
 import sys
 import json
@@ -43,11 +22,8 @@ from transform import (
 from load import create_database_connection, load_to_csv, load_to_db
 
 
-# --------------------------------------------------------------------
-# Project paths (relative to the project root, resolved from this file
-# so the pipeline runs the same regardless of the current working
-# directory).
-# --------------------------------------------------------------------
+# Project paths
+
 PROJECT_ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 RAW_PATH = os.path.join(PROJECT_ROOT, 'data', 'raw')
 PROCESSED_PATH = os.path.join(PROJECT_ROOT, 'data', 'processed')
@@ -63,9 +39,9 @@ PROFILE_JSON = os.path.join(PROCESSED_PATH, 'profiling_summary.json')
 def main():
     log_progress("ETL Job Started", LOG_FILE)
 
-    # ------------------------------------------------------------------
+    
     # 1) EXTRACT
-    # ------------------------------------------------------------------
+
     log_progress("Extract phase Started", LOG_FILE)
 
     sales_extracts = extract_all_sales(RAW_PATH)
@@ -87,9 +63,9 @@ def main():
     log_progress(f"Combined raw transactions: {len(combined_df)} rows.", LOG_FILE)
     log_progress("Extract phase Ended", LOG_FILE)
 
-    # ------------------------------------------------------------------
+
     # 2) PROFILE
-    # ------------------------------------------------------------------
+
     log_progress("Profiling phase Started", LOG_FILE)
     profile = profile_sales(combined_df)
 
@@ -107,9 +83,9 @@ def main():
     )
     log_progress("Profiling phase Ended", LOG_FILE)
 
-    # ------------------------------------------------------------------
+  
     # 3) CLEAN
-    # ------------------------------------------------------------------
+   
     log_progress("Cleaning phase Started", LOG_FILE)
     clean_df, rejected_df, rejection_summary = clean_sales(combined_df)
 
@@ -132,17 +108,17 @@ def main():
         log_progress("ETL Job Failed", LOG_FILE, level="ERROR")
         return
 
-    # ------------------------------------------------------------------
+  
     # 4) TRANSFORM & INTEGRATE
-    # ------------------------------------------------------------------
+   
     log_progress("Transform phase Started", LOG_FILE)
     integrated_df = integrate_sales(clean_df, products_df, stores_df, promotions_df, targets_df)
     log_progress(f"Integration complete: {len(integrated_df)} rows with reference data joined.", LOG_FILE)
     log_progress("Transform phase Ended", LOG_FILE)
 
-    # ------------------------------------------------------------------
+   
     # 5) VALIDATE
-    # ------------------------------------------------------------------
+   
     log_progress("Validation phase Started", LOG_FILE)
     validation = validate_sales(integrated_df, products_df, stores_df)
 
@@ -158,9 +134,9 @@ def main():
     log_progress("Validation passed on all critical checks.", LOG_FILE)
     log_progress("Validation phase Ended", LOG_FILE)
 
-    # ------------------------------------------------------------------
+    
     # 6) LOAD
-    # ------------------------------------------------------------------
+  
     log_progress("Load phase Started", LOG_FILE)
 
     csv_ok = load_to_csv(integrated_df, OUTPUT_CSV)

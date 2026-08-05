@@ -1,23 +1,3 @@
-"""
-extract.py
-
-Extraction block for the retail analytics ETL pipeline.
-
-Responsibility of this module ONLY:
-    - Read each raw transaction source (CSV, JSON, XML) and expose it as a
-      pandas DataFrame with a common technical schema.
-    - Read the reference/master tables (products, stores, promotions,
-      monthly targets) as-is.
-
-This module must NOT perform cleaning, validation, or business
-transformations (no renaming for business meaning, no filtering of
-"invalid" rows, no numeric coercion beyond what is needed to read the
-file). Those responsibilities belong to transform.py. The only
-"standardization" done here is structural: making every transaction
-source line up under the same column names so later stages can treat
-them uniformly.
-"""
-
 import os
 import json
 import pandas as pd
@@ -38,19 +18,6 @@ SALES_COLUMNS = [
 
 
 def extract_sales_cali(path):
-    """
-    Extract the Cali transactions, delivered as a CSV file with the
-    common field names already in English.
-
-    Parameters
-    ----------
-    path : str
-        Path to the CSV file (e.g. data/raw/sales_cali.csv)
-
-    Returns
-    -------
-    pd.DataFrame with SALES_COLUMNS plus a 'source_store' technical tag.
-    """
     if not os.path.exists(path):
         return pd.DataFrame(columns=SALES_COLUMNS + ['source_system'])
 
@@ -61,23 +28,6 @@ def extract_sales_cali(path):
 
 
 def extract_sales_bogota(path):
-    """
-    Extract the Bogotá transactions, delivered as a JSON file (a plain
-    JSON array of objects, not JSON Lines) with field names in Spanish.
-
-    Only the field names are mapped to the common schema here -- this is
-    a structural rename, not a business transformation. Values are kept
-    as-is (as strings) so cleaning decisions stay in transform.py.
-
-    Parameters
-    ----------
-    path : str
-        Path to the JSON file (e.g. data/raw/sales_bogota.json)
-
-    Returns
-    -------
-    pd.DataFrame with SALES_COLUMNS plus a 'source_system' technical tag.
-    """
     if not os.path.exists(path):
         return pd.DataFrame(columns=SALES_COLUMNS + ['source_system'])
 
@@ -107,19 +57,6 @@ def extract_sales_bogota(path):
 
 
 def extract_sales_medellin(path):
-    """
-    Extract the Medellín transactions, delivered as an XML file with a
-    <sales><sale>...</sale></sales> structure and its own tag names.
-
-    Parameters
-    ----------
-    path : str
-        Path to the XML file (e.g. data/raw/sales_medellin.xml)
-
-    Returns
-    -------
-    pd.DataFrame with SALES_COLUMNS plus a 'source_system' technical tag.
-    """
     if not os.path.exists(path):
         return pd.DataFrame(columns=SALES_COLUMNS + ['source_system'])
 
@@ -152,23 +89,6 @@ def extract_sales_medellin(path):
 
 
 def extract_all_sales(raw_path):
-    """
-    Convenience wrapper that runs the three transaction extractors and
-    returns each DataFrame separately (concatenation is a transform-stage
-    decision, not an extraction one -- but combining raw, unmodified
-    extracts is still purely structural, so main.py may choose to
-    concatenate right after this call).
-
-    Parameters
-    ----------
-    raw_path : str
-        Directory holding the raw source files
-        (sales_cali.csv, sales_bogota.json, sales_medellin.xml).
-
-    Returns
-    -------
-    dict with keys 'cali', 'bogota', 'medellin' -> DataFrame
-    """
     return {
         'cali': extract_sales_cali(os.path.join(raw_path, 'sales_cali.csv')),
         'bogota': extract_sales_bogota(os.path.join(raw_path, 'sales_bogota.json')),
@@ -176,25 +96,24 @@ def extract_all_sales(raw_path):
     }
 
 
-# --------------------------------------------------------------------
-# Reference / master tables
-# --------------------------------------------------------------------
+# Reference / tables
+
 
 def extract_products(path):
-    """Read the product master table as-is (no transformation)."""
+    #Read the products table
     return pd.read_csv(path)
 
 
 def extract_stores(path):
-    """Read the store master table as-is (no transformation)."""
+    #Read the stores table
     return pd.read_csv(path)
 
 
 def extract_promotions(path):
-    """Read the promotions table as-is (no transformation)."""
+    #Read the promotions table
     return pd.read_csv(path)
 
 
 def extract_monthly_targets(path):
-    """Read the monthly sales targets table as-is (no transformation)."""
+    #Read the monthly sales targets table
     return pd.read_csv(path)

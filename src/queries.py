@@ -1,17 +1,3 @@
-"""
-queries.py
-
-Simple analytical query menu. Reads from the SQLite database
-(database/retail_analytics.db, table sales_analytics) -- never from the
-raw or processed files -- because the database is the analytical output
-of the pipeline.
-
-Each query is tied to a business question from Lab 1A (point 3).
-Run this file directly to get an interactive menu:
-
-    python queries.py
-"""
-
 import os
 import sqlite3
 import pandas as pd
