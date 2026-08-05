@@ -1,4 +1,4 @@
-# Lab 1B – ETL: Retail Analytics Platform
+# Lab 1: Retail Analytics Platform
 
 `Johann Eduardo Gonzalez Sandoval`
 `Juan David Lasso Chaparro`
