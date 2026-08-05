@@ -84,7 +84,7 @@ block, and expected output is in **section 2, Activity 1**.
 ```
 Lab1B_ETL/
 ├── data/
-│   ├── raw/           # Source files exactly as delivered by the client
+│   ├── raw/            # Source files exactly as delivered by the client
 │   ├── processed/      # Pipeline outputs (CSV, profiling summary, rejected rows)
 │   └── output/         # Reserved for further downstream exports
 │
@@ -93,14 +93,14 @@ Lab1B_ETL/
 │
 ├── src/
 │   ├── extract.py      # Extraction block
-│   ├── transform.py     # Profiling, cleaning, integration, validation
-│   ├── load.py          # CSV + SQLite loading
-│   ├── queries.py       # Analytical query menu
-│   ├── log.py           # Logging utility
-│   └── main.py           # Pipeline orchestrator (entry point)
+│   ├── transform.py    # Profiling, cleaning, integration, validation
+│   ├── load.py         # CSV + SQLite loading
+│   ├── queries.py      # Analytical query menu
+│   ├── log.py          # Logging utility
+│   └── main.py         # Pipeline orchestrator (entry point)
 │
 ├── logs/
-│   └── log_file.txt      # Execution log (generated)
+│   └── log_file.txt    # Execution log (generated)
 │
 ├── docs/
 │   └── pipeline_diagram.png
@@ -195,7 +195,7 @@ Results below come from an actual run of the pipeline against the
 provided fictitious raw data (763 combined transactions → 756 valid
 after cleaning).
 
-**Query 1 — Product category performance**
+**Query 1: Product category performance**
 
 | category | total_net_sales | units_sold |
 |---|---|---|
@@ -204,7 +204,7 @@ after cleaning).
 | Home & Office | 30,830,760 | 360 |
 | Personal Care | 22,152,000 | 165 |
 
-**Query 2 — Sales by region and store (lowest first)**
+**Query 2: Sales by region and store (lowest first)**
 
 | region | store_name | total_net_sales |
 |---|---|---|
@@ -212,7 +212,7 @@ after cleaning).
 | Southwest | Cali Norte | 61,434,700 |
 | Central | Bogotá Centro | 62,328,740 |
 
-**Query 3 — Store target achievement (sample)**
+**Query 3: Store target achievement (sample)**
 
 | store_name | month | actual_sales | sales_target | target_achievement_pct |
 |---|---|---|---|---|
@@ -238,20 +238,14 @@ against the fictitious raw data.)*
 
 | Business Requirement | Evidence Produced | Satisfied? | Explanation |
 |---|---|---|---|
-| Monitor store performance against sales targets to support timely business decisions | Query 3 output: `store_name`, `month`, `actual_sales`, `sales_target`, `target_achievement_pct` for all 756 rows (`sales_target` populated for 100% of rows) | Yes | Every transaction successfully joined to its monthly target, so target-vs-actual can be computed per store/month with no gaps. |
-| Optimize commercial decision-making through early detection of underperforming products | Query 1 output: `net_sales` and `units_sold` grouped by the 4 categories present (`Home & Office`, `Small Appliances`, `Electronics`, `Personal Care`) | Yes | Category performance is ranked directly from `sales_analytics`, letting a manager immediately see which category has the lowest `net_sales`. |
-| Compare sales performance across different regions to support strategic planning | Query 2 output: `net_sales` grouped by the 3 regions (`Southwest`, `Central`, `Northwest`) and by store, ordered ascending | Yes | Regions and stores are ranked from lowest to highest sales, directly supporting a "which region needs attention" decision. |
-| Improve the effectiveness of marketing campaigns based on store performance | Query 4 output: `net_sales` and `units_sold` grouped by the 6 campaigns found in the data (e.g. `Coffee Week`, `Audio Campaign`) for the 45 rows with an active discount | Yes | Every promoted transaction is correctly isolated (`promotion_code <> 'NONE'`) and attributed to its campaign, showing which campaigns drove the most net sales. |
-| Measure the effectiveness of pricing and discount strategies on sales performance | Query 5 output: average `discount_pct`, `total_discount_given`, and `total_net_sales` per product for the 45 discounted rows | Yes | Discount impact is measurable per product, though the sample of discounted transactions (45 of 756) is small — a fuller promotional history would make the comparison more robust. |
-| Provide an intuitive and user-friendly dashboard for managers with different levels of technical experience | `queries.py` runs as a plain numbered menu (0–6) reading from `retail_analytics.db`; pipeline log confirms `ETL Job Completed Successfully` with 756/756 rows validated | Partially | The data layer is clean and query-ready, and the menu itself is simple to use — but this is a query menu, not a visual dashboard, so the actual UI requirement from Lab 1A (charts, filters, wireframe) is not yet implemented in this lab; it would be the next step on top of `sales_analytics`. |
+| Monitor store performance against sales targets to support timely business decisions | `store_name`, `month`, `actual_sales`, `sales_target`, `target_achievement_pct` for all 756 rows (`sales_target` populated for 100% of rows) | Yes | Every transaction successfully joined to its monthly target, so target-vs-actual can be computed per store/month with no gaps. |
+| Optimize commercial decision-making through early detection of underperforming products | `net_sales` and `units_sold` grouped by the 4 categories present (`Home & Office`, `Small Appliances`, `Electronics`, `Personal Care`) | Yes | Category performance is ranked directly from `sales_analytics`, letting a manager immediately see which category has the lowest `net_sales`. |
+| Compare sales performance across different regions to support strategic planning | `net_sales` grouped by the 3 regions (`Southwest`, `Central`, `Northwest`) and by store, ordered ascending | Yes | Regions and stores are ranked from lowest to highest sales, directly supporting a "which region needs attention" decision. |
+| Improve the effectiveness of marketing campaigns based on store performance | `net_sales` and `units_sold` grouped by the 6 campaigns found in the data (e.g. `Coffee Week`, `Audio Campaign`) for the 45 rows with an active discount | Yes | Every promoted transaction is correctly isolated (`promotion_code <> 'NONE'`) and attributed to its campaign, showing which campaigns drove the most net sales. |
+| Measure the effectiveness of pricing and discount strategies on sales performance | average `discount_pct`, `total_discount_given`, and `total_net_sales` per product for the 45 discounted rows | Yes | Discount impact is measurable per product, though the sample of discounted transactions (45 of 756) is small, a fuller promotional history would make the comparison more robust. |
+| Provide an intuitive and user-friendly dashboard for managers with different levels of technical experience | `queries.py` runs as a plain numbered menu (0–6) reading from `retail_analytics.db`; pipeline log confirms `ETL Job Completed Successfully` with 756/756 rows validated | Partially | The data layer is clean and query-ready, and the menu itself is simple to use, but this is a query menu, not a visual dashboard, so the actual UI requirement from Lab 1A (charts, filters, wireframe) is not yet implemented in this lab; it would be the next step on top of `sales_analytics`. |
 
-**Conclusion:** five of the six selected business requirements are fully
-satisfied by the current pipeline output — the `sales_analytics` table
-answers each business question with clean, integrated data and no
-missing joins. The sixth requirement (an intuitive dashboard) is only
-partially met: the data foundation for it is solid and query-ready, but
-the visual layer itself was out of scope for this lab and remains the
-next step, consistent with the Lab 1A wireframe.
+
 
 ### Reflection
 
@@ -263,58 +257,45 @@ because of the promotion-effectiveness objective; `sales_target` only
 because of the target-monitoring objective. Activity 1 (tracing each
 requirement to its data, block, and output) was done before writing
 `transform.py`, so the integration step never had to guess what to
-compute — it implemented exactly the six mappings already defined.
+compute it implemented exactly the six mappings already defined.
 
 **B. What is the difference between profiling, cleaning, transformation, and validation in your implementation?**
-- **Profiling** (`profile_sales`) only *observes* the raw combined data —
-  it counts nulls, duplicates, and invalid values but never changes a
-  single row.
-- **Cleaning** (`clean_sales`) *fixes or removes* what profiling found —
+- **Profiling** (`profile_sales`) it look into the raw combined data
+  it counts nulls, duplicates, and invalid values but it neves does changes
+  in rows.
+- **Cleaning** (`clean_sales`) fixes or removes what profiling found
   standardizing casing, parsing dates, converting types, and rejecting
   rows that cannot be trusted (invalid date, quantity ≤ 0, price ≤ 0,
   duplicate ID).
-- **Transformation/Integration** (`integrate_sales`) *adds business
-  meaning* to already-clean data — joining reference tables and
-  computing `gross_sales`, `discount_amount`, `net_sales`, and the
+- **Transformation/Integration** (`integrate_sales`) joins reference tables and
+  computing to the already clean data `gross_sales`, `discount_amount`, `net_sales`, and the
   date-derived fields.
-- **Validation** (`validate_sales`) is the *final gate*, checked only
-  after integration — it doesn't fix anything, it only confirms the
+- **Validation** (`validate_sales`) it only confirms the
   integrated result is internally consistent (unique IDs, positive
   amounts, correct `net_sales` formula, full referential integrity) and
   decides whether loading is allowed to proceed.
 
 **C. Why was it necessary to design the system as blocks before coding?**
-Designing the block diagram first (Activity 2) forced explicit answers to
+Designing the block diagram first forced explicit answers to
 "what goes in, what comes out, who is responsible, what can break" for
 every stage before any function was written. This is what made it
 possible to write `extract.py` without it doing any cleaning, and
-`transform.py` without it re-reading raw files — each block's boundary
+`transform.py` without it re-reading raw files, each block's boundary
 was already decided on paper. It also made failure handling
-straightforward: because "possible failure" was defined per block ahead
+straightforward because "possible failure" was defined per block ahead
 of time, `main.py` could log and stop at the right point (e.g., after
 validation, before loading) instead of failing unpredictably mid-script.
 
 **D. Which block would be most affected if a branch changed its file format?**
-**Extract.** If, say, the Medellín store switched from XML to CSV
-tomorrow, only `extract_sales_medellin` would need a new implementation
-(swap the XML parser for `pd.read_csv` and remap the field names) — because
-every block downstream (Profile, Clean, Transform, Validate, Load, Query)
-only ever consumes the common schema (`sale_line_id`, `sale_date`,
-`store_id`, ...), never the source-specific field names or format. This
-is the direct payoff of keeping extraction free of business logic: the
-format is isolated to a single function, and the rest of the pipeline
-never needs to change.
+The Extract block would be the most affected because it is the only stage that directly depends on the original format of the source files. If the Medellín branch changed its sales file from XML to CSV, the extract_sales_medellin function would need to be modified to use a CSV parser and map the fields to the common schema. Once the data has been standardized, the next blocks (Profile, Clean & Harmonize, Transform & Integrate, Validate, Load, and Query) would continue working without any changes because they operate on the common schema rather than on the original file format.
 
 **E. Did the team build an ETL pipeline, or did it build a system to solve a business problem? Explain.**
-A system to solve a business problem — the ETL pipeline is just the
+A system to solve a business problem, an ETL pipeline is just the
 mechanism it's built from. The starting point was never "let's write an
 extract/transform/load script"; it was the client's actual problem
 (managers digging through spreadsheets, missed underperforming
 products, no regional comparison). Every block exists because a
-requirement traced back to it in Activity 1, every cleaning rule exists
+requirement traced back to it in activity 1, every cleaning rule exists
 because of a specific data quality issue that would otherwise have
 produced wrong business numbers, and the KPIs/queries map one-to-one to
-the business objectives from Lab 1A, not to "interesting things you
-could compute from sales data." The ETL code is the implementation
-detail; the deliverable is a trustworthy answer to the client's original
-question about their store performance.
+the business objectives from Lab 1A.
