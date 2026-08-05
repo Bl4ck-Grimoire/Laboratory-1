@@ -55,9 +55,9 @@ and the tools available, instead of discovering requirements mid-code.
 
 ### Pipeline diagram
 
-![Pipeline diagram](docs/pipeline_diagram.png)
+![Pipeline diagram](docs/Pipeline_Diagram.png)
 
-*(Full version: `docs/pipeline_diagram.png`)*
+*(Full version: `docs/Pipeline_Diagram.png`)*
 
 ## 4. Selected business requirements
 
