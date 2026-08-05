@@ -1,5 +1,8 @@
 # Lab 1B – ETL: Retail Analytics Platform
 
+`Johann Eduardo Gonzalez Sandoval`
+`Juan David Lasso Chaparro`
+
 ## 1. Project overview
 
 This project implements the ETL pipeline that turns the raw, multi-format
