@@ -6,69 +6,58 @@
 ## 1. Project overview
 
 This project implements the ETL pipeline that turns the raw, multi-format
-sales data described in Lab 1A into a single analytical dataset and SQLite
+sales data into a single analytical dataset and SQLite
 database that a retail dashboard could query directly. It follows the
-standard **Extract → Profile → Clean/Harmonize → Transform/Integrate →
+standard **Extract → Profile → Clean → Transform/Integrate →
 Validate → Load → Query** flow.
 
 The client's original request was a simple one: *"we want a dashboard."*
 This project treats that request as the starting point of an analysis,
 not as a coding task. Before writing a single line of extraction code,
-the six highest-priority business requirements from Lab 1A were traced
-end-to-end (what data they need, what has to happen to that data, what
-output they produce), and the pipeline itself was designed as a block
+the highest-priority business requirements were traced
+end-to-end, and the pipeline itself was designed as a block
 diagram before implementation began. Every design decision documented
 below is a direct response to either a business requirement or a
-specific finding from data profiling — nothing was added "because it
-might be useful."
+specific finding from data profiling.
 
 ---
 
 ## 2. Before coding
 
-Two planning activities were completed before any script was written, so
+The planning activities were completed before any script was written, so
 that the pipeline could be built with a clear picture of the data needed
 and the tools available, instead of discovering requirements mid-code.
 
-### Activity 1 – Review and Trace the Requirements
+### Review and Trace the Requirements
 
 | Business Requirement | Required Data | Pipeline Block | Expected Output |
 |---|---|---|---|
-| Monitor store performance against sales targets to support timely business decisions | `sale_date`, `store_id`, `quantity`, `unit_price`, `sales_target` (monthly_targets.csv) | Transform/Integrate → `net_sales`, `month`; joined with `monthly_targets.csv` | `sales_analytics` table with `net_sales` vs `sales_target` per store/month (query 3) |
-| Optimize commercial decision-making through early detection of underperforming products | `product_id`, `quantity`, `unit_price`, `sale_date`; `category` (products.csv) | Clean/Harmonize → numeric conversion, date parsing; Transform/Integrate → join with `products.csv`, compute `net_sales` | Category-level sales table showing which categories are declining (query 1) |
-| Compare sales performance across different regions to support strategic planning | `store_id`, `net_sales`; `region` (stores.csv) | Transform/Integrate → join with `stores.csv` to append `region` | Region/store sales ranking table (query 2) |
-| Improve the effectiveness of marketing campaigns based on store performance | `promotion_code`, `quantity`, `unit_price`; `discount_pct`, `campaign_name` (promotions.csv) | Clean/Harmonize → standardize `promotion_code` (incl. missing-value marker); Transform/Integrate → join with `promotions.csv`, compute `discount_amount`, `net_sales` | Promotion effectiveness table by campaign (query 4) |
-| Measure the effectiveness of pricing and discount strategies on sales performance | `unit_price`, `quantity`, `discount_pct` (promotions.csv) | Transform/Integrate → compute `gross_sales`, `discount_amount`, `net_sales` | Pricing/discount impact table by product (query 5) |
-| Provide an intuitive and user-friendly dashboard for managers with different levels of technical experience | Aggregated fields from `sales_analytics` (all of the above) | Load → SQLite `sales_analytics` table; Query → simple menu | Clean, pre-aggregated SQLite table that a simple dashboard/menu can query directly without further processing |
+| Monitor store performance against sales targets to support timely business decisions | `monthly_targets.csv` | Transform and integrate → `net_sales`, `month`; joined with `monthly_targets.csv` | `sales_analytics` table with `net_sales` vs `sales_target` per store/month |
+| Optimize commercial decision-making through early detection of underperforming products | `products.csv` | Clean → numeric conversion, date parsing; Transform and integrate → join with `products.csv`, compute `net_sales` | Category-level sales table showing which categories are declining |
+| Compare sales performance across different regions to support strategic planning | `stores.csv` | Transform and integrate → join with `stores.csv` to append `region` | Region/store sales ranking table |
+| Improve the effectiveness of marketing campaigns based on store performance | `promotions.csv` | Clean → standardize `promotion_code` (incl. missing-value marker); Transform and integrate → join with `promotions.csv`, compute `discount_amount`, `net_sales` | Promotion effectiveness table by campaign |
+| Measure the effectiveness of pricing and discount strategies on sales performance | `promotions.csv` | Transform and integrate → compute `gross_sales`, `discount_amount`, `net_sales` | Pricing/discount impact table by product |
+| Provide an intuitive and user-friendly dashboard for managers with different levels of technical experience | Aggregated fields from `sales_analytics` | Load → SQLite `sales_analytics` table; Query → simple menu | Clean, pre-aggregated SQLite table that a simple dashboard/menu can query directly without further processing |
 
-### Activity 2 – Design the Pipeline
+### Design the Pipeline
 
 | Block | Input | Responsibility | Output | Possible Failure |
 |---|---|---|---|---|
-| Extract | Raw files: `sales_cali.csv`, `sales_bogota.json`, `sales_medellin.xml`, `products.csv`, `stores.csv`, `promotions.csv`, `monthly_targets.csv` | Read each source and map transaction fields to a common schema (`sale_line_id`, `sale_date`, `store_id`, `product_id`, `quantity`, `unit_price`, `promotion_code`, `payment_method`); no cleaning or calculations | 3 raw sales DataFrames (common schema) + 4 reference DataFrames | Missing/renamed source file; malformed JSON or XML structure; a source using a field name not covered by the field map |
-| Profile | Combined raw sales DataFrame (763 rows) | Measure row count, dtypes, missing values, duplicate `sale_line_id`, invalid quantities/prices/dates, distinct categorical values — read-only, no changes to the data | `profiling_summary.json` + log entries with counts | Profiling logic itself errors on an unexpected data shape (e.g., a completely empty source) |
-| Clean/Harmonize | Combined raw sales DataFrame + profiling findings | Standardize IDs and text casing, parse dates, convert numeric fields, remove duplicate `sale_line_id`, reject invalid quantity/price/date rows, unify missing promotion codes | Clean DataFrame (756 rows) + `rejected_sales.csv` with `rejection_reason` | A rule rejects far more rows than expected, leaving too little data to be useful; an unseen dirty-value variant slips through uncleaned |
-| Transform/Integrate | Clean sales DataFrame + `products.csv`, `stores.csv`, `promotions.csv`, `monthly_targets.csv` | Join reference tables; compute `gross_sales`, `discount_amount`, `net_sales`, `month`, `week`, `day_name`; attach `sales_target` | Integrated DataFrame (756 rows, 23 columns) | A `product_id`/`store_id` with no match in the master table produces nulls after the join; a store/month with no defined target leaves `sales_target` empty |
+| Extract | Raw files: `sales_cali.csv`, `sales_bogota.json`, `sales_medellin.xml`, `products.csv`, `stores.csv`, `promotions.csv`, `monthly_targets.csv` | Read each source and map transaction fields to a common schema | 3 raw sales DataFrames + 4 reference DataFrames | Missing/renamed source file; malformed JSON or XML structure; a source using a field name not covered by the field map |
+| Profile | Combined raw sales DataFrame | Measure row count, dtypes, missing values, duplicates, invalid quantities/prices/dates, distinct categorical values | `profiling_summary.json` + log entries with counts | Profiling logic itself errors on an unexpected data shape (e.g., a completely empty source) |
+| Clean and harmonize | Combined raw sales DataFrame + profiling findings | Standardize IDs and text casing, parse dates, convert numeric fields, remove duplicates, reject invalid quantity/price/date rows, unify missing promotion codes | Clean DataFrame + `rejected_sales.csv` with `rejection_reason` | A rule rejects far more rows than expected, leaving too little data to be useful; an unseen dirty-value variant slips through uncleaned |
+| Transform and Integrate | Clean sales DataFrame + `products.csv`, `stores.csv`, `promotions.csv`, `monthly_targets.csv` | Join reference tables; compute `gross_sales`, `discount_amount`, `net_sales`, `month`, `week`, `day_name`; attach `sales_target` | Integrated DataFrame | A `product_id` or `store_id` with no match in the master table produces nulls after the join; a store/month with no defined target leaves `sales_target` empty |
 | Validate | Integrated DataFrame + `products.csv`, `stores.csv` | Run final quality gate: uniqueness, required fields not null, positive amounts, product/store referential integrity, `net_sales` formula consistency | Boolean `passed` flag + list of failed checks, logged | A critical check fails (e.g., a product not in the master) and the pipeline must stop before loading, leaving no CSV/DB update |
 | Load | Validated integrated DataFrame | Persist the dataset as the analytical output | `data/processed/integrated_sales.csv` + `sales_analytics` table in `retail_analytics.db` | Disk/permission error writing the CSV; SQLite connection or write failure |
-| Query | `sales_analytics` table in `retail_analytics.db` | Run predefined analytical queries tied to business questions, read only from the database | Console output: category, region/store, target achievement, promotion, pricing, and trend tables | Database file not found (pipeline never ran); query references a column that doesn't exist if the schema changes upstream |
+| Query | `sales_analytics` table in `retail_analytics.db` | Run predefined analytical queries tied to business questions, read only from the database | Category, region/store, target achievement, promotion, pricing, and trend tables | Database file not found (pipeline never ran); query references a column that doesn't exist if the schema changes upstream |
 
 ---
 
+### Pipeline diagram
 
-*(Full editable version: `docs/pipeline_diagram.png`)*
+![Pipeline diagram](docs/pipeline_diagram.png)
 
-| Block | Purpose | Input | Processing Responsibility | Output | Possible Failure |
-|---|---|---|---|---|---|
-| **Extract** | Connect to each source and pull raw data without transforming it | POS (CSV/JSON/XML), promotions, store master, sales planning, product catalog | `extract_sales_cali`, `extract_sales_bogota`, `extract_sales_medellin`, `extract_products`, `extract_stores`, `extract_promotions`, `extract_monthly_targets` (all in `extract.py`) map each source into the common schema | Raw staging DataFrames | Source unreachable/renamed; malformed JSON/XML; an authentication or schema change on the source system |
-| **Profile** | Assess data quality before deciding any cleaning rule | Combined raw sales DataFrame | `profile_sales()` measures nulls, duplicates, invalid types/ranges, and distinct categorical values, read-only | `profiling_summary.json` (data quality report) | Non-representative sample; a dirty-value variant not covered by the checks goes undetected |
-| **Clean/Harmonize** | Standardize formats and IDs, and fix the nulls/duplicates the profiling step detected | Raw staging DataFrame + profiling report | `clean_sales()` standardizes casing/whitespace, parses the three date formats, converts numeric fields, deduplicates, and rejects invalid rows | Clean, standardized DataFrame + `rejected_sales.csv` | Overly aggressive rules discard valid records; IDs not fully harmonized between sources |
-| **Transform/Integrate** | Join by `store_id`/`product_id`/`sale_date`; aggregate sales and compute derived KPIs | Clean DataFrame + `products.csv`, `stores.csv`, `promotions.csv`, `monthly_targets.csv` | `integrate_sales()` joins reference tables and computes `gross_sales`, `discount_amount`, `net_sales`, `month`, `week`, `day_name`, `sales_target` | Integrated fact table | Poorly resolved joins (orphan rows or many-to-many explosion); incorrect KPI formula |
-| **Validate** | Verify business rules: totals reconcile, no negative values, KPIs within expected range | Integrated fact table + product/store masters | `validate_sales()` checks uniqueness, non-null required fields, positive amounts, referential integrity, and the `net_sales` formula | Validated dataset flag (`passed` + `failed_checks`) | Rules too loose (bad data passes) or too strict (valid data rejected); prior corruption not detected |
-| **Load** | Persist the data (`load_to_db`) and/or export it to CSV (`load_to_csv`) for reporting | Validated integrated dataset | `load.py` writes `integrated_sales.csv` and loads the `sales_analytics` table in `retail_analytics.db` | Tables loaded in the database + CSV file | Load interrupted mid-write; primary key/schema conflict |
-| **Query** | Run the analytical queries (`queries.py`) that feed each dashboard KPI/chart | `sales_analytics` table | `queries.py` executes parametrized SQL tied to a business question, with filters (region, store, category, campaign) | Result sets consumed by the dashboard/menu | Slow queries on large historical data; outdated cache/results |
-
----
+*(Full version: `docs/pipeline_diagram.png`)*
 
 ## 4. Selected business requirements
 
@@ -136,8 +125,8 @@ already installed on your system.
 
 **Windows:**
 ```bash
-python -m venv venv
-venv\Scripts\activate
+python -m venv .venv
+.venv\Scripts\activate.ps1
 ```
 
 **macOS / Linux:**
