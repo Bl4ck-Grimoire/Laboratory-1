@@ -1,0 +1,25 @@
+2026-08-04 23:23:08,INFO,ETL Job Started
+2026-08-04 23:23:08,INFO,Extract phase Started
+2026-08-04 23:23:09,INFO,Extracted 241 rows from cali source.
+2026-08-04 23:23:09,INFO,Extracted 281 rows from bogota source.
+2026-08-04 23:23:09,INFO,Extracted 241 rows from medellin source.
+2026-08-04 23:23:09,INFO,Extracted reference tables: 15 products, 3 stores, 6 promotions, 9 monthly targets.
+2026-08-04 23:23:09,INFO,Combined raw transactions: 763 rows.
+2026-08-04 23:23:09,INFO,Extract phase Ended
+2026-08-04 23:23:09,INFO,Profiling phase Started
+2026-08-04 23:23:09,INFO,Profiling complete: 763 rows, 3 duplicate sale_line_id, 2 invalid quantities, 1 invalid prices, 1 invalid dates.
+2026-08-04 23:23:09,INFO,Profiling phase Ended
+2026-08-04 23:23:09,INFO,Cleaning phase Started
+2026-08-04 23:23:09,INFO,Cleaning complete: 756 rows kept, 7 rows rejected (invalid_date=1, invalid_quantity=2, invalid_unit_price=1, duplicate_sale_line_id=3).
+2026-08-04 23:23:09,INFO,Cleaning phase Ended
+2026-08-04 23:23:09,INFO,Transform phase Started
+2026-08-04 23:23:09,INFO,Integration complete: 756 rows with reference data joined.
+2026-08-04 23:23:09,INFO,Transform phase Ended
+2026-08-04 23:23:09,INFO,Validation phase Started
+2026-08-04 23:23:09,INFO,Validation passed on all critical checks.
+2026-08-04 23:23:09,INFO,Validation phase Ended
+2026-08-04 23:23:09,INFO,Load phase Started
+2026-08-04 23:23:09,INFO,Data successfully written to C:\Users\Bl4ck\OneDrive\Escritorio\Lab - 1\data\processed\integrated_sales.csv (756 rows).
+2026-08-04 23:23:09,INFO,Data successfully loaded into 'sales_analytics' table in retail_analytics.db (756 rows).
+2026-08-04 23:23:09,INFO,Load phase Ended
+2026-08-04 23:23:09,INFO,ETL Job Completed Successfully

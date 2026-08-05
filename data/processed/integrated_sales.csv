@@ -1,0 +1,757 @@
+sale_line_id,sale_date,store_id,product_id,quantity,unit_price,promotion_code,payment_method,source_system,product_name,category,store_name,city,region,discount_pct,campaign_name,gross_sales,discount_amount,net_sales,month,week,day_name,sales_target
+L00001,2026-04-04,S01,P010,1,115000,NONE,Card,sales_cali.csv,Ergonomic Mouse,Home & Office,Cali Norte,Cali,Southwest,0.0,No Campaign,115000,0.0,115000.0,2026-04,14,Saturday,21500000
+L00002,2026-02-08,S01,P012,1,35000,NONE,Cash,sales_cali.csv,Notebook Pack,Home & Office,Cali Norte,Cali,Southwest,0.0,No Campaign,35000,0.0,35000.0,2026-02,6,Sunday,19500000
+L00003,2026-04-04,S01,P003,3,175000,NONE,Cash,sales_cali.csv,Blender 500W,Small Appliances,Cali Norte,Cali,Southwest,0.0,No Campaign,525000,0.0,525000.0,2026-04,14,Saturday,21500000
+L00004,2026-03-29,S01,P001,1,145000,NONE,Cash,sales_cali.csv,Coffee Maker Basic,Small Appliances,Cali Norte,Cali,Southwest,0.0,No Campaign,145000,0.0,145000.0,2026-03,13,Sunday,20500000
+L00005,2026-02-27,S01,P004,1,390000,NONE,Cash,sales_cali.csv,Air Fryer 4L,Small Appliances,Cali Norte,Cali,Southwest,0.0,No Campaign,390000,0.0,390000.0,2026-02,9,Friday,19500000
+L00006,2026-04-04,S01,P005,2,220000,NONE,Card,sales_cali.csv,Wireless Headphones,Electronics,Cali Norte,Cali,Southwest,0.0,No Campaign,440000,0.0,440000.0,2026-04,14,Saturday,21500000
+L00007,2026-03-27,S01,P003,2,175000,NONE,Transfer,sales_cali.csv,Blender 500W,Small Appliances,Cali Norte,Cali,Southwest,0.0,No Campaign,350000,0.0,350000.0,2026-03,13,Friday,20500000
+L00008,2026-04-27,S01,P007,2,310000,PROMO10B,Cash,sales_cali.csv,Smartwatch Active,Electronics,Cali Norte,Cali,Southwest,0.1,Wearables Week,620000,62000.0,558000.0,2026-04,18,Monday,21500000
+L00009,2026-02-20,S01,P008,1,78000,NONE,Cash,sales_cali.csv,USB-C Charger,Electronics,Cali Norte,Cali,Southwest,0.0,No Campaign,78000,0.0,78000.0,2026-02,8,Friday,19500000
+L00010,2026-04-06,S01,P008,2,78000,NONE,Card,sales_cali.csv,USB-C Charger,Electronics,Cali Norte,Cali,Southwest,0.0,No Campaign,156000,0.0,156000.0,2026-04,15,Monday,21500000
+L00012,2026-02-03,S01,P010,3,115000,NONE,Transfer,sales_cali.csv,Ergonomic Mouse,Home & Office,Cali Norte,Cali,Southwest,0.0,No Campaign,345000,0.0,345000.0,2026-02,6,Tuesday,19500000
+L00013,2026-04-20,S01,P012,1,35000,NONE,Cash,sales_cali.csv,Notebook Pack,Home & Office,Cali Norte,Cali,Southwest,0.0,No Campaign,35000,0.0,35000.0,2026-04,17,Monday,21500000
+L00014,2026-02-17,S01,P007,1,310000,NONE,Transfer,sales_cali.csv,Smartwatch Active,Electronics,Cali Norte,Cali,Southwest,0.0,No Campaign,310000,0.0,310000.0,2026-02,8,Tuesday,19500000
+L00015,2026-02-16,S01,P014,2,198000,NONE,Cash,sales_cali.csv,Electric Shaver,Personal Care,Cali Norte,Cali,Southwest,0.0,No Campaign,396000,0.0,396000.0,2026-02,8,Monday,19500000
+L00016,2026-04-03,S01,P011,1,138000,NONE,Transfer,sales_cali.csv,Keyboard Compact,Home & Office,Cali Norte,Cali,Southwest,0.0,No Campaign,138000,0.0,138000.0,2026-04,14,Friday,21500000
+L00017,2026-04-20,S01,P010,1,115000,NONE,Transfer,sales_cali.csv,Ergonomic Mouse,Home & Office,Cali Norte,Cali,Southwest,0.0,No Campaign,115000,0.0,115000.0,2026-04,17,Monday,21500000
+L00018,2026-03-28,S01,P007,2,310000,NONE,Card,sales_cali.csv,Smartwatch Active,Electronics,Cali Norte,Cali,Southwest,0.0,No Campaign,620000,0.0,620000.0,2026-03,13,Saturday,20500000
+L00019,2026-02-28,S01,P013,1,135000,NONE,Cash,sales_cali.csv,Hair Dryer,Personal Care,Cali Norte,Cali,Southwest,0.0,No Campaign,135000,0.0,135000.0,2026-02,9,Saturday,19500000
+L00020,2026-03-22,S01,P013,1,135000,NONE,Transfer,sales_cali.csv,Hair Dryer,Personal Care,Cali Norte,Cali,Southwest,0.0,No Campaign,135000,0.0,135000.0,2026-03,12,Sunday,20500000
+L00021,2026-02-08,S01,P010,1,115000,NONE,Card,sales_cali.csv,Ergonomic Mouse,Home & Office,Cali Norte,Cali,Southwest,0.0,No Campaign,115000,0.0,115000.0,2026-02,6,Sunday,19500000
+L00022,2026-04-03,S01,P004,1,390000,NONE,Card,sales_cali.csv,Air Fryer 4L,Small Appliances,Cali Norte,Cali,Southwest,0.0,No Campaign,390000,0.0,390000.0,2026-04,14,Friday,21500000
+L00023,2026-04-07,S01,P010,2,115000,NONE,Cash,sales_cali.csv,Ergonomic Mouse,Home & Office,Cali Norte,Cali,Southwest,0.0,No Campaign,230000,0.0,230000.0,2026-04,15,Tuesday,21500000
+L00024,2026-03-12,S01,P004,1,390000,NONE,Transfer,sales_cali.csv,Air Fryer 4L,Small Appliances,Cali Norte,Cali,Southwest,0.0,No Campaign,390000,0.0,390000.0,2026-03,11,Thursday,20500000
+L00025,2026-04-02,S01,P013,2,135000,NONE,Cash,sales_cali.csv,Hair Dryer,Personal Care,Cali Norte,Cali,Southwest,0.0,No Campaign,270000,0.0,270000.0,2026-04,14,Thursday,21500000
+L00026,2026-04-30,S01,P004,2,390000,NONE,Transfer,sales_cali.csv,Air Fryer 4L,Small Appliances,Cali Norte,Cali,Southwest,0.0,No Campaign,780000,0.0,780000.0,2026-04,18,Thursday,21500000
+L00027,2026-02-10,S01,P008,1,78000,NONE,Cash,sales_cali.csv,USB-C Charger,Electronics,Cali Norte,Cali,Southwest,0.0,No Campaign,78000,0.0,78000.0,2026-02,7,Tuesday,19500000
+L00028,2026-04-24,S01,P008,1,78000,NONE,Transfer,sales_cali.csv,USB-C Charger,Electronics,Cali Norte,Cali,Southwest,0.0,No Campaign,78000,0.0,78000.0,2026-04,17,Friday,21500000
+L00029,2026-03-01,S01,P013,2,135000,NONE,Card,sales_cali.csv,Hair Dryer,Personal Care,Cali Norte,Cali,Southwest,0.0,No Campaign,270000,0.0,270000.0,2026-03,9,Sunday,20500000
+L00030,2026-03-28,S01,P007,1,310000,NONE,Card,sales_cali.csv,Smartwatch Active,Electronics,Cali Norte,Cali,Southwest,0.0,No Campaign,310000,0.0,310000.0,2026-03,13,Saturday,20500000
+L00031,2026-02-12,S01,P010,3,115000,NONE,Card,sales_cali.csv,Ergonomic Mouse,Home & Office,Cali Norte,Cali,Southwest,0.0,No Campaign,345000,0.0,345000.0,2026-02,7,Thursday,19500000
+L00032,2026-03-23,S01,P006,1,165000,NONE,Card,sales_cali.csv,Bluetooth Speaker,Electronics,Cali Norte,Cali,Southwest,0.0,No Campaign,165000,0.0,165000.0,2026-03,13,Monday,20500000
+L00033,2026-02-26,S01,P002,2,285000,NONE,Transfer,sales_cali.csv,Coffee Maker Premium,Small Appliances,Cali Norte,Cali,Southwest,0.0,No Campaign,570000,0.0,570000.0,2026-02,9,Thursday,19500000
+L00034,2026-02-12,S01,P012,1,35000,NONE,Card,sales_cali.csv,Notebook Pack,Home & Office,Cali Norte,Cali,Southwest,0.0,No Campaign,35000,0.0,35000.0,2026-02,7,Thursday,19500000
+L00035,2026-02-26,S01,P004,2,390000,NONE,Cash,sales_cali.csv,Air Fryer 4L,Small Appliances,Cali Norte,Cali,Southwest,0.0,No Campaign,780000,0.0,780000.0,2026-02,9,Thursday,19500000
+L00036,2026-02-05,S01,P012,2,35000,NONE,Card,sales_cali.csv,Notebook Pack,Home & Office,Cali Norte,Cali,Southwest,0.0,No Campaign,70000,0.0,70000.0,2026-02,6,Thursday,19500000
+L00037,2026-04-01,S01,P004,1,390000,NONE,Transfer,sales_cali.csv,Air Fryer 4L,Small Appliances,Cali Norte,Cali,Southwest,0.0,No Campaign,390000,0.0,390000.0,2026-04,14,Wednesday,21500000
+L00038,2026-02-21,S01,P010,2,115000,NONE,Cash,sales_cali.csv,Ergonomic Mouse,Home & Office,Cali Norte,Cali,Southwest,0.0,No Campaign,230000,0.0,230000.0,2026-02,8,Saturday,19500000
+L00039,2026-04-25,S01,P006,1,165000,NONE,Transfer,sales_cali.csv,Bluetooth Speaker,Electronics,Cali Norte,Cali,Southwest,0.0,No Campaign,165000,0.0,165000.0,2026-04,17,Saturday,21500000
+L00040,2026-04-05,S01,P001,2,145000,NONE,Transfer,sales_cali.csv,Coffee Maker Basic,Small Appliances,Cali Norte,Cali,Southwest,0.0,No Campaign,290000,0.0,290000.0,2026-04,14,Sunday,21500000
+L00041,2026-04-10,S01,P008,2,78000,NONE,Card,sales_cali.csv,USB-C Charger,Electronics,Cali Norte,Cali,Southwest,0.0,No Campaign,156000,0.0,156000.0,2026-04,15,Friday,21500000
+L00042,2026-03-09,S01,P013,1,135000,NONE,Card,sales_cali.csv,Hair Dryer,Personal Care,Cali Norte,Cali,Southwest,0.0,No Campaign,135000,0.0,135000.0,2026-03,11,Monday,20500000
+L00043,2026-02-20,S01,P001,3,145000,PROMO10,Card,sales_cali.csv,Coffee Maker Basic,Small Appliances,Cali Norte,Cali,Southwest,0.1,Coffee Week,435000,43500.0,391500.0,2026-02,8,Friday,19500000
+L00044,2026-02-21,S01,P013,1,135000,NONE,Transfer,sales_cali.csv,Hair Dryer,Personal Care,Cali Norte,Cali,Southwest,0.0,No Campaign,135000,0.0,135000.0,2026-02,8,Saturday,19500000
+L00045,2026-04-03,S01,P014,1,198000,NONE,Cash,sales_cali.csv,Electric Shaver,Personal Care,Cali Norte,Cali,Southwest,0.0,No Campaign,198000,0.0,198000.0,2026-04,14,Friday,21500000
+L00046,2026-02-04,S01,P008,1,78000,NONE,Cash,sales_cali.csv,USB-C Charger,Electronics,Cali Norte,Cali,Southwest,0.0,No Campaign,78000,0.0,78000.0,2026-02,6,Wednesday,19500000
+L00047,2026-04-26,S01,P009,2,92000,NONE,Transfer,sales_cali.csv,Desk Lamp LED,Home & Office,Cali Norte,Cali,Southwest,0.0,No Campaign,184000,0.0,184000.0,2026-04,17,Sunday,21500000
+L00048,2026-04-23,S01,P009,1,92000,NONE,Transfer,sales_cali.csv,Desk Lamp LED,Home & Office,Cali Norte,Cali,Southwest,0.0,No Campaign,92000,0.0,92000.0,2026-04,17,Thursday,21500000
+L00049,2026-02-01,S01,P003,1,175000,NONE,Cash,sales_cali.csv,Blender 500W,Small Appliances,Cali Norte,Cali,Southwest,0.0,No Campaign,175000,0.0,175000.0,2026-02,5,Sunday,19500000
+L00050,2026-04-02,S01,P014,1,198000,NONE,Card,sales_cali.csv,Electric Shaver,Personal Care,Cali Norte,Cali,Southwest,0.0,No Campaign,198000,0.0,198000.0,2026-04,14,Thursday,21500000
+L00051,2026-03-18,S01,P005,1,220000,PROMO12,Transfer,sales_cali.csv,Wireless Headphones,Electronics,Cali Norte,Cali,Southwest,0.12,Audio Campaign,220000,26400.0,193600.0,2026-03,12,Wednesday,20500000
+L00052,2026-02-28,S01,P010,1,115000,NONE,Card,sales_cali.csv,Ergonomic Mouse,Home & Office,Cali Norte,Cali,Southwest,0.0,No Campaign,115000,0.0,115000.0,2026-02,9,Saturday,19500000
+L00053,2026-04-01,S01,P008,1,78000,NONE,Transfer,sales_cali.csv,USB-C Charger,Electronics,Cali Norte,Cali,Southwest,0.0,No Campaign,78000,0.0,78000.0,2026-04,14,Wednesday,21500000
+L00054,2026-04-02,S01,P003,2,175000,NONE,Transfer,sales_cali.csv,Blender 500W,Small Appliances,Cali Norte,Cali,Southwest,0.0,No Campaign,350000,0.0,350000.0,2026-04,14,Thursday,21500000
+L00055,2026-03-25,S01,P005,1,220000,PROMO12,Card,sales_cali.csv,Wireless Headphones,Electronics,Cali Norte,Cali,Southwest,0.12,Audio Campaign,220000,26400.0,193600.0,2026-03,13,Wednesday,20500000
+L00056,2026-03-14,S01,P005,1,165000,NONE,Transfer,sales_cali.csv,Wireless Headphones,Electronics,Cali Norte,Cali,Southwest,0.0,No Campaign,165000,0.0,165000.0,2026-03,11,Saturday,20500000
+L00057,2026-03-28,S01,P005,2,220000,NONE,Cash,sales_cali.csv,Wireless Headphones,Electronics,Cali Norte,Cali,Southwest,0.0,No Campaign,440000,0.0,440000.0,2026-03,13,Saturday,20500000
+L00058,2026-04-03,S01,P008,3,78000,NONE,Cash,sales_cali.csv,USB-C Charger,Electronics,Cali Norte,Cali,Southwest,0.0,No Campaign,234000,0.0,234000.0,2026-04,14,Friday,21500000
+L00059,2026-03-27,S01,P012,1,35000,NONE,Transfer,sales_cali.csv,Notebook Pack,Home & Office,Cali Norte,Cali,Southwest,0.0,No Campaign,35000,0.0,35000.0,2026-03,13,Friday,20500000
+L00060,2026-03-25,S01,P010,1,115000,NONE,Cash,sales_cali.csv,Ergonomic Mouse,Home & Office,Cali Norte,Cali,Southwest,0.0,No Campaign,115000,0.0,115000.0,2026-03,13,Wednesday,20500000
+L00061,2026-04-09,S01,P005,1,220000,NONE,Transfer,sales_cali.csv,Wireless Headphones,Electronics,Cali Norte,Cali,Southwest,0.0,No Campaign,220000,0.0,220000.0,2026-04,15,Thursday,21500000
+L00062,2026-02-12,S01,P004,2,390000,NONE,Cash,sales_cali.csv,Air Fryer 4L,Small Appliances,Cali Norte,Cali,Southwest,0.0,No Campaign,780000,0.0,780000.0,2026-02,7,Thursday,19500000
+L00063,2026-02-25,S01,P002,1,285000,NONE,Cash,sales_cali.csv,Coffee Maker Premium,Small Appliances,Cali Norte,Cali,Southwest,0.0,No Campaign,285000,0.0,285000.0,2026-02,9,Wednesday,19500000
+L00064,2026-03-05,S01,P001,1,145000,NONE,Cash,sales_cali.csv,Coffee Maker Basic,Small Appliances,Cali Norte,Cali,Southwest,0.0,No Campaign,145000,0.0,145000.0,2026-03,10,Thursday,20500000
+L00065,2026-02-19,S01,P005,1,220000,NONE,Card,sales_cali.csv,Wireless Headphones,Electronics,Cali Norte,Cali,Southwest,0.0,No Campaign,220000,0.0,220000.0,2026-02,8,Thursday,19500000
+L00066,2026-03-06,S01,P008,1,78000,NONE,Card,sales_cali.csv,USB-C Charger,Electronics,Cali Norte,Cali,Southwest,0.0,No Campaign,78000,0.0,78000.0,2026-03,10,Friday,20500000
+L00067,2026-03-22,S01,P003,3,175000,NONE,Cash,sales_cali.csv,Blender 500W,Small Appliances,Cali Norte,Cali,Southwest,0.0,No Campaign,525000,0.0,525000.0,2026-03,12,Sunday,20500000
+L00068,2026-02-12,S01,P002,1,285000,NONE,Transfer,sales_cali.csv,Coffee Maker Premium,Small Appliances,Cali Norte,Cali,Southwest,0.0,No Campaign,285000,0.0,285000.0,2026-02,7,Thursday,19500000
+L00069,2026-03-13,S01,P010,1,115000,NONE,Cash,sales_cali.csv,Ergonomic Mouse,Home & Office,Cali Norte,Cali,Southwest,0.0,No Campaign,115000,0.0,115000.0,2026-03,11,Friday,20500000
+L00070,2026-03-26,S01,P005,1,220000,NONE,Cash,sales_cali.csv,Wireless Headphones,Electronics,Cali Norte,Cali,Southwest,0.0,No Campaign,220000,0.0,220000.0,2026-03,13,Thursday,20500000
+L00071,2026-04-23,S01,P009,1,92000,NONE,Cash,sales_cali.csv,Desk Lamp LED,Home & Office,Cali Norte,Cali,Southwest,0.0,No Campaign,92000,0.0,92000.0,2026-04,17,Thursday,21500000
+L00072,2026-02-07,S01,P005,1,220000,NONE,Transfer,sales_cali.csv,Wireless Headphones,Electronics,Cali Norte,Cali,Southwest,0.0,No Campaign,220000,0.0,220000.0,2026-02,6,Saturday,19500000
+L00073,2026-02-10,S01,P008,1,78000,NONE,Transfer,sales_cali.csv,USB-C Charger,Electronics,Cali Norte,Cali,Southwest,0.0,No Campaign,78000,0.0,78000.0,2026-02,7,Tuesday,19500000
+L00074,2026-02-12,S01,P012,2,35000,NONE,Cash,sales_cali.csv,Notebook Pack,Home & Office,Cali Norte,Cali,Southwest,0.0,No Campaign,70000,0.0,70000.0,2026-02,7,Thursday,19500000
+L00075,2026-03-05,S01,P012,3,35000,NONE,Cash,sales_cali.csv,Notebook Pack,Home & Office,Cali Norte,Cali,Southwest,0.0,No Campaign,105000,0.0,105000.0,2026-03,10,Thursday,20500000
+L00076,2026-04-24,S01,P010,1,115000,NONE,Cash,sales_cali.csv,Ergonomic Mouse,Home & Office,Cali Norte,Cali,Southwest,0.0,No Campaign,115000,0.0,115000.0,2026-04,17,Friday,21500000
+L00077,2026-02-14,S01,P014,2,198000,NONE,Card,sales_cali.csv,Electric Shaver,Personal Care,Cali Norte,Cali,Southwest,0.0,No Campaign,396000,0.0,396000.0,2026-02,7,Saturday,19500000
+L00078,2026-04-01,S01,P004,3,390000,NONE,Card,sales_cali.csv,Air Fryer 4L,Small Appliances,Cali Norte,Cali,Southwest,0.0,No Campaign,1170000,0.0,1170000.0,2026-04,14,Wednesday,21500000
+L00079,2026-03-30,S01,P012,1,35000,NONE,Cash,sales_cali.csv,Notebook Pack,Home & Office,Cali Norte,Cali,Southwest,0.0,No Campaign,35000,0.0,35000.0,2026-03,14,Monday,20500000
+L00080,2026-03-26,S01,P003,2,175000,NONE,Card,sales_cali.csv,Blender 500W,Small Appliances,Cali Norte,Cali,Southwest,0.0,No Campaign,350000,0.0,350000.0,2026-03,13,Thursday,20500000
+L00081,2026-03-02,S01,P010,1,115000,NONE,Transfer,sales_cali.csv,Ergonomic Mouse,Home & Office,Cali Norte,Cali,Southwest,0.0,No Campaign,115000,0.0,115000.0,2026-03,10,Monday,20500000
+L00082,2026-02-06,S01,P001,3,145000,NONE,Card,sales_cali.csv,Coffee Maker Basic,Small Appliances,Cali Norte,Cali,Southwest,0.0,No Campaign,435000,0.0,435000.0,2026-02,6,Friday,19500000
+L00083,2026-03-14,S01,P015,2,86000,NONE,Card,sales_cali.csv,Digital Scale,Personal Care,Cali Norte,Cali,Southwest,0.0,No Campaign,172000,0.0,172000.0,2026-03,11,Saturday,20500000
+L00084,2026-03-14,S01,P007,1,310000,NONE,Transfer,sales_cali.csv,Smartwatch Active,Electronics,Cali Norte,Cali,Southwest,0.0,No Campaign,310000,0.0,310000.0,2026-03,11,Saturday,20500000
+L00085,2026-02-09,S01,P012,1,35000,NONE,Card,sales_cali.csv,Notebook Pack,Home & Office,Cali Norte,Cali,Southwest,0.0,No Campaign,35000,0.0,35000.0,2026-02,7,Monday,19500000
+L00086,2026-02-25,S01,P005,2,220000,NONE,Card,sales_cali.csv,Wireless Headphones,Electronics,Cali Norte,Cali,Southwest,0.0,No Campaign,440000,0.0,440000.0,2026-02,9,Wednesday,19500000
+L00087,2026-03-04,S01,P010,2,115000,NONE,Card,sales_cali.csv,Ergonomic Mouse,Home & Office,Cali Norte,Cali,Southwest,0.0,No Campaign,230000,0.0,230000.0,2026-03,10,Wednesday,20500000
+L00088,2026-02-21,S01,P005,1,220000,NONE,Card,sales_cali.csv,Wireless Headphones,Electronics,Cali Norte,Cali,Southwest,0.0,No Campaign,220000,0.0,220000.0,2026-02,8,Saturday,19500000
+L00089,2026-04-08,S01,P004,1,390000,NONE,Transfer,sales_cali.csv,Air Fryer 4L,Small Appliances,Cali Norte,Cali,Southwest,0.0,No Campaign,390000,0.0,390000.0,2026-04,15,Wednesday,21500000
+L00090,2026-03-29,S01,P010,1,115000,NONE,Transfer,sales_cali.csv,Ergonomic Mouse,Home & Office,Cali Norte,Cali,Southwest,0.0,No Campaign,115000,0.0,115000.0,2026-03,13,Sunday,20500000
+L00091,2026-02-03,S01,P007,1,310000,NONE,Cash,sales_cali.csv,Smartwatch Active,Electronics,Cali Norte,Cali,Southwest,0.0,No Campaign,310000,0.0,310000.0,2026-02,6,Tuesday,19500000
+L00092,2026-04-08,S01,P013,2,135000,NONE,Cash,sales_cali.csv,Hair Dryer,Personal Care,Cali Norte,Cali,Southwest,0.0,No Campaign,270000,0.0,270000.0,2026-04,15,Wednesday,21500000
+L00093,2026-03-16,S01,P003,2,175000,NONE,Cash,sales_cali.csv,Blender 500W,Small Appliances,Cali Norte,Cali,Southwest,0.0,No Campaign,350000,0.0,350000.0,2026-03,12,Monday,20500000
+L00094,2026-02-14,S01,P005,1,220000,NONE,Transfer,sales_cali.csv,Wireless Headphones,Electronics,Cali Norte,Cali,Southwest,0.0,No Campaign,220000,0.0,220000.0,2026-02,7,Saturday,19500000
+L00095,2026-04-25,S01,P015,1,86000,NONE,Card,sales_cali.csv,Digital Scale,Personal Care,Cali Norte,Cali,Southwest,0.0,No Campaign,86000,0.0,86000.0,2026-04,17,Saturday,21500000
+L00096,2026-04-02,S01,P009,3,92000,NONE,Cash,sales_cali.csv,Desk Lamp LED,Home & Office,Cali Norte,Cali,Southwest,0.0,No Campaign,276000,0.0,276000.0,2026-04,14,Thursday,21500000
+L00097,2026-03-09,S01,P013,2,135000,NONE,Cash,sales_cali.csv,Hair Dryer,Personal Care,Cali Norte,Cali,Southwest,0.0,No Campaign,270000,0.0,270000.0,2026-03,11,Monday,20500000
+L00098,2026-02-04,S01,P005,1,220000,NONE,Cash,sales_cali.csv,Wireless Headphones,Electronics,Cali Norte,Cali,Southwest,0.0,No Campaign,220000,0.0,220000.0,2026-02,6,Wednesday,19500000
+L00099,2026-03-02,S01,P001,1,145000,NONE,Card,sales_cali.csv,Coffee Maker Basic,Small Appliances,Cali Norte,Cali,Southwest,0.0,No Campaign,145000,0.0,145000.0,2026-03,10,Monday,20500000
+L00100,2026-04-26,S01,P012,2,35000,NONE,Cash,sales_cali.csv,Notebook Pack,Home & Office,Cali Norte,Cali,Southwest,0.0,No Campaign,70000,0.0,70000.0,2026-04,17,Sunday,21500000
+L00101,2026-02-24,S01,P005,1,220000,NONE,Cash,sales_cali.csv,Wireless Headphones,Electronics,Cali Norte,Cali,Southwest,0.0,No Campaign,220000,0.0,220000.0,2026-02,9,Tuesday,19500000
+L00102,2026-03-12,S01,P005,2,220000,NONE,Transfer,sales_cali.csv,Wireless Headphones,Electronics,Cali Norte,Cali,Southwest,0.0,No Campaign,440000,0.0,440000.0,2026-03,11,Thursday,20500000
+L00103,2026-04-02,S01,P015,1,86000,NONE,Transfer,sales_cali.csv,Digital Scale,Personal Care,Cali Norte,Cali,Southwest,0.0,No Campaign,86000,0.0,86000.0,2026-04,14,Thursday,21500000
+L00104,2026-03-23,S01,P010,3,115000,NONE,Card,sales_cali.csv,Ergonomic Mouse,Home & Office,Cali Norte,Cali,Southwest,0.0,No Campaign,345000,0.0,345000.0,2026-03,13,Monday,20500000
+L00105,2026-02-28,S01,P005,1,220000,NONE,Transfer,sales_cali.csv,Wireless Headphones,Electronics,Cali Norte,Cali,Southwest,0.0,No Campaign,220000,0.0,220000.0,2026-02,9,Saturday,19500000
+L00106,2026-03-31,S01,P013,3,135000,NONE,Cash,sales_cali.csv,Hair Dryer,Personal Care,Cali Norte,Cali,Southwest,0.0,No Campaign,405000,0.0,405000.0,2026-03,14,Tuesday,20500000
+L00107,2026-03-08,S01,P010,2,115000,NONE,Card,sales_cali.csv,Ergonomic Mouse,Home & Office,Cali Norte,Cali,Southwest,0.0,No Campaign,230000,0.0,230000.0,2026-03,10,Sunday,20500000
+L00108,2026-04-11,S01,P007,2,310000,NONE,Card,sales_cali.csv,Smartwatch Active,Electronics,Cali Norte,Cali,Southwest,0.0,No Campaign,620000,0.0,620000.0,2026-04,15,Saturday,21500000
+L00109,2026-03-20,S01,P013,2,135000,NONE,Card,sales_cali.csv,Hair Dryer,Personal Care,Cali Norte,Cali,Southwest,0.0,No Campaign,270000,0.0,270000.0,2026-03,12,Friday,20500000
+L00110,2026-03-15,S01,P002,1,285000,NONE,Transfer,sales_cali.csv,Coffee Maker Premium,Small Appliances,Cali Norte,Cali,Southwest,0.0,No Campaign,285000,0.0,285000.0,2026-03,11,Sunday,20500000
+L00111,2026-02-27,S01,P003,1,175000,NONE,Cash,sales_cali.csv,Blender 500W,Small Appliances,Cali Norte,Cali,Southwest,0.0,No Campaign,175000,0.0,175000.0,2026-02,9,Friday,19500000
+L00112,2026-04-17,S01,P011,1,138000,NONE,Transfer,sales_cali.csv,Keyboard Compact,Home & Office,Cali Norte,Cali,Southwest,0.0,No Campaign,138000,0.0,138000.0,2026-04,16,Friday,21500000
+L00113,2026-04-15,S01,P013,1,135000,NONE,Transfer,sales_cali.csv,Hair Dryer,Personal Care,Cali Norte,Cali,Southwest,0.0,No Campaign,135000,0.0,135000.0,2026-04,16,Wednesday,21500000
+L00114,2026-03-04,S01,P008,2,78000,NONE,Card,sales_cali.csv,USB-C Charger,Electronics,Cali Norte,Cali,Southwest,0.0,No Campaign,156000,0.0,156000.0,2026-03,10,Wednesday,20500000
+L00115,2026-02-02,S01,P008,2,78000,NONE,Cash,sales_cali.csv,USB-C Charger,Electronics,Cali Norte,Cali,Southwest,0.0,No Campaign,156000,0.0,156000.0,2026-02,6,Monday,19500000
+L00116,2026-02-25,S01,P004,1,390000,NONE,Transfer,sales_cali.csv,Air Fryer 4L,Small Appliances,Cali Norte,Cali,Southwest,0.0,No Campaign,390000,0.0,390000.0,2026-02,9,Wednesday,19500000
+L00117,2026-03-08,S01,P001,1,145000,NONE,Cash,sales_cali.csv,Coffee Maker Basic,Small Appliances,Cali Norte,Cali,Southwest,0.0,No Campaign,145000,0.0,145000.0,2026-03,10,Sunday,20500000
+L00118,2026-04-22,S01,P005,3,220000,NONE,Card,sales_cali.csv,Wireless Headphones,Electronics,Cali Norte,Cali,Southwest,0.0,No Campaign,660000,0.0,660000.0,2026-04,17,Wednesday,21500000
+L00119,2026-04-21,S01,P006,2,165000,NONE,Cash,sales_cali.csv,Bluetooth Speaker,Electronics,Cali Norte,Cali,Southwest,0.0,No Campaign,330000,0.0,330000.0,2026-04,17,Tuesday,21500000
+L00120,2026-02-22,S01,P010,4,115000,NONE,Card,sales_cali.csv,Ergonomic Mouse,Home & Office,Cali Norte,Cali,Southwest,0.0,No Campaign,460000,0.0,460000.0,2026-02,8,Sunday,19500000
+L00121,2026-04-30,S01,P003,1,175000,NONE,Transfer,sales_cali.csv,Blender 500W,Small Appliances,Cali Norte,Cali,Southwest,0.0,No Campaign,175000,0.0,175000.0,2026-04,18,Thursday,21500000
+L00122,2026-03-10,S01,P006,1,165000,NONE,Transfer,sales_cali.csv,Bluetooth Speaker,Electronics,Cali Norte,Cali,Southwest,0.0,No Campaign,165000,0.0,165000.0,2026-03,11,Tuesday,20500000
+L00123,2026-04-23,S01,P010,3,115000,NONE,Cash,sales_cali.csv,Ergonomic Mouse,Home & Office,Cali Norte,Cali,Southwest,0.0,No Campaign,345000,0.0,345000.0,2026-04,17,Thursday,21500000
+L00124,2026-03-02,S01,P002,3,285000,NONE,Cash,sales_cali.csv,Coffee Maker Premium,Small Appliances,Cali Norte,Cali,Southwest,0.0,No Campaign,855000,0.0,855000.0,2026-03,10,Monday,20500000
+L00125,2026-03-13,S01,P001,2,145000,NONE,Transfer,sales_cali.csv,Coffee Maker Basic,Small Appliances,Cali Norte,Cali,Southwest,0.0,No Campaign,290000,0.0,290000.0,2026-03,11,Friday,20500000
+L00126,2026-03-15,S01,P015,2,86000,NONE,Card,sales_cali.csv,Digital Scale,Personal Care,Cali Norte,Cali,Southwest,0.0,No Campaign,172000,0.0,172000.0,2026-03,11,Sunday,20500000
+L00127,2026-02-27,S01,P012,1,35000,NONE,Cash,sales_cali.csv,Notebook Pack,Home & Office,Cali Norte,Cali,Southwest,0.0,No Campaign,35000,0.0,35000.0,2026-02,9,Friday,19500000
+L00128,2026-04-10,S01,P005,2,220000,NONE,Card,sales_cali.csv,Wireless Headphones,Electronics,Cali Norte,Cali,Southwest,0.0,No Campaign,440000,0.0,440000.0,2026-04,15,Friday,21500000
+L00129,2026-04-28,S01,P005,1,220000,NONE,Transfer,sales_cali.csv,Wireless Headphones,Electronics,Cali Norte,Cali,Southwest,0.0,No Campaign,220000,0.0,220000.0,2026-04,18,Tuesday,21500000
+L00130,2026-03-15,S01,P003,1,175000,NONE,Transfer,sales_cali.csv,Blender 500W,Small Appliances,Cali Norte,Cali,Southwest,0.0,No Campaign,175000,0.0,175000.0,2026-03,11,Sunday,20500000
+L00131,2026-02-26,S01,P001,1,145000,PROMO10,Transfer,sales_cali.csv,Coffee Maker Basic,Small Appliances,Cali Norte,Cali,Southwest,0.1,Coffee Week,145000,14500.0,130500.0,2026-02,9,Thursday,19500000
+L00132,2026-03-06,S01,P008,1,78000,NONE,Transfer,sales_cali.csv,USB-C Charger,Electronics,Cali Norte,Cali,Southwest,0.0,No Campaign,78000,0.0,78000.0,2026-03,10,Friday,20500000
+L00133,2026-04-08,S01,P010,2,115000,NONE,Card,sales_cali.csv,Ergonomic Mouse,Home & Office,Cali Norte,Cali,Southwest,0.0,No Campaign,230000,0.0,230000.0,2026-04,15,Wednesday,21500000
+L00134,2026-03-23,S01,P015,2,86000,NONE,Cash,sales_cali.csv,Digital Scale,Personal Care,Cali Norte,Cali,Southwest,0.0,No Campaign,172000,0.0,172000.0,2026-03,13,Monday,20500000
+L00135,2026-02-08,S01,P009,2,92000,NONE,Cash,sales_cali.csv,Desk Lamp LED,Home & Office,Cali Norte,Cali,Southwest,0.0,No Campaign,184000,0.0,184000.0,2026-02,6,Sunday,19500000
+L00136,2026-04-16,S01,P009,1,92000,NONE,Card,sales_cali.csv,Desk Lamp LED,Home & Office,Cali Norte,Cali,Southwest,0.0,No Campaign,92000,0.0,92000.0,2026-04,16,Thursday,21500000
+L00137,2026-02-25,S01,P011,3,138000,NONE,Cash,sales_cali.csv,Keyboard Compact,Home & Office,Cali Norte,Cali,Southwest,0.0,No Campaign,414000,0.0,414000.0,2026-02,9,Wednesday,19500000
+L00138,2026-03-19,S01,P001,1,145000,NONE,Transfer,sales_cali.csv,Coffee Maker Basic,Small Appliances,Cali Norte,Cali,Southwest,0.0,No Campaign,145000,0.0,145000.0,2026-03,12,Thursday,20500000
+L00139,2026-03-07,S01,P004,1,390000,PROMO15,Cash,sales_cali.csv,Air Fryer 4L,Small Appliances,Cali Norte,Cali,Southwest,0.15,Kitchen Days,390000,58500.0,331500.0,2026-03,10,Saturday,20500000
+L00140,2026-04-11,S01,P013,1,135000,PROMO20,Transfer,sales_cali.csv,Hair Dryer,Personal Care,Cali Norte,Cali,Southwest,0.2,Personal Care Month,135000,27000.0,108000.0,2026-04,15,Saturday,21500000
+L00141,2026-02-26,S01,P001,1,145000,PROMO10,Card,sales_cali.csv,Coffee Maker Basic,Small Appliances,Cali Norte,Cali,Southwest,0.1,Coffee Week,145000,14500.0,130500.0,2026-02,9,Thursday,19500000
+L00142,2026-02-27,S01,P004,3,390000,NONE,Transfer,sales_cali.csv,Air Fryer 4L,Small Appliances,Cali Norte,Cali,Southwest,0.0,No Campaign,1170000,0.0,1170000.0,2026-02,9,Friday,19500000
+L00143,2026-03-20,S01,P010,1,115000,NONE,Cash,sales_cali.csv,Ergonomic Mouse,Home & Office,Cali Norte,Cali,Southwest,0.0,No Campaign,115000,0.0,115000.0,2026-03,12,Friday,20500000
+L00144,2026-03-09,S01,P013,2,135000,NONE,Card,sales_cali.csv,Hair Dryer,Personal Care,Cali Norte,Cali,Southwest,0.0,No Campaign,270000,0.0,270000.0,2026-03,11,Monday,20500000
+L00145,2026-03-21,S01,P012,1,35000,NONE,Transfer,sales_cali.csv,Notebook Pack,Home & Office,Cali Norte,Cali,Southwest,0.0,No Campaign,35000,0.0,35000.0,2026-03,12,Saturday,20500000
+L00146,2026-04-30,S01,P013,1,135000,NONE,Transfer,sales_cali.csv,Hair Dryer,Personal Care,Cali Norte,Cali,Southwest,0.0,No Campaign,135000,0.0,135000.0,2026-04,18,Thursday,21500000
+L00147,2026-03-01,S01,P008,1,78000,NONE,Transfer,sales_cali.csv,USB-C Charger,Electronics,Cali Norte,Cali,Southwest,0.0,No Campaign,78000,0.0,78000.0,2026-03,9,Sunday,20500000
+L00148,2026-04-29,S01,P007,1,310000,NONE,Cash,sales_cali.csv,Smartwatch Active,Electronics,Cali Norte,Cali,Southwest,0.0,No Campaign,310000,0.0,310000.0,2026-04,18,Wednesday,21500000
+L00149,2026-02-13,S01,P011,2,138000,NONE,Cash,sales_cali.csv,Keyboard Compact,Home & Office,Cali Norte,Cali,Southwest,0.0,No Campaign,276000,0.0,276000.0,2026-02,7,Friday,19500000
+L00150,2026-03-24,S01,P007,2,310000,NONE,Cash,sales_cali.csv,Smartwatch Active,Electronics,Cali Norte,Cali,Southwest,0.0,No Campaign,620000,0.0,620000.0,2026-03,13,Tuesday,20500000
+L00151,2026-04-18,S01,P003,3,175000,NONE,Card,sales_cali.csv,Blender 500W,Small Appliances,Cali Norte,Cali,Southwest,0.0,No Campaign,525000,0.0,525000.0,2026-04,16,Saturday,21500000
+L00152,2026-02-27,S01,P007,3,310000,NONE,Cash,sales_cali.csv,Smartwatch Active,Electronics,Cali Norte,Cali,Southwest,0.0,No Campaign,930000,0.0,930000.0,2026-02,9,Friday,19500000
+L00153,2026-03-04,S01,P009,4,92000,NONE,Card,sales_cali.csv,Desk Lamp LED,Home & Office,Cali Norte,Cali,Southwest,0.0,No Campaign,368000,0.0,368000.0,2026-03,10,Wednesday,20500000
+L00154,2026-04-09,S01,P009,2,92000,NONE,Transfer,sales_cali.csv,Desk Lamp LED,Home & Office,Cali Norte,Cali,Southwest,0.0,No Campaign,184000,0.0,184000.0,2026-04,15,Thursday,21500000
+L00155,2026-02-13,S01,P004,1,390000,NONE,Cash,sales_cali.csv,Air Fryer 4L,Small Appliances,Cali Norte,Cali,Southwest,0.0,No Campaign,390000,0.0,390000.0,2026-02,7,Friday,19500000
+L00156,2026-04-07,S01,P014,2,198000,NONE,Card,sales_cali.csv,Electric Shaver,Personal Care,Cali Norte,Cali,Southwest,0.0,No Campaign,396000,0.0,396000.0,2026-04,15,Tuesday,21500000
+L00157,2026-04-23,S01,P013,1,135000,NONE,Cash,sales_cali.csv,Hair Dryer,Personal Care,Cali Norte,Cali,Southwest,0.0,No Campaign,135000,0.0,135000.0,2026-04,17,Thursday,21500000
+L00158,2026-04-21,S01,P008,2,78000,NONE,Card,sales_cali.csv,USB-C Charger,Electronics,Cali Norte,Cali,Southwest,0.0,No Campaign,156000,0.0,156000.0,2026-04,17,Tuesday,21500000
+L00159,2026-02-26,S01,P013,1,135000,NONE,Card,sales_cali.csv,Hair Dryer,Personal Care,Cali Norte,Cali,Southwest,0.0,No Campaign,135000,0.0,135000.0,2026-02,9,Thursday,19500000
+L00160,2026-04-22,S01,P013,1,135000,PROMO20,Transfer,sales_cali.csv,Hair Dryer,Personal Care,Cali Norte,Cali,Southwest,0.2,Personal Care Month,135000,27000.0,108000.0,2026-04,17,Wednesday,21500000
+L00161,2026-03-14,S01,P008,2,78000,NONE,Cash,sales_cali.csv,USB-C Charger,Electronics,Cali Norte,Cali,Southwest,0.0,No Campaign,156000,0.0,156000.0,2026-03,11,Saturday,20500000
+L00162,2026-02-02,S01,P013,3,135000,NONE,Card,sales_cali.csv,Hair Dryer,Personal Care,Cali Norte,Cali,Southwest,0.0,No Campaign,405000,0.0,405000.0,2026-02,6,Monday,19500000
+L00163,2026-02-16,S01,P001,3,145000,NONE,Card,sales_cali.csv,Coffee Maker Basic,Small Appliances,Cali Norte,Cali,Southwest,0.0,No Campaign,435000,0.0,435000.0,2026-02,8,Monday,19500000
+L00164,2026-04-28,S01,P008,1,78000,NONE,Cash,sales_cali.csv,USB-C Charger,Electronics,Cali Norte,Cali,Southwest,0.0,No Campaign,78000,0.0,78000.0,2026-04,18,Tuesday,21500000
+L00165,2026-04-22,S01,P003,1,175000,NONE,Cash,sales_cali.csv,Blender 500W,Small Appliances,Cali Norte,Cali,Southwest,0.0,No Campaign,175000,0.0,175000.0,2026-04,17,Wednesday,21500000
+L00166,2026-04-22,S01,P010,2,115000,NONE,Cash,sales_cali.csv,Ergonomic Mouse,Home & Office,Cali Norte,Cali,Southwest,0.0,No Campaign,230000,0.0,230000.0,2026-04,17,Wednesday,21500000
+L00167,2026-04-20,S01,P003,1,175000,NONE,Transfer,sales_cali.csv,Blender 500W,Small Appliances,Cali Norte,Cali,Southwest,0.0,No Campaign,175000,0.0,175000.0,2026-04,17,Monday,21500000
+L00168,2026-02-11,S01,P006,1,165000,NONE,Cash,sales_cali.csv,Bluetooth Speaker,Electronics,Cali Norte,Cali,Southwest,0.0,No Campaign,165000,0.0,165000.0,2026-02,7,Wednesday,19500000
+L00169,2026-03-21,S01,P010,2,115000,NONE,Card,sales_cali.csv,Ergonomic Mouse,Home & Office,Cali Norte,Cali,Southwest,0.0,No Campaign,230000,0.0,230000.0,2026-03,12,Saturday,20500000
+L00170,2026-04-26,S01,P006,2,165000,NONE,Card,sales_cali.csv,Bluetooth Speaker,Electronics,Cali Norte,Cali,Southwest,0.0,No Campaign,330000,0.0,330000.0,2026-04,17,Sunday,21500000
+L00171,2026-02-12,S01,P013,4,135000,NONE,Cash,sales_cali.csv,Hair Dryer,Personal Care,Cali Norte,Cali,Southwest,0.0,No Campaign,540000,0.0,540000.0,2026-02,7,Thursday,19500000
+L00172,2026-04-09,S01,P011,2,138000,NONE,Transfer,sales_cali.csv,Keyboard Compact,Home & Office,Cali Norte,Cali,Southwest,0.0,No Campaign,276000,0.0,276000.0,2026-04,15,Thursday,21500000
+L00173,2026-04-16,S01,P008,4,78000,NONE,Card,sales_cali.csv,USB-C Charger,Electronics,Cali Norte,Cali,Southwest,0.0,No Campaign,312000,0.0,312000.0,2026-04,16,Thursday,21500000
+L00174,2026-02-19,S01,P011,1,138000,NONE,Card,sales_cali.csv,Keyboard Compact,Home & Office,Cali Norte,Cali,Southwest,0.0,No Campaign,138000,0.0,138000.0,2026-02,8,Thursday,19500000
+L00175,2026-03-01,S01,P012,1,35000,NONE,Card,sales_cali.csv,Notebook Pack,Home & Office,Cali Norte,Cali,Southwest,0.0,No Campaign,35000,0.0,35000.0,2026-03,9,Sunday,20500000
+L00176,2026-02-01,S01,P003,2,175000,NONE,Transfer,sales_cali.csv,Blender 500W,Small Appliances,Cali Norte,Cali,Southwest,0.0,No Campaign,350000,0.0,350000.0,2026-02,5,Sunday,19500000
+L00177,2026-03-19,S01,P006,1,165000,NONE,Transfer,sales_cali.csv,Bluetooth Speaker,Electronics,Cali Norte,Cali,Southwest,0.0,No Campaign,165000,0.0,165000.0,2026-03,12,Thursday,20500000
+L00178,2026-02-25,S01,P003,4,175000,NONE,Cash,sales_cali.csv,Blender 500W,Small Appliances,Cali Norte,Cali,Southwest,0.0,No Campaign,700000,0.0,700000.0,2026-02,9,Wednesday,19500000
+L00179,2026-02-05,S01,P004,1,390000,NONE,Transfer,sales_cali.csv,Air Fryer 4L,Small Appliances,Cali Norte,Cali,Southwest,0.0,No Campaign,390000,0.0,390000.0,2026-02,6,Thursday,19500000
+L00180,2026-02-07,S01,P001,2,145000,NONE,Card,sales_cali.csv,Coffee Maker Basic,Small Appliances,Cali Norte,Cali,Southwest,0.0,No Campaign,290000,0.0,290000.0,2026-02,6,Saturday,19500000
+L00181,2026-04-20,S01,P013,2,135000,PROMO20,Transfer,sales_cali.csv,Hair Dryer,Personal Care,Cali Norte,Cali,Southwest,0.2,Personal Care Month,270000,54000.0,216000.0,2026-04,17,Monday,21500000
+L00182,2026-03-05,S01,P004,1,390000,PROMO15,Transfer,sales_cali.csv,Air Fryer 4L,Small Appliances,Cali Norte,Cali,Southwest,0.15,Kitchen Days,390000,58500.0,331500.0,2026-03,10,Thursday,20500000
+L00183,2026-02-14,S01,P010,1,115000,NONE,Card,sales_cali.csv,Ergonomic Mouse,Home & Office,Cali Norte,Cali,Southwest,0.0,No Campaign,115000,0.0,115000.0,2026-02,7,Saturday,19500000
+L00184,2026-03-29,S01,P002,2,285000,NONE,Card,sales_cali.csv,Coffee Maker Premium,Small Appliances,Cali Norte,Cali,Southwest,0.0,No Campaign,570000,0.0,570000.0,2026-03,13,Sunday,20500000
+L00185,2026-02-22,S01,P011,3,138000,NONE,Cash,sales_cali.csv,Keyboard Compact,Home & Office,Cali Norte,Cali,Southwest,0.0,No Campaign,414000,0.0,414000.0,2026-02,8,Sunday,19500000
+L00186,2026-02-12,S01,P011,4,138000,NONE,Transfer,sales_cali.csv,Keyboard Compact,Home & Office,Cali Norte,Cali,Southwest,0.0,No Campaign,552000,0.0,552000.0,2026-02,7,Thursday,19500000
+L00187,2026-04-09,S01,P009,1,92000,NONE,Cash,sales_cali.csv,Desk Lamp LED,Home & Office,Cali Norte,Cali,Southwest,0.0,No Campaign,92000,0.0,92000.0,2026-04,15,Thursday,21500000
+L00188,2026-02-18,S01,P009,1,92000,NONE,Cash,sales_cali.csv,Desk Lamp LED,Home & Office,Cali Norte,Cali,Southwest,0.0,No Campaign,92000,0.0,92000.0,2026-02,8,Wednesday,19500000
+L00189,2026-03-07,S01,P012,1,35000,NONE,Card,sales_cali.csv,Notebook Pack,Home & Office,Cali Norte,Cali,Southwest,0.0,No Campaign,35000,0.0,35000.0,2026-03,10,Saturday,20500000
+L00190,2026-02-27,S01,P001,2,145000,NONE,Transfer,sales_cali.csv,Coffee Maker Basic,Small Appliances,Cali Norte,Cali,Southwest,0.0,No Campaign,290000,0.0,290000.0,2026-02,9,Friday,19500000
+L00191,2026-04-28,S01,P010,1,115000,NONE,Transfer,sales_cali.csv,Ergonomic Mouse,Home & Office,Cali Norte,Cali,Southwest,0.0,No Campaign,115000,0.0,115000.0,2026-04,18,Tuesday,21500000
+L00192,2026-02-25,S01,P007,1,310000,NONE,Card,sales_cali.csv,Smartwatch Active,Electronics,Cali Norte,Cali,Southwest,0.0,No Campaign,310000,0.0,310000.0,2026-02,9,Wednesday,19500000
+L00193,2026-03-31,S01,P005,1,220000,NONE,Cash,sales_cali.csv,Wireless Headphones,Electronics,Cali Norte,Cali,Southwest,0.0,No Campaign,220000,0.0,220000.0,2026-03,14,Tuesday,20500000
+L00194,2026-04-08,S01,P013,3,135000,PROMO20,Card,sales_cali.csv,Hair Dryer,Personal Care,Cali Norte,Cali,Southwest,0.2,Personal Care Month,405000,81000.0,324000.0,2026-04,15,Wednesday,21500000
+L00195,2026-04-02,S01,P013,3,135000,NONE,Transfer,sales_cali.csv,Hair Dryer,Personal Care,Cali Norte,Cali,Southwest,0.0,No Campaign,405000,0.0,405000.0,2026-04,14,Thursday,21500000
+L00196,2026-04-03,S01,P009,1,92000,NONE,Transfer,sales_cali.csv,Desk Lamp LED,Home & Office,Cali Norte,Cali,Southwest,0.0,No Campaign,92000,0.0,92000.0,2026-04,14,Friday,21500000
+L00197,2026-02-14,S01,P015,3,86000,NONE,Transfer,sales_cali.csv,Digital Scale,Personal Care,Cali Norte,Cali,Southwest,0.0,No Campaign,258000,0.0,258000.0,2026-02,7,Saturday,19500000
+L00198,2026-02-27,S01,P003,2,175000,NONE,Card,sales_cali.csv,Blender 500W,Small Appliances,Cali Norte,Cali,Southwest,0.0,No Campaign,350000,0.0,350000.0,2026-02,9,Friday,19500000
+L00199,2026-02-25,S01,P004,1,390000,NONE,Cash,sales_cali.csv,Air Fryer 4L,Small Appliances,Cali Norte,Cali,Southwest,0.0,No Campaign,390000,0.0,390000.0,2026-02,9,Wednesday,19500000
+L00200,2026-04-16,S01,P003,2,175000,NONE,Transfer,sales_cali.csv,Blender 500W,Small Appliances,Cali Norte,Cali,Southwest,0.0,No Campaign,350000,0.0,350000.0,2026-04,16,Thursday,21500000
+L00201,2026-02-28,S01,P010,1,115000,NONE,Transfer,sales_cali.csv,Ergonomic Mouse,Home & Office,Cali Norte,Cali,Southwest,0.0,No Campaign,115000,0.0,115000.0,2026-02,9,Saturday,19500000
+L00202,2026-02-26,S01,P007,1,310000,NONE,Transfer,sales_cali.csv,Smartwatch Active,Electronics,Cali Norte,Cali,Southwest,0.0,No Campaign,310000,0.0,310000.0,2026-02,9,Thursday,19500000
+L00203,2026-04-05,S01,P008,3,78000,NONE,Cash,sales_cali.csv,USB-C Charger,Electronics,Cali Norte,Cali,Southwest,0.0,No Campaign,234000,0.0,234000.0,2026-04,14,Sunday,21500000
+L00204,2026-03-26,S01,P001,1,145000,NONE,Transfer,sales_cali.csv,Coffee Maker Basic,Small Appliances,Cali Norte,Cali,Southwest,0.0,No Campaign,145000,0.0,145000.0,2026-03,13,Thursday,20500000
+L00205,2026-03-01,S01,P003,1,175000,NONE,Card,sales_cali.csv,Blender 500W,Small Appliances,Cali Norte,Cali,Southwest,0.0,No Campaign,175000,0.0,175000.0,2026-03,9,Sunday,20500000
+L00206,2026-04-30,S01,P013,1,135000,NONE,Card,sales_cali.csv,Hair Dryer,Personal Care,Cali Norte,Cali,Southwest,0.0,No Campaign,135000,0.0,135000.0,2026-04,18,Thursday,21500000
+L00207,2026-04-07,S01,P013,1,135000,PROMO20,Cash,sales_cali.csv,Hair Dryer,Personal Care,Cali Norte,Cali,Southwest,0.2,Personal Care Month,135000,27000.0,108000.0,2026-04,15,Tuesday,21500000
+L00208,2026-03-23,S01,P002,3,285000,NONE,Cash,sales_cali.csv,Coffee Maker Premium,Small Appliances,Cali Norte,Cali,Southwest,0.0,No Campaign,855000,0.0,855000.0,2026-03,13,Monday,20500000
+L00209,2026-02-28,S01,P008,1,78000,NONE,Cash,sales_cali.csv,USB-C Charger,Electronics,Cali Norte,Cali,Southwest,0.0,No Campaign,78000,0.0,78000.0,2026-02,9,Saturday,19500000
+L00210,2026-03-28,S01,P007,1,310000,NONE,Card,sales_cali.csv,Smartwatch Active,Electronics,Cali Norte,Cali,Southwest,0.0,No Campaign,310000,0.0,310000.0,2026-03,13,Saturday,20500000
+L00211,2026-03-30,S01,P001,1,145000,NONE,Transfer,sales_cali.csv,Coffee Maker Basic,Small Appliances,Cali Norte,Cali,Southwest,0.0,No Campaign,145000,0.0,145000.0,2026-03,14,Monday,20500000
+L00212,2026-03-16,S01,P001,1,145000,NONE,Cash,sales_cali.csv,Coffee Maker Basic,Small Appliances,Cali Norte,Cali,Southwest,0.0,No Campaign,145000,0.0,145000.0,2026-03,12,Monday,20500000
+L00213,2026-03-09,S01,P013,1,135000,NONE,Cash,sales_cali.csv,Hair Dryer,Personal Care,Cali Norte,Cali,Southwest,0.0,No Campaign,135000,0.0,135000.0,2026-03,11,Monday,20500000
+L00214,2026-04-30,S01,P006,1,165000,NONE,Card,sales_cali.csv,Bluetooth Speaker,Electronics,Cali Norte,Cali,Southwest,0.0,No Campaign,165000,0.0,165000.0,2026-04,18,Thursday,21500000
+L00215,2026-04-08,S01,P003,2,175000,NONE,Card,sales_cali.csv,Blender 500W,Small Appliances,Cali Norte,Cali,Southwest,0.0,No Campaign,350000,0.0,350000.0,2026-04,15,Wednesday,21500000
+L00216,2026-04-20,S01,P002,1,285000,NONE,Card,sales_cali.csv,Coffee Maker Premium,Small Appliances,Cali Norte,Cali,Southwest,0.0,No Campaign,285000,0.0,285000.0,2026-04,17,Monday,21500000
+L00217,2026-03-15,S01,P002,1,285000,NONE,Card,sales_cali.csv,Coffee Maker Premium,Small Appliances,Cali Norte,Cali,Southwest,0.0,No Campaign,285000,0.0,285000.0,2026-03,11,Sunday,20500000
+L00218,2026-02-21,S01,P012,2,35000,NONE,Transfer,sales_cali.csv,Notebook Pack,Home & Office,Cali Norte,Cali,Southwest,0.0,No Campaign,70000,0.0,70000.0,2026-02,8,Saturday,19500000
+L00219,2026-04-28,S01,P003,2,175000,NONE,Transfer,sales_cali.csv,Blender 500W,Small Appliances,Cali Norte,Cali,Southwest,0.0,No Campaign,350000,0.0,350000.0,2026-04,18,Tuesday,21500000
+L00220,2026-04-20,S01,P009,2,92000,NONE,Transfer,sales_cali.csv,Desk Lamp LED,Home & Office,Cali Norte,Cali,Southwest,0.0,No Campaign,184000,0.0,184000.0,2026-04,17,Monday,21500000
+L00221,2026-02-13,S01,P009,2,92000,NONE,Cash,sales_cali.csv,Desk Lamp LED,Home & Office,Cali Norte,Cali,Southwest,0.0,No Campaign,184000,0.0,184000.0,2026-02,7,Friday,19500000
+L00222,2026-04-09,S01,P012,1,35000,NONE,Card,sales_cali.csv,Notebook Pack,Home & Office,Cali Norte,Cali,Southwest,0.0,No Campaign,35000,0.0,35000.0,2026-04,15,Thursday,21500000
+L00223,2026-03-11,S01,P008,1,78000,NONE,Transfer,sales_cali.csv,USB-C Charger,Electronics,Cali Norte,Cali,Southwest,0.0,No Campaign,78000,0.0,78000.0,2026-03,11,Wednesday,20500000
+L00224,2026-02-07,S01,P005,2,220000,NONE,Cash,sales_cali.csv,Wireless Headphones,Electronics,Cali Norte,Cali,Southwest,0.0,No Campaign,440000,0.0,440000.0,2026-02,6,Saturday,19500000
+L00225,2026-02-10,S01,P012,3,35000,NONE,Transfer,sales_cali.csv,Notebook Pack,Home & Office,Cali Norte,Cali,Southwest,0.0,No Campaign,105000,0.0,105000.0,2026-02,7,Tuesday,19500000
+L00226,2026-02-22,S01,P005,1,220000,NONE,Card,sales_cali.csv,Wireless Headphones,Electronics,Cali Norte,Cali,Southwest,0.0,No Campaign,220000,0.0,220000.0,2026-02,8,Sunday,19500000
+L00227,2026-04-09,S01,P012,1,35000,NONE,Cash,sales_cali.csv,Notebook Pack,Home & Office,Cali Norte,Cali,Southwest,0.0,No Campaign,35000,0.0,35000.0,2026-04,15,Thursday,21500000
+L00228,2026-02-23,S01,P004,1,390000,NONE,Transfer,sales_cali.csv,Air Fryer 4L,Small Appliances,Cali Norte,Cali,Southwest,0.0,No Campaign,390000,0.0,390000.0,2026-02,9,Monday,19500000
+L00229,2026-04-18,S01,P010,1,115000,NONE,Cash,sales_cali.csv,Ergonomic Mouse,Home & Office,Cali Norte,Cali,Southwest,0.0,No Campaign,115000,0.0,115000.0,2026-04,16,Saturday,21500000
+L00230,2026-02-21,S01,P005,1,220000,NONE,Cash,sales_cali.csv,Wireless Headphones,Electronics,Cali Norte,Cali,Southwest,0.0,No Campaign,220000,0.0,220000.0,2026-02,8,Saturday,19500000
+L00231,2026-03-21,S01,P012,1,35000,NONE,Cash,sales_cali.csv,Notebook Pack,Home & Office,Cali Norte,Cali,Southwest,0.0,No Campaign,35000,0.0,35000.0,2026-03,12,Saturday,20500000
+L00232,2026-04-23,S01,P005,2,220000,NONE,Cash,sales_cali.csv,Wireless Headphones,Electronics,Cali Norte,Cali,Southwest,0.0,No Campaign,440000,0.0,440000.0,2026-04,17,Thursday,21500000
+L00233,2026-04-21,S01,P012,3,35000,NONE,Cash,sales_cali.csv,Notebook Pack,Home & Office,Cali Norte,Cali,Southwest,0.0,No Campaign,105000,0.0,105000.0,2026-04,17,Tuesday,21500000
+L00234,2026-03-10,S01,P006,1,165000,NONE,Transfer,sales_cali.csv,Bluetooth Speaker,Electronics,Cali Norte,Cali,Southwest,0.0,No Campaign,165000,0.0,165000.0,2026-03,11,Tuesday,20500000
+L00235,2026-04-01,S01,P003,1,175000,NONE,Cash,sales_cali.csv,Blender 500W,Small Appliances,Cali Norte,Cali,Southwest,0.0,No Campaign,175000,0.0,175000.0,2026-04,14,Wednesday,21500000
+L00236,2026-02-11,S01,P010,1,115000,NONE,Cash,sales_cali.csv,Ergonomic Mouse,Home & Office,Cali Norte,Cali,Southwest,0.0,No Campaign,115000,0.0,115000.0,2026-02,7,Wednesday,19500000
+L00237,2026-04-20,S01,P015,1,86000,NONE,Card,sales_cali.csv,Digital Scale,Personal Care,Cali Norte,Cali,Southwest,0.0,No Campaign,86000,0.0,86000.0,2026-04,17,Monday,21500000
+L00238,2026-03-23,S01,P003,2,175000,NONE,Transfer,sales_cali.csv,Blender 500W,Small Appliances,Cali Norte,Cali,Southwest,0.0,No Campaign,350000,0.0,350000.0,2026-03,13,Monday,20500000
+L00239,2026-03-06,S01,P012,1,35000,NONE,Cash,sales_cali.csv,Notebook Pack,Home & Office,Cali Norte,Cali,Southwest,0.0,No Campaign,35000,0.0,35000.0,2026-03,10,Friday,20500000
+L00240,2026-03-23,S01,P003,3,175000,NONE,Card,sales_cali.csv,Blender 500W,Small Appliances,Cali Norte,Cali,Southwest,0.0,No Campaign,525000,0.0,525000.0,2026-03,13,Monday,20500000
+L00241,2026-03-18,S02,P008,1,78000,NONE,Transfer,sales_bogota.json,USB-C Charger,Electronics,Bogotá Centro,Bogotá,Central,0.0,No Campaign,78000,0.0,78000.0,2026-03,12,Wednesday,24000000
+L00242,2026-03-15,S02,P003,1,175000,NONE,Card,sales_bogota.json,Blender 500W,Small Appliances,Bogotá Centro,Bogotá,Central,0.0,No Campaign,175000,0.0,175000.0,2026-03,11,Sunday,24000000
+L00243,2026-03-24,S02,P005,1,220000,NONE,Card,sales_bogota.json,Wireless Headphones,Electronics,Bogotá Centro,Bogotá,Central,0.0,No Campaign,220000,0.0,220000.0,2026-03,13,Tuesday,24000000
+L00244,2026-04-13,S02,P007,1,310000,PROMO10B,Transfer,sales_bogota.json,Smartwatch Active,Electronics,Bogotá Centro,Bogotá,Central,0.1,Wearables Week,310000,31000.0,279000.0,2026-04,16,Monday,25000000
+L00245,2026-04-08,S02,P009,1,92000,NONE,Transfer,sales_bogota.json,Desk Lamp LED,Home & Office,Bogotá Centro,Bogotá,Central,0.0,No Campaign,92000,0.0,92000.0,2026-04,15,Wednesday,25000000
+L00246,2026-03-23,S02,P002,1,285000,NONE,Transfer,sales_bogota.json,Coffee Maker Premium,Small Appliances,Bogotá Centro,Bogotá,Central,0.0,No Campaign,285000,0.0,285000.0,2026-03,13,Monday,24000000
+L00247,2026-03-19,S02,P009,1,92000,NONE,Transfer,sales_bogota.json,Desk Lamp LED,Home & Office,Bogotá Centro,Bogotá,Central,0.0,No Campaign,92000,0.0,92000.0,2026-03,12,Thursday,24000000
+L00248,2026-02-18,S02,P012,1,35000,NONE,Card,sales_bogota.json,Notebook Pack,Home & Office,Bogotá Centro,Bogotá,Central,0.0,No Campaign,35000,0.0,35000.0,2026-02,8,Wednesday,23000000
+L00249,2026-02-13,S02,P012,1,35000,NONE,Cash,sales_bogota.json,Notebook Pack,Home & Office,Bogotá Centro,Bogotá,Central,0.0,No Campaign,35000,0.0,35000.0,2026-02,7,Friday,23000000
+L00250,2026-02-14,S02,P006,1,165000,NONE,Card,sales_bogota.json,Bluetooth Speaker,Electronics,Bogotá Centro,Bogotá,Central,0.0,No Campaign,165000,0.0,165000.0,2026-02,7,Saturday,23000000
+L00251,2026-02-28,S02,P001,1,145000,NONE,Transfer,sales_bogota.json,Coffee Maker Basic,Small Appliances,Bogotá Centro,Bogotá,Central,0.0,No Campaign,145000,0.0,145000.0,2026-02,9,Saturday,23000000
+L00252,2026-02-26,S02,P010,1,115000,NONE,Transfer,sales_bogota.json,Ergonomic Mouse,Home & Office,Bogotá Centro,Bogotá,Central,0.0,No Campaign,115000,0.0,115000.0,2026-02,9,Thursday,23000000
+L00253,2026-03-14,S02,P004,1,390000,PROMO15,Card,sales_bogota.json,Air Fryer 4L,Small Appliances,Bogotá Centro,Bogotá,Central,0.15,Kitchen Days,390000,58500.0,331500.0,2026-03,11,Saturday,24000000
+L00254,2026-02-18,S02,P004,2,390000,NONE,Transfer,sales_bogota.json,Air Fryer 4L,Small Appliances,Bogotá Centro,Bogotá,Central,0.0,No Campaign,780000,0.0,780000.0,2026-02,8,Wednesday,23000000
+L00255,2026-03-05,S02,P013,1,135000,NONE,Cash,sales_bogota.json,Hair Dryer,Personal Care,Bogotá Centro,Bogotá,Central,0.0,No Campaign,135000,0.0,135000.0,2026-03,10,Thursday,24000000
+L00256,2026-03-22,S02,P005,1,220000,PROMO12,Transfer,sales_bogota.json,Wireless Headphones,Electronics,Bogotá Centro,Bogotá,Central,0.12,Audio Campaign,220000,26400.0,193600.0,2026-03,12,Sunday,24000000
+L00257,2026-02-05,S02,P003,2,175000,NONE,Cash,sales_bogota.json,Blender 500W,Small Appliances,Bogotá Centro,Bogotá,Central,0.0,No Campaign,350000,0.0,350000.0,2026-02,6,Thursday,23000000
+L00258,2026-02-22,S02,P012,1,35000,NONE,Cash,sales_bogota.json,Notebook Pack,Home & Office,Bogotá Centro,Bogotá,Central,0.0,No Campaign,35000,0.0,35000.0,2026-02,8,Sunday,23000000
+L00259,2026-04-05,S02,P010,1,115000,NONE,Card,sales_bogota.json,Ergonomic Mouse,Home & Office,Bogotá Centro,Bogotá,Central,0.0,No Campaign,115000,0.0,115000.0,2026-04,14,Sunday,25000000
+L00260,2026-03-07,S02,P004,2,390000,NONE,Transfer,sales_bogota.json,Air Fryer 4L,Small Appliances,Bogotá Centro,Bogotá,Central,0.0,No Campaign,780000,0.0,780000.0,2026-03,10,Saturday,24000000
+L00262,2026-04-29,S02,P005,3,220000,NONE,Cash,sales_bogota.json,Wireless Headphones,Electronics,Bogotá Centro,Bogotá,Central,0.0,No Campaign,660000,0.0,660000.0,2026-04,18,Wednesday,25000000
+L00263,2026-04-19,S02,P005,1,220000,NONE,Card,sales_bogota.json,Wireless Headphones,Electronics,Bogotá Centro,Bogotá,Central,0.0,No Campaign,220000,0.0,220000.0,2026-04,16,Sunday,25000000
+L00264,2026-04-28,S02,P012,1,35000,NONE,Transfer,sales_bogota.json,Notebook Pack,Home & Office,Bogotá Centro,Bogotá,Central,0.0,No Campaign,35000,0.0,35000.0,2026-04,18,Tuesday,25000000
+L00265,2026-03-23,S02,P003,2,175000,NONE,Transfer,sales_bogota.json,Blender 500W,Small Appliances,Bogotá Centro,Bogotá,Central,0.0,No Campaign,350000,0.0,350000.0,2026-03,13,Monday,24000000
+L00266,2026-03-29,S02,P012,1,35000,NONE,Transfer,sales_bogota.json,Notebook Pack,Home & Office,Bogotá Centro,Bogotá,Central,0.0,No Campaign,35000,0.0,35000.0,2026-03,13,Sunday,24000000
+L00267,2026-02-12,S02,P001,1,145000,NONE,Cash,sales_bogota.json,Coffee Maker Basic,Small Appliances,Bogotá Centro,Bogotá,Central,0.0,No Campaign,145000,0.0,145000.0,2026-02,7,Thursday,23000000
+L00268,2026-02-17,S02,P002,4,285000,NONE,Card,sales_bogota.json,Coffee Maker Premium,Small Appliances,Bogotá Centro,Bogotá,Central,0.0,No Campaign,1140000,0.0,1140000.0,2026-02,8,Tuesday,23000000
+L00269,2026-02-03,S02,P003,4,175000,NONE,Card,sales_bogota.json,Blender 500W,Small Appliances,Bogotá Centro,Bogotá,Central,0.0,No Campaign,700000,0.0,700000.0,2026-02,6,Tuesday,23000000
+L00270,2026-03-07,S02,P010,1,115000,NONE,Transfer,sales_bogota.json,Ergonomic Mouse,Home & Office,Bogotá Centro,Bogotá,Central,0.0,No Campaign,115000,0.0,115000.0,2026-03,10,Saturday,24000000
+L00271,2026-02-22,S02,P003,2,175000,NONE,Transfer,sales_bogota.json,Blender 500W,Small Appliances,Bogotá Centro,Bogotá,Central,0.0,No Campaign,350000,0.0,350000.0,2026-02,8,Sunday,23000000
+L00272,2026-02-21,S02,P001,1,145000,NONE,Card,sales_bogota.json,Coffee Maker Basic,Small Appliances,Bogotá Centro,Bogotá,Central,0.0,No Campaign,145000,0.0,145000.0,2026-02,8,Saturday,23000000
+L00273,2026-03-11,S02,P008,3,78000,NONE,Cash,sales_bogota.json,USB-C Charger,Electronics,Bogotá Centro,Bogotá,Central,0.0,No Campaign,234000,0.0,234000.0,2026-03,11,Wednesday,24000000
+L00274,2026-02-20,S02,P006,1,165000,NONE,Transfer,sales_bogota.json,Bluetooth Speaker,Electronics,Bogotá Centro,Bogotá,Central,0.0,No Campaign,165000,0.0,165000.0,2026-02,8,Friday,23000000
+L00275,2026-03-01,S02,P001,2,145000,NONE,Transfer,sales_bogota.json,Coffee Maker Basic,Small Appliances,Bogotá Centro,Bogotá,Central,0.0,No Campaign,290000,0.0,290000.0,2026-03,9,Sunday,24000000
+L00276,2026-03-31,S02,P005,2,220000,NONE,Card,sales_bogota.json,Wireless Headphones,Electronics,Bogotá Centro,Bogotá,Central,0.0,No Campaign,440000,0.0,440000.0,2026-03,14,Tuesday,24000000
+L00277,2026-04-03,S02,P009,1,92000,NONE,Card,sales_bogota.json,Desk Lamp LED,Home & Office,Bogotá Centro,Bogotá,Central,0.0,No Campaign,92000,0.0,92000.0,2026-04,14,Friday,25000000
+L00278,2026-03-28,S02,P008,1,78000,NONE,Card,sales_bogota.json,USB-C Charger,Electronics,Bogotá Centro,Bogotá,Central,0.0,No Campaign,78000,0.0,78000.0,2026-03,13,Saturday,24000000
+L00279,2026-03-06,S02,P004,1,390000,PROMO15,Cash,sales_bogota.json,Air Fryer 4L,Small Appliances,Bogotá Centro,Bogotá,Central,0.15,Kitchen Days,390000,58500.0,331500.0,2026-03,10,Friday,24000000
+L00280,2026-03-23,S02,P013,1,135000,NONE,Cash,sales_bogota.json,Hair Dryer,Personal Care,Bogotá Centro,Bogotá,Central,0.0,No Campaign,135000,0.0,135000.0,2026-03,13,Monday,24000000
+L00281,2026-02-28,S02,P009,1,92000,PROMO08,Cash,sales_bogota.json,Desk Lamp LED,Home & Office,Bogotá Centro,Bogotá,Central,0.08,Home Office,92000,7360.0,84640.0,2026-02,9,Saturday,23000000
+L00282,2026-04-25,S02,P012,1,35000,NONE,Transfer,sales_bogota.json,Notebook Pack,Home & Office,Bogotá Centro,Bogotá,Central,0.0,No Campaign,35000,0.0,35000.0,2026-04,17,Saturday,25000000
+L00283,2026-04-13,S02,P004,1,390000,NONE,Cash,sales_bogota.json,Air Fryer 4L,Small Appliances,Bogotá Centro,Bogotá,Central,0.0,No Campaign,390000,0.0,390000.0,2026-04,16,Monday,25000000
+L00284,2026-02-10,S02,P009,1,92000,NONE,Cash,sales_bogota.json,Desk Lamp LED,Home & Office,Bogotá Centro,Bogotá,Central,0.0,No Campaign,92000,0.0,92000.0,2026-02,7,Tuesday,23000000
+L00285,2026-04-12,S02,P012,2,35000,NONE,Transfer,sales_bogota.json,Notebook Pack,Home & Office,Bogotá Centro,Bogotá,Central,0.0,No Campaign,70000,0.0,70000.0,2026-04,15,Sunday,25000000
+L00286,2026-03-10,S02,P013,1,135000,NONE,Cash,sales_bogota.json,Hair Dryer,Personal Care,Bogotá Centro,Bogotá,Central,0.0,No Campaign,135000,0.0,135000.0,2026-03,11,Tuesday,24000000
+L00287,2026-02-18,S02,P009,2,92000,NONE,Cash,sales_bogota.json,Desk Lamp LED,Home & Office,Bogotá Centro,Bogotá,Central,0.0,No Campaign,184000,0.0,184000.0,2026-02,8,Wednesday,23000000
+L00288,2026-02-26,S02,P005,3,220000,NONE,Cash,sales_bogota.json,Wireless Headphones,Electronics,Bogotá Centro,Bogotá,Central,0.0,No Campaign,660000,0.0,660000.0,2026-02,9,Thursday,23000000
+L00289,2026-03-13,S02,P006,1,165000,NONE,Cash,sales_bogota.json,Bluetooth Speaker,Electronics,Bogotá Centro,Bogotá,Central,0.0,No Campaign,165000,0.0,165000.0,2026-03,11,Friday,24000000
+L00290,2026-04-28,S02,P010,1,115000,NONE,Card,sales_bogota.json,Ergonomic Mouse,Home & Office,Bogotá Centro,Bogotá,Central,0.0,No Campaign,115000,0.0,115000.0,2026-04,18,Tuesday,25000000
+L00291,2026-03-28,S02,P012,1,35000,NONE,Card,sales_bogota.json,Notebook Pack,Home & Office,Bogotá Centro,Bogotá,Central,0.0,No Campaign,35000,0.0,35000.0,2026-03,13,Saturday,24000000
+L00292,2026-02-07,S02,P012,1,35000,NONE,Cash,sales_bogota.json,Notebook Pack,Home & Office,Bogotá Centro,Bogotá,Central,0.0,No Campaign,35000,0.0,35000.0,2026-02,6,Saturday,23000000
+L00293,2026-02-27,S02,P008,1,78000,NONE,Card,sales_bogota.json,USB-C Charger,Electronics,Bogotá Centro,Bogotá,Central,0.0,No Campaign,78000,0.0,78000.0,2026-02,9,Friday,23000000
+L00294,2026-02-13,S02,P003,2,175000,NONE,Transfer,sales_bogota.json,Blender 500W,Small Appliances,Bogotá Centro,Bogotá,Central,0.0,No Campaign,350000,0.0,350000.0,2026-02,7,Friday,23000000
+L00295,2026-03-12,S02,P005,1,220000,NONE,Card,sales_bogota.json,Wireless Headphones,Electronics,Bogotá Centro,Bogotá,Central,0.0,No Campaign,220000,0.0,220000.0,2026-03,11,Thursday,24000000
+L00296,2026-04-17,S02,P003,1,175000,NONE,Transfer,sales_bogota.json,Blender 500W,Small Appliances,Bogotá Centro,Bogotá,Central,0.0,No Campaign,175000,0.0,175000.0,2026-04,16,Friday,25000000
+L00297,2026-04-16,S02,P012,1,35000,NONE,Transfer,sales_bogota.json,Notebook Pack,Home & Office,Bogotá Centro,Bogotá,Central,0.0,No Campaign,35000,0.0,35000.0,2026-04,16,Thursday,25000000
+L00298,2026-02-15,S02,P014,3,198000,NONE,Card,sales_bogota.json,Electric Shaver,Personal Care,Bogotá Centro,Bogotá,Central,0.0,No Campaign,594000,0.0,594000.0,2026-02,7,Sunday,23000000
+L00299,2026-03-27,S02,P015,2,86000,NONE,Transfer,sales_bogota.json,Digital Scale,Personal Care,Bogotá Centro,Bogotá,Central,0.0,No Campaign,172000,0.0,172000.0,2026-03,13,Friday,24000000
+L00300,2026-03-18,S02,P010,1,115000,NONE,Cash,sales_bogota.json,Ergonomic Mouse,Home & Office,Bogotá Centro,Bogotá,Central,0.0,No Campaign,115000,0.0,115000.0,2026-03,12,Wednesday,24000000
+L00301,2026-04-11,S02,P005,1,220000,NONE,Cash,sales_bogota.json,Wireless Headphones,Electronics,Bogotá Centro,Bogotá,Central,0.0,No Campaign,220000,0.0,220000.0,2026-04,15,Saturday,25000000
+L00302,2026-03-14,S02,P010,2,115000,NONE,Card,sales_bogota.json,Ergonomic Mouse,Home & Office,Bogotá Centro,Bogotá,Central,0.0,No Campaign,230000,0.0,230000.0,2026-03,11,Saturday,24000000
+L00303,2026-04-16,S02,P010,1,115000,NONE,Cash,sales_bogota.json,Ergonomic Mouse,Home & Office,Bogotá Centro,Bogotá,Central,0.0,No Campaign,115000,0.0,115000.0,2026-04,16,Thursday,25000000
+L00304,2026-03-02,S02,P004,2,390000,NONE,Cash,sales_bogota.json,Air Fryer 4L,Small Appliances,Bogotá Centro,Bogotá,Central,0.0,No Campaign,780000,0.0,780000.0,2026-03,10,Monday,24000000
+L00305,2026-02-22,S02,P001,2,145000,NONE,Card,sales_bogota.json,Coffee Maker Basic,Small Appliances,Bogotá Centro,Bogotá,Central,0.0,No Campaign,290000,0.0,290000.0,2026-02,8,Sunday,23000000
+L00306,2026-04-23,S02,P005,2,220000,NONE,Transfer,sales_bogota.json,Wireless Headphones,Electronics,Bogotá Centro,Bogotá,Central,0.0,No Campaign,440000,0.0,440000.0,2026-04,17,Thursday,25000000
+L00307,2026-02-19,S02,P005,2,220000,NONE,Card,sales_bogota.json,Wireless Headphones,Electronics,Bogotá Centro,Bogotá,Central,0.0,No Campaign,440000,0.0,440000.0,2026-02,8,Thursday,23000000
+L00308,2026-03-10,S02,P005,4,220000,NONE,Cash,sales_bogota.json,Wireless Headphones,Electronics,Bogotá Centro,Bogotá,Central,0.0,No Campaign,880000,0.0,880000.0,2026-03,11,Tuesday,24000000
+L00309,2026-02-13,S02,P003,1,175000,NONE,Card,sales_bogota.json,Blender 500W,Small Appliances,Bogotá Centro,Bogotá,Central,0.0,No Campaign,175000,0.0,175000.0,2026-02,7,Friday,23000000
+L00310,2026-04-29,S02,P013,1,135000,NONE,Cash,sales_bogota.json,Hair Dryer,Personal Care,Bogotá Centro,Bogotá,Central,0.0,No Campaign,135000,0.0,135000.0,2026-04,18,Wednesday,25000000
+L00311,2026-04-05,S02,P013,1,220000,PROMO20,Transfer,sales_bogota.json,Hair Dryer,Personal Care,Bogotá Centro,Bogotá,Central,0.2,Personal Care Month,220000,44000.0,176000.0,2026-04,14,Sunday,25000000
+L00312,2026-04-15,S02,P005,1,220000,NONE,Transfer,sales_bogota.json,Wireless Headphones,Electronics,Bogotá Centro,Bogotá,Central,0.0,No Campaign,220000,0.0,220000.0,2026-04,16,Wednesday,25000000
+L00313,2026-04-08,S02,P005,1,220000,NONE,Card,sales_bogota.json,Wireless Headphones,Electronics,Bogotá Centro,Bogotá,Central,0.0,No Campaign,220000,0.0,220000.0,2026-04,15,Wednesday,25000000
+L00314,2026-04-28,S02,P011,1,138000,NONE,Transfer,sales_bogota.json,Keyboard Compact,Home & Office,Bogotá Centro,Bogotá,Central,0.0,No Campaign,138000,0.0,138000.0,2026-04,18,Tuesday,25000000
+L00315,2026-03-07,S02,P014,2,198000,NONE,Transfer,sales_bogota.json,Electric Shaver,Personal Care,Bogotá Centro,Bogotá,Central,0.0,No Campaign,396000,0.0,396000.0,2026-03,10,Saturday,24000000
+L00316,2026-02-17,S02,P002,1,285000,NONE,Card,sales_bogota.json,Coffee Maker Premium,Small Appliances,Bogotá Centro,Bogotá,Central,0.0,No Campaign,285000,0.0,285000.0,2026-02,8,Tuesday,23000000
+L00317,2026-02-26,S02,P002,1,285000,NONE,Transfer,sales_bogota.json,Coffee Maker Premium,Small Appliances,Bogotá Centro,Bogotá,Central,0.0,No Campaign,285000,0.0,285000.0,2026-02,9,Thursday,23000000
+L00318,2026-04-19,S02,P004,1,390000,NONE,Cash,sales_bogota.json,Air Fryer 4L,Small Appliances,Bogotá Centro,Bogotá,Central,0.0,No Campaign,390000,0.0,390000.0,2026-04,16,Sunday,25000000
+L00319,2026-02-17,S02,P015,1,86000,NONE,Transfer,sales_bogota.json,Digital Scale,Personal Care,Bogotá Centro,Bogotá,Central,0.0,No Campaign,86000,0.0,86000.0,2026-02,8,Tuesday,23000000
+L00320,2026-03-04,S02,P008,2,78000,NONE,Cash,sales_bogota.json,USB-C Charger,Electronics,Bogotá Centro,Bogotá,Central,0.0,No Campaign,156000,0.0,156000.0,2026-03,10,Wednesday,24000000
+L00321,2026-02-10,S02,P010,2,115000,NONE,Card,sales_bogota.json,Ergonomic Mouse,Home & Office,Bogotá Centro,Bogotá,Central,0.0,No Campaign,230000,0.0,230000.0,2026-02,7,Tuesday,23000000
+L00322,2026-02-21,S02,P013,1,135000,NONE,Transfer,sales_bogota.json,Hair Dryer,Personal Care,Bogotá Centro,Bogotá,Central,0.0,No Campaign,135000,0.0,135000.0,2026-02,8,Saturday,23000000
+L00323,2026-02-02,S02,P010,1,115000,NONE,Card,sales_bogota.json,Ergonomic Mouse,Home & Office,Bogotá Centro,Bogotá,Central,0.0,No Campaign,115000,0.0,115000.0,2026-02,6,Monday,23000000
+L00324,2026-03-10,S02,P009,1,92000,NONE,Transfer,sales_bogota.json,Desk Lamp LED,Home & Office,Bogotá Centro,Bogotá,Central,0.0,No Campaign,92000,0.0,92000.0,2026-03,11,Tuesday,24000000
+L00325,2026-02-23,S02,P009,2,92000,NONE,Card,sales_bogota.json,Desk Lamp LED,Home & Office,Bogotá Centro,Bogotá,Central,0.0,No Campaign,184000,0.0,184000.0,2026-02,9,Monday,23000000
+L00326,2026-03-29,S02,P002,2,285000,NONE,Cash,sales_bogota.json,Coffee Maker Premium,Small Appliances,Bogotá Centro,Bogotá,Central,0.0,No Campaign,570000,0.0,570000.0,2026-03,13,Sunday,24000000
+L00327,2026-03-20,S02,P013,2,135000,NONE,Transfer,sales_bogota.json,Hair Dryer,Personal Care,Bogotá Centro,Bogotá,Central,0.0,No Campaign,270000,0.0,270000.0,2026-03,12,Friday,24000000
+L00328,2026-03-09,S02,P003,1,175000,NONE,Card,sales_bogota.json,Blender 500W,Small Appliances,Bogotá Centro,Bogotá,Central,0.0,No Campaign,175000,0.0,175000.0,2026-03,11,Monday,24000000
+L00329,2026-02-16,S02,P012,1,35000,NONE,Cash,sales_bogota.json,Notebook Pack,Home & Office,Bogotá Centro,Bogotá,Central,0.0,No Campaign,35000,0.0,35000.0,2026-02,8,Monday,23000000
+L00330,2026-04-27,S02,P009,1,92000,NONE,Card,sales_bogota.json,Desk Lamp LED,Home & Office,Bogotá Centro,Bogotá,Central,0.0,No Campaign,92000,0.0,92000.0,2026-04,18,Monday,25000000
+L00331,2026-03-27,S02,P002,1,285000,NONE,Card,sales_bogota.json,Coffee Maker Premium,Small Appliances,Bogotá Centro,Bogotá,Central,0.0,No Campaign,285000,0.0,285000.0,2026-03,13,Friday,24000000
+L00332,2026-02-16,S02,P005,1,220000,NONE,Card,sales_bogota.json,Wireless Headphones,Electronics,Bogotá Centro,Bogotá,Central,0.0,No Campaign,220000,0.0,220000.0,2026-02,8,Monday,23000000
+L00333,2026-03-06,S02,P002,1,285000,NONE,Cash,sales_bogota.json,Coffee Maker Premium,Small Appliances,Bogotá Centro,Bogotá,Central,0.0,No Campaign,285000,0.0,285000.0,2026-03,10,Friday,24000000
+L00334,2026-02-24,S02,P004,1,390000,NONE,Card,sales_bogota.json,Air Fryer 4L,Small Appliances,Bogotá Centro,Bogotá,Central,0.0,No Campaign,390000,0.0,390000.0,2026-02,9,Tuesday,23000000
+L00335,2026-03-12,S02,P009,1,92000,NONE,Card,sales_bogota.json,Desk Lamp LED,Home & Office,Bogotá Centro,Bogotá,Central,0.0,No Campaign,92000,0.0,92000.0,2026-03,11,Thursday,24000000
+L00336,2026-04-11,S02,P013,1,135000,PROMO20,Card,sales_bogota.json,Hair Dryer,Personal Care,Bogotá Centro,Bogotá,Central,0.2,Personal Care Month,135000,27000.0,108000.0,2026-04,15,Saturday,25000000
+L00337,2026-03-16,S02,P001,1,145000,NONE,Card,sales_bogota.json,Coffee Maker Basic,Small Appliances,Bogotá Centro,Bogotá,Central,0.0,No Campaign,145000,0.0,145000.0,2026-03,12,Monday,24000000
+L00338,2026-04-17,S02,P003,1,175000,NONE,Transfer,sales_bogota.json,Blender 500W,Small Appliances,Bogotá Centro,Bogotá,Central,0.0,No Campaign,175000,0.0,175000.0,2026-04,16,Friday,25000000
+L00339,2026-03-23,S02,P012,2,35000,NONE,Cash,sales_bogota.json,Notebook Pack,Home & Office,Bogotá Centro,Bogotá,Central,0.0,No Campaign,70000,0.0,70000.0,2026-03,13,Monday,24000000
+L00340,2026-04-07,S02,P008,2,78000,NONE,Transfer,sales_bogota.json,USB-C Charger,Electronics,Bogotá Centro,Bogotá,Central,0.0,No Campaign,156000,0.0,156000.0,2026-04,15,Tuesday,25000000
+L00341,2026-02-17,S02,P015,1,86000,NONE,Transfer,sales_bogota.json,Digital Scale,Personal Care,Bogotá Centro,Bogotá,Central,0.0,No Campaign,86000,0.0,86000.0,2026-02,8,Tuesday,23000000
+L00342,2026-04-16,S02,P011,2,138000,NONE,Card,sales_bogota.json,Keyboard Compact,Home & Office,Bogotá Centro,Bogotá,Central,0.0,No Campaign,276000,0.0,276000.0,2026-04,16,Thursday,25000000
+L00343,2026-02-14,S02,P002,3,285000,NONE,Cash,sales_bogota.json,Coffee Maker Premium,Small Appliances,Bogotá Centro,Bogotá,Central,0.0,No Campaign,855000,0.0,855000.0,2026-02,7,Saturday,23000000
+L00344,2026-04-25,S02,P009,1,92000,NONE,Card,sales_bogota.json,Desk Lamp LED,Home & Office,Bogotá Centro,Bogotá,Central,0.0,No Campaign,92000,0.0,92000.0,2026-04,17,Saturday,25000000
+L00345,2026-02-26,S02,P015,1,86000,NONE,Cash,sales_bogota.json,Digital Scale,Personal Care,Bogotá Centro,Bogotá,Central,0.0,No Campaign,86000,0.0,86000.0,2026-02,9,Thursday,23000000
+L00346,2026-02-04,S02,P003,1,175000,NONE,Transfer,sales_bogota.json,Blender 500W,Small Appliances,Bogotá Centro,Bogotá,Central,0.0,No Campaign,175000,0.0,175000.0,2026-02,6,Wednesday,23000000
+L00347,2026-02-13,S02,P002,2,285000,NONE,Card,sales_bogota.json,Coffee Maker Premium,Small Appliances,Bogotá Centro,Bogotá,Central,0.0,No Campaign,570000,0.0,570000.0,2026-02,7,Friday,23000000
+L00348,2026-04-13,S02,P014,2,198000,NONE,Cash,sales_bogota.json,Electric Shaver,Personal Care,Bogotá Centro,Bogotá,Central,0.0,No Campaign,396000,0.0,396000.0,2026-04,16,Monday,25000000
+L00349,2026-02-18,S02,P010,1,115000,NONE,Card,sales_bogota.json,Ergonomic Mouse,Home & Office,Bogotá Centro,Bogotá,Central,0.0,No Campaign,115000,0.0,115000.0,2026-02,8,Wednesday,23000000
+L00350,2026-04-30,S02,P004,1,390000,NONE,Transfer,sales_bogota.json,Air Fryer 4L,Small Appliances,Bogotá Centro,Bogotá,Central,0.0,No Campaign,390000,0.0,390000.0,2026-04,18,Thursday,25000000
+L00351,2026-04-06,S02,P010,3,115000,NONE,Cash,sales_bogota.json,Ergonomic Mouse,Home & Office,Bogotá Centro,Bogotá,Central,0.0,No Campaign,345000,0.0,345000.0,2026-04,15,Monday,25000000
+L00352,2026-03-28,S02,P010,1,115000,NONE,Transfer,sales_bogota.json,Ergonomic Mouse,Home & Office,Bogotá Centro,Bogotá,Central,0.0,No Campaign,115000,0.0,115000.0,2026-03,13,Saturday,24000000
+L00353,2026-02-08,S02,P013,1,135000,NONE,Cash,sales_bogota.json,Hair Dryer,Personal Care,Bogotá Centro,Bogotá,Central,0.0,No Campaign,135000,0.0,135000.0,2026-02,6,Sunday,23000000
+L00354,2026-02-06,S02,P010,2,115000,NONE,Cash,sales_bogota.json,Ergonomic Mouse,Home & Office,Bogotá Centro,Bogotá,Central,0.0,No Campaign,230000,0.0,230000.0,2026-02,6,Friday,23000000
+L00355,2026-03-29,S02,P013,1,135000,NONE,Cash,sales_bogota.json,Hair Dryer,Personal Care,Bogotá Centro,Bogotá,Central,0.0,No Campaign,135000,0.0,135000.0,2026-03,13,Sunday,24000000
+L00356,2026-02-17,S02,P012,1,35000,NONE,Transfer,sales_bogota.json,Notebook Pack,Home & Office,Bogotá Centro,Bogotá,Central,0.0,No Campaign,35000,0.0,35000.0,2026-02,8,Tuesday,23000000
+L00357,2026-02-23,S02,P009,2,92000,PROMO08,Transfer,sales_bogota.json,Desk Lamp LED,Home & Office,Bogotá Centro,Bogotá,Central,0.08,Home Office,184000,14720.0,169280.0,2026-02,9,Monday,23000000
+L00358,2026-03-11,S02,P014,1,198000,NONE,Cash,sales_bogota.json,Electric Shaver,Personal Care,Bogotá Centro,Bogotá,Central,0.0,No Campaign,198000,0.0,198000.0,2026-03,11,Wednesday,24000000
+L00359,2026-04-08,S02,P011,1,138000,NONE,Cash,sales_bogota.json,Keyboard Compact,Home & Office,Bogotá Centro,Bogotá,Central,0.0,No Campaign,138000,0.0,138000.0,2026-04,15,Wednesday,25000000
+L00360,2026-03-23,S02,P009,1,92000,NONE,Cash,sales_bogota.json,Desk Lamp LED,Home & Office,Bogotá Centro,Bogotá,Central,0.0,No Campaign,92000,0.0,92000.0,2026-03,13,Monday,24000000
+L00361,2026-04-19,S02,P006,3,165000,NONE,Card,sales_bogota.json,Bluetooth Speaker,Electronics,Bogotá Centro,Bogotá,Central,0.0,No Campaign,495000,0.0,495000.0,2026-04,16,Sunday,25000000
+L00362,2026-04-23,S02,P011,1,138000,NONE,Card,sales_bogota.json,Keyboard Compact,Home & Office,Bogotá Centro,Bogotá,Central,0.0,No Campaign,138000,0.0,138000.0,2026-04,17,Thursday,25000000
+L00363,2026-02-06,S02,P009,1,92000,NONE,Card,sales_bogota.json,Desk Lamp LED,Home & Office,Bogotá Centro,Bogotá,Central,0.0,No Campaign,92000,0.0,92000.0,2026-02,6,Friday,23000000
+L00364,2026-04-03,S02,P008,1,78000,NONE,Transfer,sales_bogota.json,USB-C Charger,Electronics,Bogotá Centro,Bogotá,Central,0.0,No Campaign,78000,0.0,78000.0,2026-04,14,Friday,25000000
+L00365,2026-02-22,S02,P009,2,92000,NONE,Card,sales_bogota.json,Desk Lamp LED,Home & Office,Bogotá Centro,Bogotá,Central,0.0,No Campaign,184000,0.0,184000.0,2026-02,8,Sunday,23000000
+L00366,2026-02-01,S02,P001,1,145000,NONE,Transfer,sales_bogota.json,Coffee Maker Basic,Small Appliances,Bogotá Centro,Bogotá,Central,0.0,No Campaign,145000,0.0,145000.0,2026-02,5,Sunday,23000000
+L00367,2026-03-07,S02,P015,1,86000,NONE,Cash,sales_bogota.json,Digital Scale,Personal Care,Bogotá Centro,Bogotá,Central,0.0,No Campaign,86000,0.0,86000.0,2026-03,10,Saturday,24000000
+L00368,2026-04-27,S02,P012,2,35000,NONE,Card,sales_bogota.json,Notebook Pack,Home & Office,Bogotá Centro,Bogotá,Central,0.0,No Campaign,70000,0.0,70000.0,2026-04,18,Monday,25000000
+L00369,2026-04-12,S02,P004,2,390000,NONE,Transfer,sales_bogota.json,Air Fryer 4L,Small Appliances,Bogotá Centro,Bogotá,Central,0.0,No Campaign,780000,0.0,780000.0,2026-04,15,Sunday,25000000
+L00370,2026-04-01,S02,P014,1,198000,NONE,Cash,sales_bogota.json,Electric Shaver,Personal Care,Bogotá Centro,Bogotá,Central,0.0,No Campaign,198000,0.0,198000.0,2026-04,14,Wednesday,25000000
+L00371,2026-02-15,S02,P010,1,115000,NONE,Transfer,sales_bogota.json,Ergonomic Mouse,Home & Office,Bogotá Centro,Bogotá,Central,0.0,No Campaign,115000,0.0,115000.0,2026-02,7,Sunday,23000000
+L00372,2026-04-01,S02,P008,2,78000,NONE,Card,sales_bogota.json,USB-C Charger,Electronics,Bogotá Centro,Bogotá,Central,0.0,No Campaign,156000,0.0,156000.0,2026-04,14,Wednesday,25000000
+L00373,2026-03-05,S02,P005,1,220000,NONE,Card,sales_bogota.json,Wireless Headphones,Electronics,Bogotá Centro,Bogotá,Central,0.0,No Campaign,220000,0.0,220000.0,2026-03,10,Thursday,24000000
+L00374,2026-03-02,S02,P012,1,35000,NONE,Card,sales_bogota.json,Notebook Pack,Home & Office,Bogotá Centro,Bogotá,Central,0.0,No Campaign,35000,0.0,35000.0,2026-03,10,Monday,24000000
+L00375,2026-02-20,S02,P012,1,35000,NONE,Card,sales_bogota.json,Notebook Pack,Home & Office,Bogotá Centro,Bogotá,Central,0.0,No Campaign,35000,0.0,35000.0,2026-02,8,Friday,23000000
+L00376,2026-04-14,S02,P012,2,35000,NONE,Cash,sales_bogota.json,Notebook Pack,Home & Office,Bogotá Centro,Bogotá,Central,0.0,No Campaign,70000,0.0,70000.0,2026-04,16,Tuesday,25000000
+L00377,2026-04-22,S02,P009,1,92000,NONE,Card,sales_bogota.json,Desk Lamp LED,Home & Office,Bogotá Centro,Bogotá,Central,0.0,No Campaign,92000,0.0,92000.0,2026-04,17,Wednesday,25000000
+L00378,2026-04-12,S02,P009,1,92000,NONE,Card,sales_bogota.json,Desk Lamp LED,Home & Office,Bogotá Centro,Bogotá,Central,0.0,No Campaign,92000,0.0,92000.0,2026-04,15,Sunday,25000000
+L00379,2026-03-31,S02,P009,3,92000,NONE,Cash,sales_bogota.json,Desk Lamp LED,Home & Office,Bogotá Centro,Bogotá,Central,0.0,No Campaign,276000,0.0,276000.0,2026-03,14,Tuesday,24000000
+L00380,2026-04-01,S02,P011,1,138000,NONE,Cash,sales_bogota.json,Keyboard Compact,Home & Office,Bogotá Centro,Bogotá,Central,0.0,No Campaign,138000,0.0,138000.0,2026-04,14,Wednesday,25000000
+L00381,2026-02-28,S02,P009,1,92000,PROMO08,Card,sales_bogota.json,Desk Lamp LED,Home & Office,Bogotá Centro,Bogotá,Central,0.08,Home Office,92000,7360.0,84640.0,2026-02,9,Saturday,23000000
+L00382,2026-03-05,S02,P007,2,310000,NONE,Card,sales_bogota.json,Smartwatch Active,Electronics,Bogotá Centro,Bogotá,Central,0.0,No Campaign,620000,0.0,620000.0,2026-03,10,Thursday,24000000
+L00383,2026-03-09,S02,P013,2,135000,NONE,Cash,sales_bogota.json,Hair Dryer,Personal Care,Bogotá Centro,Bogotá,Central,0.0,No Campaign,270000,0.0,270000.0,2026-03,11,Monday,24000000
+L00384,2026-03-14,S02,P001,3,145000,NONE,Transfer,sales_bogota.json,Coffee Maker Basic,Small Appliances,Bogotá Centro,Bogotá,Central,0.0,No Campaign,435000,0.0,435000.0,2026-03,11,Saturday,24000000
+L00385,2026-02-10,S02,P004,1,390000,NONE,Card,sales_bogota.json,Air Fryer 4L,Small Appliances,Bogotá Centro,Bogotá,Central,0.0,No Campaign,390000,0.0,390000.0,2026-02,7,Tuesday,23000000
+L00386,2026-03-27,S02,P008,1,78000,NONE,Cash,sales_bogota.json,USB-C Charger,Electronics,Bogotá Centro,Bogotá,Central,0.0,No Campaign,78000,0.0,78000.0,2026-03,13,Friday,24000000
+L00387,2026-04-29,S02,P011,1,138000,NONE,Cash,sales_bogota.json,Keyboard Compact,Home & Office,Bogotá Centro,Bogotá,Central,0.0,No Campaign,138000,0.0,138000.0,2026-04,18,Wednesday,25000000
+L00388,2026-02-14,S02,P008,1,78000,NONE,Card,sales_bogota.json,USB-C Charger,Electronics,Bogotá Centro,Bogotá,Central,0.0,No Campaign,78000,0.0,78000.0,2026-02,7,Saturday,23000000
+L00389,2026-02-15,S02,P012,1,35000,NONE,Cash,sales_bogota.json,Notebook Pack,Home & Office,Bogotá Centro,Bogotá,Central,0.0,No Campaign,35000,0.0,35000.0,2026-02,7,Sunday,23000000
+L00390,2026-03-03,S02,P008,1,78000,NONE,Card,sales_bogota.json,USB-C Charger,Electronics,Bogotá Centro,Bogotá,Central,0.0,No Campaign,78000,0.0,78000.0,2026-03,10,Tuesday,24000000
+L00391,2026-04-18,S02,P015,2,86000,NONE,Cash,sales_bogota.json,Digital Scale,Personal Care,Bogotá Centro,Bogotá,Central,0.0,No Campaign,172000,0.0,172000.0,2026-04,16,Saturday,25000000
+L00392,2026-04-26,S02,P011,1,138000,NONE,Card,sales_bogota.json,Keyboard Compact,Home & Office,Bogotá Centro,Bogotá,Central,0.0,No Campaign,138000,0.0,138000.0,2026-04,17,Sunday,25000000
+L00393,2026-04-14,S02,P013,1,135000,PROMO20,Cash,sales_bogota.json,Hair Dryer,Personal Care,Bogotá Centro,Bogotá,Central,0.2,Personal Care Month,135000,27000.0,108000.0,2026-04,16,Tuesday,25000000
+L00394,2026-03-26,S02,P002,1,285000,NONE,Transfer,sales_bogota.json,Coffee Maker Premium,Small Appliances,Bogotá Centro,Bogotá,Central,0.0,No Campaign,285000,0.0,285000.0,2026-03,13,Thursday,24000000
+L00395,2026-04-27,S02,P004,2,390000,NONE,Card,sales_bogota.json,Air Fryer 4L,Small Appliances,Bogotá Centro,Bogotá,Central,0.0,No Campaign,780000,0.0,780000.0,2026-04,18,Monday,25000000
+L00396,2026-02-17,S02,P011,1,138000,NONE,Card,sales_bogota.json,Keyboard Compact,Home & Office,Bogotá Centro,Bogotá,Central,0.0,No Campaign,138000,0.0,138000.0,2026-02,8,Tuesday,23000000
+L00397,2026-03-13,S02,P008,1,78000,NONE,Card,sales_bogota.json,USB-C Charger,Electronics,Bogotá Centro,Bogotá,Central,0.0,No Campaign,78000,0.0,78000.0,2026-03,11,Friday,24000000
+L00398,2026-02-03,S02,P008,2,78000,NONE,Card,sales_bogota.json,USB-C Charger,Electronics,Bogotá Centro,Bogotá,Central,0.0,No Campaign,156000,0.0,156000.0,2026-02,6,Tuesday,23000000
+L00399,2026-04-20,S02,P003,1,175000,NONE,Card,sales_bogota.json,Blender 500W,Small Appliances,Bogotá Centro,Bogotá,Central,0.0,No Campaign,175000,0.0,175000.0,2026-04,17,Monday,25000000
+L00400,2026-02-15,S02,P001,2,145000,PROMO10,Transfer,sales_bogota.json,Coffee Maker Basic,Small Appliances,Bogotá Centro,Bogotá,Central,0.1,Coffee Week,290000,29000.0,261000.0,2026-02,7,Sunday,23000000
+L00401,2026-03-28,S02,P012,1,35000,NONE,Transfer,sales_bogota.json,Notebook Pack,Home & Office,Bogotá Centro,Bogotá,Central,0.0,No Campaign,35000,0.0,35000.0,2026-03,13,Saturday,24000000
+L00402,2026-03-07,S02,P004,1,390000,PROMO15,Card,sales_bogota.json,Air Fryer 4L,Small Appliances,Bogotá Centro,Bogotá,Central,0.15,Kitchen Days,390000,58500.0,331500.0,2026-03,10,Saturday,24000000
+L00403,2026-04-08,S02,P008,1,78000,NONE,Cash,sales_bogota.json,USB-C Charger,Electronics,Bogotá Centro,Bogotá,Central,0.0,No Campaign,78000,0.0,78000.0,2026-04,15,Wednesday,25000000
+L00404,2026-03-18,S02,P005,2,220000,PROMO12,Transfer,sales_bogota.json,Wireless Headphones,Electronics,Bogotá Centro,Bogotá,Central,0.12,Audio Campaign,440000,52800.0,387200.0,2026-03,12,Wednesday,24000000
+L00405,2026-04-27,S02,P005,1,220000,NONE,Card,sales_bogota.json,Wireless Headphones,Electronics,Bogotá Centro,Bogotá,Central,0.0,No Campaign,220000,0.0,220000.0,2026-04,18,Monday,25000000
+L00406,2026-02-25,S02,P003,1,175000,NONE,Transfer,sales_bogota.json,Blender 500W,Small Appliances,Bogotá Centro,Bogotá,Central,0.0,No Campaign,175000,0.0,175000.0,2026-02,9,Wednesday,23000000
+L00407,2026-04-28,S02,P010,1,115000,NONE,Card,sales_bogota.json,Ergonomic Mouse,Home & Office,Bogotá Centro,Bogotá,Central,0.0,No Campaign,115000,0.0,115000.0,2026-04,18,Tuesday,25000000
+L00408,2026-04-20,S02,P005,1,220000,NONE,Transfer,sales_bogota.json,Wireless Headphones,Electronics,Bogotá Centro,Bogotá,Central,0.0,No Campaign,220000,0.0,220000.0,2026-04,17,Monday,25000000
+L00409,2026-02-26,S02,P007,1,310000,NONE,Card,sales_bogota.json,Smartwatch Active,Electronics,Bogotá Centro,Bogotá,Central,0.0,No Campaign,310000,0.0,310000.0,2026-02,9,Thursday,23000000
+L00410,2026-03-03,S02,P005,2,220000,NONE,Card,sales_bogota.json,Wireless Headphones,Electronics,Bogotá Centro,Bogotá,Central,0.0,No Campaign,440000,0.0,440000.0,2026-03,10,Tuesday,24000000
+L00411,2026-04-17,S02,P004,2,390000,NONE,Transfer,sales_bogota.json,Air Fryer 4L,Small Appliances,Bogotá Centro,Bogotá,Central,0.0,No Campaign,780000,0.0,780000.0,2026-04,16,Friday,25000000
+L00412,2026-03-27,S02,P009,2,92000,NONE,Card,sales_bogota.json,Desk Lamp LED,Home & Office,Bogotá Centro,Bogotá,Central,0.0,No Campaign,184000,0.0,184000.0,2026-03,13,Friday,24000000
+L00413,2026-04-02,S02,P013,2,135000,PROMO20,Transfer,sales_bogota.json,Hair Dryer,Personal Care,Bogotá Centro,Bogotá,Central,0.2,Personal Care Month,270000,54000.0,216000.0,2026-04,14,Thursday,25000000
+L00414,2026-03-14,S02,P001,1,145000,NONE,Cash,sales_bogota.json,Coffee Maker Basic,Small Appliances,Bogotá Centro,Bogotá,Central,0.0,No Campaign,145000,0.0,145000.0,2026-03,11,Saturday,24000000
+L00415,2026-03-24,S02,P014,2,198000,NONE,Transfer,sales_bogota.json,Electric Shaver,Personal Care,Bogotá Centro,Bogotá,Central,0.0,No Campaign,396000,0.0,396000.0,2026-03,13,Tuesday,24000000
+L00416,2026-03-10,S02,P015,2,86000,NONE,Cash,sales_bogota.json,Digital Scale,Personal Care,Bogotá Centro,Bogotá,Central,0.0,No Campaign,172000,0.0,172000.0,2026-03,11,Tuesday,24000000
+L00417,2026-04-10,S02,P013,1,135000,PROMO20,Cash,sales_bogota.json,Hair Dryer,Personal Care,Bogotá Centro,Bogotá,Central,0.2,Personal Care Month,135000,27000.0,108000.0,2026-04,15,Friday,25000000
+L00418,2026-02-20,S02,P005,3,220000,NONE,Cash,sales_bogota.json,Wireless Headphones,Electronics,Bogotá Centro,Bogotá,Central,0.0,No Campaign,660000,0.0,660000.0,2026-02,8,Friday,23000000
+L00419,2026-04-05,S02,P012,1,35000,NONE,Cash,sales_bogota.json,Notebook Pack,Home & Office,Bogotá Centro,Bogotá,Central,0.0,No Campaign,35000,0.0,35000.0,2026-04,14,Sunday,25000000
+L00420,2026-04-07,S02,P004,2,390000,NONE,Card,sales_bogota.json,Air Fryer 4L,Small Appliances,Bogotá Centro,Bogotá,Central,0.0,No Campaign,780000,0.0,780000.0,2026-04,15,Tuesday,25000000
+L00421,2026-02-22,S02,P008,1,78000,NONE,Transfer,sales_bogota.json,USB-C Charger,Electronics,Bogotá Centro,Bogotá,Central,0.0,No Campaign,78000,0.0,78000.0,2026-02,8,Sunday,23000000
+L00422,2026-02-09,S02,P013,1,135000,NONE,Transfer,sales_bogota.json,Hair Dryer,Personal Care,Bogotá Centro,Bogotá,Central,0.0,No Campaign,135000,0.0,135000.0,2026-02,7,Monday,23000000
+L00423,2026-02-17,S02,P012,2,35000,NONE,Card,sales_bogota.json,Notebook Pack,Home & Office,Bogotá Centro,Bogotá,Central,0.0,No Campaign,70000,0.0,70000.0,2026-02,8,Tuesday,23000000
+L00424,2026-04-11,S02,P009,1,92000,NONE,Transfer,sales_bogota.json,Desk Lamp LED,Home & Office,Bogotá Centro,Bogotá,Central,0.0,No Campaign,92000,0.0,92000.0,2026-04,15,Saturday,25000000
+L00425,2026-04-25,S02,P005,2,220000,NONE,Transfer,sales_bogota.json,Wireless Headphones,Electronics,Bogotá Centro,Bogotá,Central,0.0,No Campaign,440000,0.0,440000.0,2026-04,17,Saturday,25000000
+L00426,2026-02-08,S02,P013,1,135000,NONE,Transfer,sales_bogota.json,Hair Dryer,Personal Care,Bogotá Centro,Bogotá,Central,0.0,No Campaign,135000,0.0,135000.0,2026-02,6,Sunday,23000000
+L00427,2026-02-21,S02,P006,3,165000,NONE,Transfer,sales_bogota.json,Bluetooth Speaker,Electronics,Bogotá Centro,Bogotá,Central,0.0,No Campaign,495000,0.0,495000.0,2026-02,8,Saturday,23000000
+L00428,2026-03-15,S02,P008,2,78000,NONE,Card,sales_bogota.json,USB-C Charger,Electronics,Bogotá Centro,Bogotá,Central,0.0,No Campaign,156000,0.0,156000.0,2026-03,11,Sunday,24000000
+L00429,2026-04-17,S02,P005,1,220000,NONE,Card,sales_bogota.json,Wireless Headphones,Electronics,Bogotá Centro,Bogotá,Central,0.0,No Campaign,220000,0.0,220000.0,2026-04,16,Friday,25000000
+L00430,2026-04-08,S02,P008,1,78000,NONE,Transfer,sales_bogota.json,USB-C Charger,Electronics,Bogotá Centro,Bogotá,Central,0.0,No Campaign,78000,0.0,78000.0,2026-04,15,Wednesday,25000000
+L00431,2026-03-20,S02,P005,1,220000,PROMO12,Cash,sales_bogota.json,Wireless Headphones,Electronics,Bogotá Centro,Bogotá,Central,0.12,Audio Campaign,220000,26400.0,193600.0,2026-03,12,Friday,24000000
+L00432,2026-04-22,S02,P006,1,165000,NONE,Cash,sales_bogota.json,Bluetooth Speaker,Electronics,Bogotá Centro,Bogotá,Central,0.0,No Campaign,165000,0.0,165000.0,2026-04,17,Wednesday,25000000
+L00433,2026-02-17,S02,P003,1,175000,NONE,Card,sales_bogota.json,Blender 500W,Small Appliances,Bogotá Centro,Bogotá,Central,0.0,No Campaign,175000,0.0,175000.0,2026-02,8,Tuesday,23000000
+L00434,2026-02-19,S02,P009,1,92000,NONE,Transfer,sales_bogota.json,Desk Lamp LED,Home & Office,Bogotá Centro,Bogotá,Central,0.0,No Campaign,92000,0.0,92000.0,2026-02,8,Thursday,23000000
+L00435,2026-04-14,S02,P007,1,310000,PROMO10B,Card,sales_bogota.json,Smartwatch Active,Electronics,Bogotá Centro,Bogotá,Central,0.1,Wearables Week,310000,31000.0,279000.0,2026-04,16,Tuesday,25000000
+L00436,2026-04-05,S02,P003,2,175000,NONE,Cash,sales_bogota.json,Blender 500W,Small Appliances,Bogotá Centro,Bogotá,Central,0.0,No Campaign,350000,0.0,350000.0,2026-04,14,Sunday,25000000
+L00437,2026-02-25,S02,P002,1,285000,NONE,Cash,sales_bogota.json,Coffee Maker Premium,Small Appliances,Bogotá Centro,Bogotá,Central,0.0,No Campaign,285000,0.0,285000.0,2026-02,9,Wednesday,23000000
+L00438,2026-04-29,S02,P008,2,78000,NONE,Card,sales_bogota.json,USB-C Charger,Electronics,Bogotá Centro,Bogotá,Central,0.0,No Campaign,156000,0.0,156000.0,2026-04,18,Wednesday,25000000
+L00439,2026-02-19,S02,P013,1,135000,NONE,Card,sales_bogota.json,Hair Dryer,Personal Care,Bogotá Centro,Bogotá,Central,0.0,No Campaign,135000,0.0,135000.0,2026-02,8,Thursday,23000000
+L00440,2026-03-10,S02,P010,1,115000,NONE,Transfer,sales_bogota.json,Ergonomic Mouse,Home & Office,Bogotá Centro,Bogotá,Central,0.0,No Campaign,115000,0.0,115000.0,2026-03,11,Tuesday,24000000
+L00441,2026-04-10,S02,P009,2,92000,NONE,Card,sales_bogota.json,Desk Lamp LED,Home & Office,Bogotá Centro,Bogotá,Central,0.0,No Campaign,184000,0.0,184000.0,2026-04,15,Friday,25000000
+L00442,2026-03-03,S02,P012,1,35000,NONE,Cash,sales_bogota.json,Notebook Pack,Home & Office,Bogotá Centro,Bogotá,Central,0.0,No Campaign,35000,0.0,35000.0,2026-03,10,Tuesday,24000000
+L00443,2026-04-08,S02,P010,1,115000,NONE,Card,sales_bogota.json,Ergonomic Mouse,Home & Office,Bogotá Centro,Bogotá,Central,0.0,No Campaign,115000,0.0,115000.0,2026-04,15,Wednesday,25000000
+L00444,2026-03-08,S02,P002,1,285000,NONE,Transfer,sales_bogota.json,Coffee Maker Premium,Small Appliances,Bogotá Centro,Bogotá,Central,0.0,No Campaign,285000,0.0,285000.0,2026-03,10,Sunday,24000000
+L00445,2026-04-27,S02,P009,2,92000,NONE,Card,sales_bogota.json,Desk Lamp LED,Home & Office,Bogotá Centro,Bogotá,Central,0.0,No Campaign,184000,0.0,184000.0,2026-04,18,Monday,25000000
+L00446,2026-02-16,S02,P002,2,285000,NONE,Cash,sales_bogota.json,Coffee Maker Premium,Small Appliances,Bogotá Centro,Bogotá,Central,0.0,No Campaign,570000,0.0,570000.0,2026-02,8,Monday,23000000
+L00447,2026-04-03,S02,P008,3,78000,NONE,Cash,sales_bogota.json,USB-C Charger,Electronics,Bogotá Centro,Bogotá,Central,0.0,No Campaign,234000,0.0,234000.0,2026-04,14,Friday,25000000
+L00448,2026-03-10,S02,P009,1,92000,PROMO08,Transfer,sales_bogota.json,Desk Lamp LED,Home & Office,Bogotá Centro,Bogotá,Central,0.08,Home Office,92000,7360.0,84640.0,2026-03,11,Tuesday,24000000
+L00449,2026-02-01,S02,P001,2,145000,NONE,Cash,sales_bogota.json,Coffee Maker Basic,Small Appliances,Bogotá Centro,Bogotá,Central,0.0,No Campaign,290000,0.0,290000.0,2026-02,5,Sunday,23000000
+L00450,2026-04-20,S02,P010,2,115000,NONE,Card,sales_bogota.json,Ergonomic Mouse,Home & Office,Bogotá Centro,Bogotá,Central,0.0,No Campaign,230000,0.0,230000.0,2026-04,17,Monday,25000000
+L00451,2026-03-15,S02,P001,3,145000,NONE,Cash,sales_bogota.json,Coffee Maker Basic,Small Appliances,Bogotá Centro,Bogotá,Central,0.0,No Campaign,435000,0.0,435000.0,2026-03,11,Sunday,24000000
+L00452,2026-02-07,S02,P010,1,115000,NONE,Cash,sales_bogota.json,Ergonomic Mouse,Home & Office,Bogotá Centro,Bogotá,Central,0.0,No Campaign,115000,0.0,115000.0,2026-02,6,Saturday,23000000
+L00453,2026-03-08,S02,P008,1,78000,NONE,Transfer,sales_bogota.json,USB-C Charger,Electronics,Bogotá Centro,Bogotá,Central,0.0,No Campaign,78000,0.0,78000.0,2026-03,10,Sunday,24000000
+L00454,2026-03-29,S02,P001,1,145000,NONE,Cash,sales_bogota.json,Coffee Maker Basic,Small Appliances,Bogotá Centro,Bogotá,Central,0.0,No Campaign,145000,0.0,145000.0,2026-03,13,Sunday,24000000
+L00455,2026-04-23,S02,P005,1,220000,NONE,Cash,sales_bogota.json,Wireless Headphones,Electronics,Bogotá Centro,Bogotá,Central,0.0,No Campaign,220000,0.0,220000.0,2026-04,17,Thursday,25000000
+L00456,2026-03-10,S02,P012,1,35000,NONE,Transfer,sales_bogota.json,Notebook Pack,Home & Office,Bogotá Centro,Bogotá,Central,0.0,No Campaign,35000,0.0,35000.0,2026-03,11,Tuesday,24000000
+L00457,2026-04-17,S02,P014,1,198000,NONE,Card,sales_bogota.json,Electric Shaver,Personal Care,Bogotá Centro,Bogotá,Central,0.0,No Campaign,198000,0.0,198000.0,2026-04,16,Friday,25000000
+L00458,2026-04-09,S02,P004,2,390000,NONE,Card,sales_bogota.json,Air Fryer 4L,Small Appliances,Bogotá Centro,Bogotá,Central,0.0,No Campaign,780000,0.0,780000.0,2026-04,15,Thursday,25000000
+L00459,2026-04-20,S02,P006,1,165000,NONE,Card,sales_bogota.json,Bluetooth Speaker,Electronics,Bogotá Centro,Bogotá,Central,0.0,No Campaign,165000,0.0,165000.0,2026-04,17,Monday,25000000
+L00460,2026-04-12,S02,P007,1,310000,PROMO10B,Card,sales_bogota.json,Smartwatch Active,Electronics,Bogotá Centro,Bogotá,Central,0.1,Wearables Week,310000,31000.0,279000.0,2026-04,15,Sunday,25000000
+L00461,2026-04-10,S02,P009,1,92000,NONE,Cash,sales_bogota.json,Desk Lamp LED,Home & Office,Bogotá Centro,Bogotá,Central,0.0,No Campaign,92000,0.0,92000.0,2026-04,15,Friday,25000000
+L00462,2026-02-21,S02,P008,3,78000,NONE,Transfer,sales_bogota.json,USB-C Charger,Electronics,Bogotá Centro,Bogotá,Central,0.0,No Campaign,234000,0.0,234000.0,2026-02,8,Saturday,23000000
+L00463,2026-02-24,S02,P008,2,78000,NONE,Transfer,sales_bogota.json,USB-C Charger,Electronics,Bogotá Centro,Bogotá,Central,0.0,No Campaign,156000,0.0,156000.0,2026-02,9,Tuesday,23000000
+L00464,2026-04-08,S02,P013,1,135000,NONE,Card,sales_bogota.json,Hair Dryer,Personal Care,Bogotá Centro,Bogotá,Central,0.0,No Campaign,135000,0.0,135000.0,2026-04,15,Wednesday,25000000
+L00465,2026-02-20,S02,P006,2,165000,NONE,Card,sales_bogota.json,Bluetooth Speaker,Electronics,Bogotá Centro,Bogotá,Central,0.0,No Campaign,330000,0.0,330000.0,2026-02,8,Friday,23000000
+L00466,2026-04-02,S02,P012,2,35000,NONE,Cash,sales_bogota.json,Notebook Pack,Home & Office,Bogotá Centro,Bogotá,Central,0.0,No Campaign,70000,0.0,70000.0,2026-04,14,Thursday,25000000
+L00467,2026-03-31,S02,P008,1,78000,NONE,Cash,sales_bogota.json,USB-C Charger,Electronics,Bogotá Centro,Bogotá,Central,0.0,No Campaign,78000,0.0,78000.0,2026-03,14,Tuesday,24000000
+L00468,2026-02-21,S02,P004,1,390000,NONE,Card,sales_bogota.json,Air Fryer 4L,Small Appliances,Bogotá Centro,Bogotá,Central,0.0,No Campaign,390000,0.0,390000.0,2026-02,8,Saturday,23000000
+L00469,2026-02-25,S02,P003,1,175000,NONE,Card,sales_bogota.json,Blender 500W,Small Appliances,Bogotá Centro,Bogotá,Central,0.0,No Campaign,175000,0.0,175000.0,2026-02,9,Wednesday,23000000
+L00470,2026-04-25,S02,P010,1,115000,NONE,Transfer,sales_bogota.json,Ergonomic Mouse,Home & Office,Bogotá Centro,Bogotá,Central,0.0,No Campaign,115000,0.0,115000.0,2026-04,17,Saturday,25000000
+L00471,2026-02-26,S02,P010,2,115000,NONE,Cash,sales_bogota.json,Ergonomic Mouse,Home & Office,Bogotá Centro,Bogotá,Central,0.0,No Campaign,230000,0.0,230000.0,2026-02,9,Thursday,23000000
+L00472,2026-03-10,S02,P005,1,220000,NONE,Transfer,sales_bogota.json,Wireless Headphones,Electronics,Bogotá Centro,Bogotá,Central,0.0,No Campaign,220000,0.0,220000.0,2026-03,11,Tuesday,24000000
+L00473,2026-04-27,S02,P014,3,198000,NONE,Cash,sales_bogota.json,Electric Shaver,Personal Care,Bogotá Centro,Bogotá,Central,0.0,No Campaign,594000,0.0,594000.0,2026-04,18,Monday,25000000
+L00474,2026-04-13,S02,P007,1,310000,NONE,Cash,sales_bogota.json,Smartwatch Active,Electronics,Bogotá Centro,Bogotá,Central,0.0,No Campaign,310000,0.0,310000.0,2026-04,16,Monday,25000000
+L00475,2026-04-25,S02,P012,1,35000,NONE,Card,sales_bogota.json,Notebook Pack,Home & Office,Bogotá Centro,Bogotá,Central,0.0,No Campaign,35000,0.0,35000.0,2026-04,17,Saturday,25000000
+L00476,2026-02-17,S02,P003,1,175000,NONE,Transfer,sales_bogota.json,Blender 500W,Small Appliances,Bogotá Centro,Bogotá,Central,0.0,No Campaign,175000,0.0,175000.0,2026-02,8,Tuesday,23000000
+L00477,2026-04-27,S02,P003,1,175000,NONE,Card,sales_bogota.json,Blender 500W,Small Appliances,Bogotá Centro,Bogotá,Central,0.0,No Campaign,175000,0.0,175000.0,2026-04,18,Monday,25000000
+L00478,2026-02-21,S02,P012,1,35000,NONE,Cash,sales_bogota.json,Notebook Pack,Home & Office,Bogotá Centro,Bogotá,Central,0.0,No Campaign,35000,0.0,35000.0,2026-02,8,Saturday,23000000
+L00479,2026-04-06,S02,P008,3,78000,NONE,Transfer,sales_bogota.json,USB-C Charger,Electronics,Bogotá Centro,Bogotá,Central,0.0,No Campaign,234000,0.0,234000.0,2026-04,15,Monday,25000000
+L00480,2026-03-20,S02,P008,1,78000,NONE,Cash,sales_bogota.json,USB-C Charger,Electronics,Bogotá Centro,Bogotá,Central,0.0,No Campaign,78000,0.0,78000.0,2026-03,12,Friday,24000000
+L00481,2026-02-15,S02,P004,1,390000,NONE,Transfer,sales_bogota.json,Air Fryer 4L,Small Appliances,Bogotá Centro,Bogotá,Central,0.0,No Campaign,390000,0.0,390000.0,2026-02,7,Sunday,23000000
+L00482,2026-02-23,S02,P003,1,175000,NONE,Card,sales_bogota.json,Blender 500W,Small Appliances,Bogotá Centro,Bogotá,Central,0.0,No Campaign,175000,0.0,175000.0,2026-02,9,Monday,23000000
+L00483,2026-02-04,S02,P006,1,165000,NONE,Card,sales_bogota.json,Bluetooth Speaker,Electronics,Bogotá Centro,Bogotá,Central,0.0,No Campaign,165000,0.0,165000.0,2026-02,6,Wednesday,23000000
+L00484,2026-04-08,S02,P008,3,78000,NONE,Transfer,sales_bogota.json,USB-C Charger,Electronics,Bogotá Centro,Bogotá,Central,0.0,No Campaign,234000,0.0,234000.0,2026-04,15,Wednesday,25000000
+L00485,2026-03-22,S02,P009,2,92000,NONE,Cash,sales_bogota.json,Desk Lamp LED,Home & Office,Bogotá Centro,Bogotá,Central,0.0,No Campaign,184000,0.0,184000.0,2026-03,12,Sunday,24000000
+L00486,2026-03-17,S02,P001,1,145000,NONE,Card,sales_bogota.json,Coffee Maker Basic,Small Appliances,Bogotá Centro,Bogotá,Central,0.0,No Campaign,145000,0.0,145000.0,2026-03,12,Tuesday,24000000
+L00487,2026-04-04,S02,P012,1,35000,NONE,Card,sales_bogota.json,Notebook Pack,Home & Office,Bogotá Centro,Bogotá,Central,0.0,No Campaign,35000,0.0,35000.0,2026-04,14,Saturday,25000000
+L00488,2026-02-18,S02,P010,1,115000,NONE,Cash,sales_bogota.json,Ergonomic Mouse,Home & Office,Bogotá Centro,Bogotá,Central,0.0,No Campaign,115000,0.0,115000.0,2026-02,8,Wednesday,23000000
+L00489,2026-03-08,S02,P003,3,175000,NONE,Cash,sales_bogota.json,Blender 500W,Small Appliances,Bogotá Centro,Bogotá,Central,0.0,No Campaign,525000,0.0,525000.0,2026-03,10,Sunday,24000000
+L00490,2026-04-08,S02,P009,2,92000,NONE,Cash,sales_bogota.json,Desk Lamp LED,Home & Office,Bogotá Centro,Bogotá,Central,0.0,No Campaign,184000,0.0,184000.0,2026-04,15,Wednesday,25000000
+L00491,2026-03-20,S02,P003,2,175000,NONE,Card,sales_bogota.json,Blender 500W,Small Appliances,Bogotá Centro,Bogotá,Central,0.0,No Campaign,350000,0.0,350000.0,2026-03,12,Friday,24000000
+L00492,2026-04-03,S02,P013,2,135000,NONE,Cash,sales_bogota.json,Hair Dryer,Personal Care,Bogotá Centro,Bogotá,Central,0.0,No Campaign,270000,0.0,270000.0,2026-04,14,Friday,25000000
+L00493,2026-03-22,S02,P012,3,35000,NONE,Card,sales_bogota.json,Notebook Pack,Home & Office,Bogotá Centro,Bogotá,Central,0.0,No Campaign,105000,0.0,105000.0,2026-03,12,Sunday,24000000
+L00494,2026-02-14,S02,P012,1,35000,NONE,Card,sales_bogota.json,Notebook Pack,Home & Office,Bogotá Centro,Bogotá,Central,0.0,No Campaign,35000,0.0,35000.0,2026-02,7,Saturday,23000000
+L00495,2026-02-11,S02,P012,1,35000,NONE,Transfer,sales_bogota.json,Notebook Pack,Home & Office,Bogotá Centro,Bogotá,Central,0.0,No Campaign,35000,0.0,35000.0,2026-02,7,Wednesday,23000000
+L00496,2026-04-27,S02,P003,2,175000,NONE,Transfer,sales_bogota.json,Blender 500W,Small Appliances,Bogotá Centro,Bogotá,Central,0.0,No Campaign,350000,0.0,350000.0,2026-04,18,Monday,25000000
+L00497,2026-02-22,S02,P008,1,78000,NONE,Transfer,sales_bogota.json,USB-C Charger,Electronics,Bogotá Centro,Bogotá,Central,0.0,No Campaign,78000,0.0,78000.0,2026-02,8,Sunday,23000000
+L00498,2026-02-17,S02,P003,1,175000,NONE,Card,sales_bogota.json,Blender 500W,Small Appliances,Bogotá Centro,Bogotá,Central,0.0,No Campaign,175000,0.0,175000.0,2026-02,8,Tuesday,23000000
+L00499,2026-02-11,S02,P005,1,220000,NONE,Cash,sales_bogota.json,Wireless Headphones,Electronics,Bogotá Centro,Bogotá,Central,0.0,No Campaign,220000,0.0,220000.0,2026-02,7,Wednesday,23000000
+L00500,2026-03-25,S02,P006,1,165000,NONE,Cash,sales_bogota.json,Bluetooth Speaker,Electronics,Bogotá Centro,Bogotá,Central,0.0,No Campaign,165000,0.0,165000.0,2026-03,13,Wednesday,24000000
+L00501,2026-04-14,S02,P005,1,220000,NONE,Transfer,sales_bogota.json,Wireless Headphones,Electronics,Bogotá Centro,Bogotá,Central,0.0,No Campaign,220000,0.0,220000.0,2026-04,16,Tuesday,25000000
+L00502,2026-03-24,S02,P011,2,138000,NONE,Transfer,sales_bogota.json,Keyboard Compact,Home & Office,Bogotá Centro,Bogotá,Central,0.0,No Campaign,276000,0.0,276000.0,2026-03,13,Tuesday,24000000
+L00503,2026-02-08,S02,P009,2,92000,NONE,Cash,sales_bogota.json,Desk Lamp LED,Home & Office,Bogotá Centro,Bogotá,Central,0.0,No Campaign,184000,0.0,184000.0,2026-02,6,Sunday,23000000
+L00504,2026-03-14,S02,P005,1,220000,NONE,Transfer,sales_bogota.json,Wireless Headphones,Electronics,Bogotá Centro,Bogotá,Central,0.0,No Campaign,220000,0.0,220000.0,2026-03,11,Saturday,24000000
+L00505,2026-03-10,S02,P009,2,92000,NONE,Cash,sales_bogota.json,Desk Lamp LED,Home & Office,Bogotá Centro,Bogotá,Central,0.0,No Campaign,184000,0.0,184000.0,2026-03,11,Tuesday,24000000
+L00506,2026-03-29,S02,P012,1,35000,NONE,Transfer,sales_bogota.json,Notebook Pack,Home & Office,Bogotá Centro,Bogotá,Central,0.0,No Campaign,35000,0.0,35000.0,2026-03,13,Sunday,24000000
+L00507,2026-04-13,S02,P004,1,390000,NONE,Transfer,sales_bogota.json,Air Fryer 4L,Small Appliances,Bogotá Centro,Bogotá,Central,0.0,No Campaign,390000,0.0,390000.0,2026-04,16,Monday,25000000
+L00508,2026-02-01,S02,P012,2,35000,NONE,Cash,sales_bogota.json,Notebook Pack,Home & Office,Bogotá Centro,Bogotá,Central,0.0,No Campaign,70000,0.0,70000.0,2026-02,5,Sunday,23000000
+L00509,2026-04-12,S02,P010,3,115000,NONE,Card,sales_bogota.json,Ergonomic Mouse,Home & Office,Bogotá Centro,Bogotá,Central,0.0,No Campaign,345000,0.0,345000.0,2026-04,15,Sunday,25000000
+L00510,2026-02-27,S02,P008,1,78000,NONE,Card,sales_bogota.json,USB-C Charger,Electronics,Bogotá Centro,Bogotá,Central,0.0,No Campaign,78000,0.0,78000.0,2026-02,9,Friday,23000000
+L00511,2026-03-01,S02,P009,1,92000,NONE,Card,sales_bogota.json,Desk Lamp LED,Home & Office,Bogotá Centro,Bogotá,Central,0.0,No Campaign,92000,0.0,92000.0,2026-03,9,Sunday,24000000
+L00512,2026-02-24,S02,P009,1,92000,PROMO08,Cash,sales_bogota.json,Desk Lamp LED,Home & Office,Bogotá Centro,Bogotá,Central,0.08,Home Office,92000,7360.0,84640.0,2026-02,9,Tuesday,23000000
+L00513,2026-02-09,S02,P003,1,175000,NONE,Transfer,sales_bogota.json,Blender 500W,Small Appliances,Bogotá Centro,Bogotá,Central,0.0,No Campaign,175000,0.0,175000.0,2026-02,7,Monday,23000000
+L00514,2026-02-16,S02,P001,3,145000,NONE,Transfer,sales_bogota.json,Coffee Maker Basic,Small Appliances,Bogotá Centro,Bogotá,Central,0.0,No Campaign,435000,0.0,435000.0,2026-02,8,Monday,23000000
+L00515,2026-04-24,S02,P006,1,165000,NONE,Card,sales_bogota.json,Bluetooth Speaker,Electronics,Bogotá Centro,Bogotá,Central,0.0,No Campaign,165000,0.0,165000.0,2026-04,17,Friday,25000000
+L00516,2026-02-15,S02,P009,1,92000,NONE,Cash,sales_bogota.json,Desk Lamp LED,Home & Office,Bogotá Centro,Bogotá,Central,0.0,No Campaign,92000,0.0,92000.0,2026-02,7,Sunday,23000000
+L00517,2026-03-27,S02,P006,2,165000,NONE,Cash,sales_bogota.json,Bluetooth Speaker,Electronics,Bogotá Centro,Bogotá,Central,0.0,No Campaign,330000,0.0,330000.0,2026-03,13,Friday,24000000
+L00518,2026-04-30,S02,P007,1,310000,NONE,Transfer,sales_bogota.json,Smartwatch Active,Electronics,Bogotá Centro,Bogotá,Central,0.0,No Campaign,310000,0.0,310000.0,2026-04,18,Thursday,25000000
+L00519,2026-02-25,S02,P003,1,175000,NONE,Transfer,sales_bogota.json,Blender 500W,Small Appliances,Bogotá Centro,Bogotá,Central,0.0,No Campaign,175000,0.0,175000.0,2026-02,9,Wednesday,23000000
+L00520,2026-03-26,S02,P012,1,35000,NONE,Cash,sales_bogota.json,Notebook Pack,Home & Office,Bogotá Centro,Bogotá,Central,0.0,No Campaign,35000,0.0,35000.0,2026-03,13,Thursday,24000000
+L00521,2026-04-08,S03,P015,1,86000,NONE,Cash,sales_medellin.xml,Digital Scale,Personal Care,Medellín Poblado,Medellín,Northwest,0.0,No Campaign,86000,0.0,86000.0,2026-04,15,Wednesday,22500000
+L00522,2026-04-18,S03,P012,1,35000,NONE,Card,sales_medellin.xml,Notebook Pack,Home & Office,Medellín Poblado,Medellín,Northwest,0.0,No Campaign,35000,0.0,35000.0,2026-04,16,Saturday,22500000
+L00523,2026-03-29,S03,P010,1,115000,NONE,Cash,sales_medellin.xml,Ergonomic Mouse,Home & Office,Medellín Poblado,Medellín,Northwest,0.0,No Campaign,115000,0.0,115000.0,2026-03,13,Sunday,21500000
+L00524,2026-02-10,S03,P010,2,115000,NONE,Transfer,sales_medellin.xml,Ergonomic Mouse,Home & Office,Medellín Poblado,Medellín,Northwest,0.0,No Campaign,230000,0.0,230000.0,2026-02,7,Tuesday,20500000
+L00525,2026-02-15,S03,P002,1,285000,NONE,Card,sales_medellin.xml,Coffee Maker Premium,Small Appliances,Medellín Poblado,Medellín,Northwest,0.0,No Campaign,285000,0.0,285000.0,2026-02,7,Sunday,20500000
+L00526,2026-04-16,S03,P004,2,390000,NONE,Cash,sales_medellin.xml,Air Fryer 4L,Small Appliances,Medellín Poblado,Medellín,Northwest,0.0,No Campaign,780000,0.0,780000.0,2026-04,16,Thursday,22500000
+L00527,2026-02-10,S03,P008,1,78000,NONE,Card,sales_medellin.xml,USB-C Charger,Electronics,Medellín Poblado,Medellín,Northwest,0.0,No Campaign,78000,0.0,78000.0,2026-02,7,Tuesday,20500000
+L00528,2026-04-29,S03,P014,2,198000,NONE,Transfer,sales_medellin.xml,Electric Shaver,Personal Care,Medellín Poblado,Medellín,Northwest,0.0,No Campaign,396000,0.0,396000.0,2026-04,18,Wednesday,22500000
+L00529,2026-02-27,S03,P002,1,285000,NONE,Transfer,sales_medellin.xml,Coffee Maker Premium,Small Appliances,Medellín Poblado,Medellín,Northwest,0.0,No Campaign,285000,0.0,285000.0,2026-02,9,Friday,20500000
+L00530,2026-02-12,S03,P002,2,285000,NONE,Cash,sales_medellin.xml,Coffee Maker Premium,Small Appliances,Medellín Poblado,Medellín,Northwest,0.0,No Campaign,570000,0.0,570000.0,2026-02,7,Thursday,20500000
+L00531,2026-04-16,S03,P009,2,92000,NONE,Cash,sales_medellin.xml,Desk Lamp LED,Home & Office,Medellín Poblado,Medellín,Northwest,0.0,No Campaign,184000,0.0,184000.0,2026-04,16,Thursday,22500000
+L00532,2026-02-27,S03,P001,1,145000,NONE,Transfer,sales_medellin.xml,Coffee Maker Basic,Small Appliances,Medellín Poblado,Medellín,Northwest,0.0,No Campaign,145000,0.0,145000.0,2026-02,9,Friday,20500000
+L00533,2026-04-19,S03,P010,3,115000,NONE,Cash,sales_medellin.xml,Ergonomic Mouse,Home & Office,Medellín Poblado,Medellín,Northwest,0.0,No Campaign,345000,0.0,345000.0,2026-04,16,Sunday,22500000
+L00534,2026-04-01,S03,P005,1,220000,NONE,Card,sales_medellin.xml,Wireless Headphones,Electronics,Medellín Poblado,Medellín,Northwest,0.0,No Campaign,220000,0.0,220000.0,2026-04,14,Wednesday,22500000
+L00535,2026-02-17,S03,P013,2,135000,NONE,Cash,sales_medellin.xml,Hair Dryer,Personal Care,Medellín Poblado,Medellín,Northwest,0.0,No Campaign,270000,0.0,270000.0,2026-02,8,Tuesday,20500000
+L00536,2026-02-05,S03,P009,1,92000,NONE,Transfer,sales_medellin.xml,Desk Lamp LED,Home & Office,Medellín Poblado,Medellín,Northwest,0.0,No Campaign,92000,0.0,92000.0,2026-02,6,Thursday,20500000
+L00537,2026-02-05,S03,P004,1,390000,NONE,Cash,sales_medellin.xml,Air Fryer 4L,Small Appliances,Medellín Poblado,Medellín,Northwest,0.0,No Campaign,390000,0.0,390000.0,2026-02,6,Thursday,20500000
+L00538,2026-02-16,S03,P005,2,220000,NONE,Card,sales_medellin.xml,Wireless Headphones,Electronics,Medellín Poblado,Medellín,Northwest,0.0,No Campaign,440000,0.0,440000.0,2026-02,8,Monday,20500000
+L00539,2026-02-06,S03,P002,1,285000,NONE,Cash,sales_medellin.xml,Coffee Maker Premium,Small Appliances,Medellín Poblado,Medellín,Northwest,0.0,No Campaign,285000,0.0,285000.0,2026-02,6,Friday,20500000
+L00540,2026-04-08,S03,P010,1,115000,NONE,Cash,sales_medellin.xml,Ergonomic Mouse,Home & Office,Medellín Poblado,Medellín,Northwest,0.0,No Campaign,115000,0.0,115000.0,2026-04,15,Wednesday,22500000
+L00541,2026-03-01,S03,P001,4,145000,NONE,Card,sales_medellin.xml,Coffee Maker Basic,Small Appliances,Medellín Poblado,Medellín,Northwest,0.0,No Campaign,580000,0.0,580000.0,2026-03,9,Sunday,21500000
+L00542,2026-03-08,S03,P009,1,92000,NONE,Cash,sales_medellin.xml,Desk Lamp LED,Home & Office,Medellín Poblado,Medellín,Northwest,0.0,No Campaign,92000,0.0,92000.0,2026-03,10,Sunday,21500000
+L00543,2026-03-16,S03,P013,1,135000,NONE,Cash,sales_medellin.xml,Hair Dryer,Personal Care,Medellín Poblado,Medellín,Northwest,0.0,No Campaign,135000,0.0,135000.0,2026-03,12,Monday,21500000
+L00544,2026-03-27,S03,P013,1,135000,NONE,Card,sales_medellin.xml,Hair Dryer,Personal Care,Medellín Poblado,Medellín,Northwest,0.0,No Campaign,135000,0.0,135000.0,2026-03,13,Friday,21500000
+L00545,2026-04-05,S03,P013,1,135000,PROMO20,Card,sales_medellin.xml,Hair Dryer,Personal Care,Medellín Poblado,Medellín,Northwest,0.2,Personal Care Month,135000,27000.0,108000.0,2026-04,14,Sunday,22500000
+L00546,2026-04-25,S03,P015,1,86000,NONE,Cash,sales_medellin.xml,Digital Scale,Personal Care,Medellín Poblado,Medellín,Northwest,0.0,No Campaign,86000,0.0,86000.0,2026-04,17,Saturday,22500000
+L00547,2026-03-21,S03,P013,1,135000,NONE,Transfer,sales_medellin.xml,Hair Dryer,Personal Care,Medellín Poblado,Medellín,Northwest,0.0,No Campaign,135000,0.0,135000.0,2026-03,12,Saturday,21500000
+L00548,2026-02-06,S03,P012,1,35000,NONE,Card,sales_medellin.xml,Notebook Pack,Home & Office,Medellín Poblado,Medellín,Northwest,0.0,No Campaign,35000,0.0,35000.0,2026-02,6,Friday,20500000
+L00549,2026-04-18,S03,P005,1,220000,NONE,Card,sales_medellin.xml,Wireless Headphones,Electronics,Medellín Poblado,Medellín,Northwest,0.0,No Campaign,220000,0.0,220000.0,2026-04,16,Saturday,22500000
+L00550,2026-04-29,S03,P001,1,145000,NONE,Card,sales_medellin.xml,Coffee Maker Basic,Small Appliances,Medellín Poblado,Medellín,Northwest,0.0,No Campaign,145000,0.0,145000.0,2026-04,18,Wednesday,22500000
+L00552,2026-02-15,S03,P009,1,92000,NONE,Cash,sales_medellin.xml,Desk Lamp LED,Home & Office,Medellín Poblado,Medellín,Northwest,0.0,No Campaign,92000,0.0,92000.0,2026-02,7,Sunday,20500000
+L00553,2026-04-19,S03,P013,1,135000,NONE,Card,sales_medellin.xml,Hair Dryer,Personal Care,Medellín Poblado,Medellín,Northwest,0.0,No Campaign,135000,0.0,135000.0,2026-04,16,Sunday,22500000
+L00554,2026-03-17,S03,P013,2,135000,NONE,Cash,sales_medellin.xml,Hair Dryer,Personal Care,Medellín Poblado,Medellín,Northwest,0.0,No Campaign,270000,0.0,270000.0,2026-03,12,Tuesday,21500000
+L00555,2026-02-13,S03,P006,1,165000,NONE,Transfer,sales_medellin.xml,Bluetooth Speaker,Electronics,Medellín Poblado,Medellín,Northwest,0.0,No Campaign,165000,0.0,165000.0,2026-02,7,Friday,20500000
+L00556,2026-03-06,S03,P004,1,390000,NONE,Card,sales_medellin.xml,Air Fryer 4L,Small Appliances,Medellín Poblado,Medellín,Northwest,0.0,No Campaign,390000,0.0,390000.0,2026-03,10,Friday,21500000
+L00557,2026-02-02,S03,P013,1,135000,NONE,Card,sales_medellin.xml,Hair Dryer,Personal Care,Medellín Poblado,Medellín,Northwest,0.0,No Campaign,135000,0.0,135000.0,2026-02,6,Monday,20500000
+L00558,2026-03-24,S03,P013,1,135000,NONE,Card,sales_medellin.xml,Hair Dryer,Personal Care,Medellín Poblado,Medellín,Northwest,0.0,No Campaign,135000,0.0,135000.0,2026-03,13,Tuesday,21500000
+L00559,2026-04-09,S03,P004,1,390000,NONE,Card,sales_medellin.xml,Air Fryer 4L,Small Appliances,Medellín Poblado,Medellín,Northwest,0.0,No Campaign,390000,0.0,390000.0,2026-04,15,Thursday,22500000
+L00560,2026-03-19,S03,P006,1,165000,NONE,Card,sales_medellin.xml,Bluetooth Speaker,Electronics,Medellín Poblado,Medellín,Northwest,0.0,No Campaign,165000,0.0,165000.0,2026-03,12,Thursday,21500000
+L00561,2026-03-10,S03,P003,1,175000,NONE,Cash,sales_medellin.xml,Blender 500W,Small Appliances,Medellín Poblado,Medellín,Northwest,0.0,No Campaign,175000,0.0,175000.0,2026-03,11,Tuesday,21500000
+L00562,2026-02-06,S03,P004,1,390000,NONE,Cash,sales_medellin.xml,Air Fryer 4L,Small Appliances,Medellín Poblado,Medellín,Northwest,0.0,No Campaign,390000,0.0,390000.0,2026-02,6,Friday,20500000
+L00563,2026-04-22,S03,P008,1,78000,NONE,Transfer,sales_medellin.xml,USB-C Charger,Electronics,Medellín Poblado,Medellín,Northwest,0.0,No Campaign,78000,0.0,78000.0,2026-04,17,Wednesday,22500000
+L00564,2026-03-21,S03,P013,1,135000,NONE,Card,sales_medellin.xml,Hair Dryer,Personal Care,Medellín Poblado,Medellín,Northwest,0.0,No Campaign,135000,0.0,135000.0,2026-03,12,Saturday,21500000
+L00565,2026-04-05,S03,P003,1,175000,NONE,Transfer,sales_medellin.xml,Blender 500W,Small Appliances,Medellín Poblado,Medellín,Northwest,0.0,No Campaign,175000,0.0,175000.0,2026-04,14,Sunday,22500000
+L00566,2026-02-14,S03,P007,2,310000,NONE,Transfer,sales_medellin.xml,Smartwatch Active,Electronics,Medellín Poblado,Medellín,Northwest,0.0,No Campaign,620000,0.0,620000.0,2026-02,7,Saturday,20500000
+L00567,2026-02-27,S03,P013,2,135000,NONE,Transfer,sales_medellin.xml,Hair Dryer,Personal Care,Medellín Poblado,Medellín,Northwest,0.0,No Campaign,270000,0.0,270000.0,2026-02,9,Friday,20500000
+L00568,2026-02-12,S03,P003,1,175000,NONE,Transfer,sales_medellin.xml,Blender 500W,Small Appliances,Medellín Poblado,Medellín,Northwest,0.0,No Campaign,175000,0.0,175000.0,2026-02,7,Thursday,20500000
+L00569,2026-03-01,S03,P006,3,165000,NONE,Transfer,sales_medellin.xml,Bluetooth Speaker,Electronics,Medellín Poblado,Medellín,Northwest,0.0,No Campaign,495000,0.0,495000.0,2026-03,9,Sunday,21500000
+L00570,2026-02-19,S03,P010,2,115000,NONE,Cash,sales_medellin.xml,Ergonomic Mouse,Home & Office,Medellín Poblado,Medellín,Northwest,0.0,No Campaign,230000,0.0,230000.0,2026-02,8,Thursday,20500000
+L00571,2026-04-21,S03,P012,2,35000,NONE,Card,sales_medellin.xml,Notebook Pack,Home & Office,Medellín Poblado,Medellín,Northwest,0.0,No Campaign,70000,0.0,70000.0,2026-04,17,Tuesday,22500000
+L00572,2026-02-13,S03,P004,3,390000,NONE,Cash,sales_medellin.xml,Air Fryer 4L,Small Appliances,Medellín Poblado,Medellín,Northwest,0.0,No Campaign,1170000,0.0,1170000.0,2026-02,7,Friday,20500000
+L00573,2026-03-25,S03,P012,1,35000,NONE,Card,sales_medellin.xml,Notebook Pack,Home & Office,Medellín Poblado,Medellín,Northwest,0.0,No Campaign,35000,0.0,35000.0,2026-03,13,Wednesday,21500000
+L00574,2026-02-14,S03,P005,1,220000,NONE,Transfer,sales_medellin.xml,Wireless Headphones,Electronics,Medellín Poblado,Medellín,Northwest,0.0,No Campaign,220000,0.0,220000.0,2026-02,7,Saturday,20500000
+L00575,2026-03-29,S03,P005,2,220000,NONE,Card,sales_medellin.xml,Wireless Headphones,Electronics,Medellín Poblado,Medellín,Northwest,0.0,No Campaign,440000,0.0,440000.0,2026-03,13,Sunday,21500000
+L00576,2026-03-04,S03,P002,2,285000,NONE,Cash,sales_medellin.xml,Coffee Maker Premium,Small Appliances,Medellín Poblado,Medellín,Northwest,0.0,No Campaign,570000,0.0,570000.0,2026-03,10,Wednesday,21500000
+L00577,2026-03-15,S03,P012,1,35000,NONE,Cash,sales_medellin.xml,Notebook Pack,Home & Office,Medellín Poblado,Medellín,Northwest,0.0,No Campaign,35000,0.0,35000.0,2026-03,11,Sunday,21500000
+L00578,2026-03-17,S03,P003,1,175000,NONE,Card,sales_medellin.xml,Blender 500W,Small Appliances,Medellín Poblado,Medellín,Northwest,0.0,No Campaign,175000,0.0,175000.0,2026-03,12,Tuesday,21500000
+L00579,2026-03-23,S03,P007,2,310000,NONE,Cash,sales_medellin.xml,Smartwatch Active,Electronics,Medellín Poblado,Medellín,Northwest,0.0,No Campaign,620000,0.0,620000.0,2026-03,13,Monday,21500000
+L00580,2026-03-11,S03,P010,2,115000,NONE,Card,sales_medellin.xml,Ergonomic Mouse,Home & Office,Medellín Poblado,Medellín,Northwest,0.0,No Campaign,230000,0.0,230000.0,2026-03,11,Wednesday,21500000
+L00581,2026-03-13,S03,P008,1,78000,NONE,Cash,sales_medellin.xml,USB-C Charger,Electronics,Medellín Poblado,Medellín,Northwest,0.0,No Campaign,78000,0.0,78000.0,2026-03,11,Friday,21500000
+L00582,2026-04-07,S03,P009,1,92000,NONE,Card,sales_medellin.xml,Desk Lamp LED,Home & Office,Medellín Poblado,Medellín,Northwest,0.0,No Campaign,92000,0.0,92000.0,2026-04,15,Tuesday,22500000
+L00583,2026-04-14,S03,P013,3,135000,PROMO20,Transfer,sales_medellin.xml,Hair Dryer,Personal Care,Medellín Poblado,Medellín,Northwest,0.2,Personal Care Month,405000,81000.0,324000.0,2026-04,16,Tuesday,22500000
+L00584,2026-03-27,S03,P009,1,92000,NONE,Cash,sales_medellin.xml,Desk Lamp LED,Home & Office,Medellín Poblado,Medellín,Northwest,0.0,No Campaign,92000,0.0,92000.0,2026-03,13,Friday,21500000
+L00585,2026-03-18,S03,P010,3,115000,NONE,Cash,sales_medellin.xml,Ergonomic Mouse,Home & Office,Medellín Poblado,Medellín,Northwest,0.0,No Campaign,345000,0.0,345000.0,2026-03,12,Wednesday,21500000
+L00586,2026-04-27,S03,P011,1,138000,NONE,Transfer,sales_medellin.xml,Keyboard Compact,Home & Office,Medellín Poblado,Medellín,Northwest,0.0,No Campaign,138000,0.0,138000.0,2026-04,18,Monday,22500000
+L00587,2026-03-29,S03,P013,2,135000,NONE,Transfer,sales_medellin.xml,Hair Dryer,Personal Care,Medellín Poblado,Medellín,Northwest,0.0,No Campaign,270000,0.0,270000.0,2026-03,13,Sunday,21500000
+L00588,2026-04-14,S03,P009,1,92000,NONE,Transfer,sales_medellin.xml,Desk Lamp LED,Home & Office,Medellín Poblado,Medellín,Northwest,0.0,No Campaign,92000,0.0,92000.0,2026-04,16,Tuesday,22500000
+L00589,2026-04-13,S03,P001,1,145000,NONE,Cash,sales_medellin.xml,Coffee Maker Basic,Small Appliances,Medellín Poblado,Medellín,Northwest,0.0,No Campaign,145000,0.0,145000.0,2026-04,16,Monday,22500000
+L00590,2026-03-11,S03,P001,1,145000,NONE,Card,sales_medellin.xml,Coffee Maker Basic,Small Appliances,Medellín Poblado,Medellín,Northwest,0.0,No Campaign,145000,0.0,145000.0,2026-03,11,Wednesday,21500000
+L00591,2026-04-24,S03,P012,1,35000,NONE,Cash,sales_medellin.xml,Notebook Pack,Home & Office,Medellín Poblado,Medellín,Northwest,0.0,No Campaign,35000,0.0,35000.0,2026-04,17,Friday,22500000
+L00592,2026-04-12,S03,P012,1,35000,NONE,Cash,sales_medellin.xml,Notebook Pack,Home & Office,Medellín Poblado,Medellín,Northwest,0.0,No Campaign,35000,0.0,35000.0,2026-04,15,Sunday,22500000
+L00593,2026-03-22,S03,P009,2,92000,NONE,Card,sales_medellin.xml,Desk Lamp LED,Home & Office,Medellín Poblado,Medellín,Northwest,0.0,No Campaign,184000,0.0,184000.0,2026-03,12,Sunday,21500000
+L00594,2026-04-03,S03,P014,2,198000,NONE,Cash,sales_medellin.xml,Electric Shaver,Personal Care,Medellín Poblado,Medellín,Northwest,0.0,No Campaign,396000,0.0,396000.0,2026-04,14,Friday,22500000
+L00595,2026-04-19,S03,P009,1,92000,NONE,Cash,sales_medellin.xml,Desk Lamp LED,Home & Office,Medellín Poblado,Medellín,Northwest,0.0,No Campaign,92000,0.0,92000.0,2026-04,16,Sunday,22500000
+L00596,2026-03-10,S03,P013,1,135000,NONE,Card,sales_medellin.xml,Hair Dryer,Personal Care,Medellín Poblado,Medellín,Northwest,0.0,No Campaign,135000,0.0,135000.0,2026-03,11,Tuesday,21500000
+L00597,2026-04-26,S03,P003,1,175000,NONE,Cash,sales_medellin.xml,Blender 500W,Small Appliances,Medellín Poblado,Medellín,Northwest,0.0,No Campaign,175000,0.0,175000.0,2026-04,17,Sunday,22500000
+L00598,2026-02-17,S03,P009,2,92000,NONE,Cash,sales_medellin.xml,Desk Lamp LED,Home & Office,Medellín Poblado,Medellín,Northwest,0.0,No Campaign,184000,0.0,184000.0,2026-02,8,Tuesday,20500000
+L00599,2026-04-29,S03,P007,1,310000,PROMO10B,Cash,sales_medellin.xml,Smartwatch Active,Electronics,Medellín Poblado,Medellín,Northwest,0.1,Wearables Week,310000,31000.0,279000.0,2026-04,18,Wednesday,22500000
+L00600,2026-03-02,S03,P010,1,115000,NONE,Cash,sales_medellin.xml,Ergonomic Mouse,Home & Office,Medellín Poblado,Medellín,Northwest,0.0,No Campaign,115000,0.0,115000.0,2026-03,10,Monday,21500000
+L00602,2026-02-18,S03,P008,1,78000,NONE,Cash,sales_medellin.xml,USB-C Charger,Electronics,Medellín Poblado,Medellín,Northwest,0.0,No Campaign,78000,0.0,78000.0,2026-02,8,Wednesday,20500000
+L00603,2026-03-05,S03,P009,1,92000,PROMO08,Transfer,sales_medellin.xml,Desk Lamp LED,Home & Office,Medellín Poblado,Medellín,Northwest,0.08,Home Office,92000,7360.0,84640.0,2026-03,10,Thursday,21500000
+L00604,2026-04-30,S03,P013,1,135000,NONE,Card,sales_medellin.xml,Hair Dryer,Personal Care,Medellín Poblado,Medellín,Northwest,0.0,No Campaign,135000,0.0,135000.0,2026-04,18,Thursday,22500000
+L00605,2026-04-17,S03,P009,1,92000,NONE,Transfer,sales_medellin.xml,Desk Lamp LED,Home & Office,Medellín Poblado,Medellín,Northwest,0.0,No Campaign,92000,0.0,92000.0,2026-04,16,Friday,22500000
+L00606,2026-03-04,S03,P003,2,175000,NONE,Card,sales_medellin.xml,Blender 500W,Small Appliances,Medellín Poblado,Medellín,Northwest,0.0,No Campaign,350000,0.0,350000.0,2026-03,10,Wednesday,21500000
+L00607,2026-04-28,S03,P005,2,220000,NONE,Transfer,sales_medellin.xml,Wireless Headphones,Electronics,Medellín Poblado,Medellín,Northwest,0.0,No Campaign,440000,0.0,440000.0,2026-04,18,Tuesday,22500000
+L00608,2026-04-19,S03,P010,2,115000,NONE,Transfer,sales_medellin.xml,Ergonomic Mouse,Home & Office,Medellín Poblado,Medellín,Northwest,0.0,No Campaign,230000,0.0,230000.0,2026-04,16,Sunday,22500000
+L00609,2026-04-13,S03,P009,1,92000,NONE,Transfer,sales_medellin.xml,Desk Lamp LED,Home & Office,Medellín Poblado,Medellín,Northwest,0.0,No Campaign,92000,0.0,92000.0,2026-04,16,Monday,22500000
+L00610,2026-04-26,S03,P003,1,175000,NONE,Transfer,sales_medellin.xml,Blender 500W,Small Appliances,Medellín Poblado,Medellín,Northwest,0.0,No Campaign,175000,0.0,175000.0,2026-04,17,Sunday,22500000
+L00611,2026-02-03,S03,P008,1,78000,NONE,Cash,sales_medellin.xml,USB-C Charger,Electronics,Medellín Poblado,Medellín,Northwest,0.0,No Campaign,78000,0.0,78000.0,2026-02,6,Tuesday,20500000
+L00612,2026-03-24,S03,P005,1,220000,PROMO12,Transfer,sales_medellin.xml,Wireless Headphones,Electronics,Medellín Poblado,Medellín,Northwest,0.12,Audio Campaign,220000,26400.0,193600.0,2026-03,13,Tuesday,21500000
+L00613,2026-02-05,S03,P013,2,135000,NONE,Card,sales_medellin.xml,Hair Dryer,Personal Care,Medellín Poblado,Medellín,Northwest,0.0,No Campaign,270000,0.0,270000.0,2026-02,6,Thursday,20500000
+L00614,2026-04-30,S03,P006,3,165000,NONE,Transfer,sales_medellin.xml,Bluetooth Speaker,Electronics,Medellín Poblado,Medellín,Northwest,0.0,No Campaign,495000,0.0,495000.0,2026-04,18,Thursday,22500000
+L00615,2026-04-06,S03,P003,4,175000,NONE,Card,sales_medellin.xml,Blender 500W,Small Appliances,Medellín Poblado,Medellín,Northwest,0.0,No Campaign,700000,0.0,700000.0,2026-04,15,Monday,22500000
+L00616,2026-02-20,S03,P003,1,175000,NONE,Card,sales_medellin.xml,Blender 500W,Small Appliances,Medellín Poblado,Medellín,Northwest,0.0,No Campaign,175000,0.0,175000.0,2026-02,8,Friday,20500000
+L00617,2026-02-05,S03,P004,2,390000,NONE,Cash,sales_medellin.xml,Air Fryer 4L,Small Appliances,Medellín Poblado,Medellín,Northwest,0.0,No Campaign,780000,0.0,780000.0,2026-02,6,Thursday,20500000
+L00618,2026-02-26,S03,P005,1,220000,NONE,Card,sales_medellin.xml,Wireless Headphones,Electronics,Medellín Poblado,Medellín,Northwest,0.0,No Campaign,220000,0.0,220000.0,2026-02,9,Thursday,20500000
+L00619,2026-03-06,S03,P010,1,115000,NONE,Transfer,sales_medellin.xml,Ergonomic Mouse,Home & Office,Medellín Poblado,Medellín,Northwest,0.0,No Campaign,115000,0.0,115000.0,2026-03,10,Friday,21500000
+L00620,2026-04-09,S03,P004,1,390000,NONE,Transfer,sales_medellin.xml,Air Fryer 4L,Small Appliances,Medellín Poblado,Medellín,Northwest,0.0,No Campaign,390000,0.0,390000.0,2026-04,15,Thursday,22500000
+L00621,2026-04-03,S03,P012,1,35000,NONE,Card,sales_medellin.xml,Notebook Pack,Home & Office,Medellín Poblado,Medellín,Northwest,0.0,No Campaign,35000,0.0,35000.0,2026-04,14,Friday,22500000
+L00622,2026-03-17,S03,P003,1,175000,NONE,Cash,sales_medellin.xml,Blender 500W,Small Appliances,Medellín Poblado,Medellín,Northwest,0.0,No Campaign,175000,0.0,175000.0,2026-03,12,Tuesday,21500000
+L00623,2026-04-18,S03,P009,1,92000,NONE,Transfer,sales_medellin.xml,Desk Lamp LED,Home & Office,Medellín Poblado,Medellín,Northwest,0.0,No Campaign,92000,0.0,92000.0,2026-04,16,Saturday,22500000
+L00624,2026-04-20,S03,P012,1,35000,NONE,Card,sales_medellin.xml,Notebook Pack,Home & Office,Medellín Poblado,Medellín,Northwest,0.0,No Campaign,35000,0.0,35000.0,2026-04,17,Monday,22500000
+L00625,2026-04-09,S03,P014,2,198000,NONE,Transfer,sales_medellin.xml,Electric Shaver,Personal Care,Medellín Poblado,Medellín,Northwest,0.0,No Campaign,396000,0.0,396000.0,2026-04,15,Thursday,22500000
+L00626,2026-03-12,S03,P010,1,115000,NONE,Cash,sales_medellin.xml,Ergonomic Mouse,Home & Office,Medellín Poblado,Medellín,Northwest,0.0,No Campaign,115000,0.0,115000.0,2026-03,11,Thursday,21500000
+L00627,2026-03-31,S03,P003,2,175000,NONE,Cash,sales_medellin.xml,Blender 500W,Small Appliances,Medellín Poblado,Medellín,Northwest,0.0,No Campaign,350000,0.0,350000.0,2026-03,14,Tuesday,21500000
+L00628,2026-03-14,S03,P013,1,135000,NONE,Cash,sales_medellin.xml,Hair Dryer,Personal Care,Medellín Poblado,Medellín,Northwest,0.0,No Campaign,135000,0.0,135000.0,2026-03,11,Saturday,21500000
+L00629,2026-03-14,S03,P003,1,175000,NONE,Cash,sales_medellin.xml,Blender 500W,Small Appliances,Medellín Poblado,Medellín,Northwest,0.0,No Campaign,175000,0.0,175000.0,2026-03,11,Saturday,21500000
+L00630,2026-03-14,S03,P004,2,390000,NONE,Card,sales_medellin.xml,Air Fryer 4L,Small Appliances,Medellín Poblado,Medellín,Northwest,0.0,No Campaign,780000,0.0,780000.0,2026-03,11,Saturday,21500000
+L00631,2026-02-27,S03,P003,1,175000,NONE,Transfer,sales_medellin.xml,Blender 500W,Small Appliances,Medellín Poblado,Medellín,Northwest,0.0,No Campaign,175000,0.0,175000.0,2026-02,9,Friday,20500000
+L00632,2026-03-15,S03,P009,1,92000,NONE,Transfer,sales_medellin.xml,Desk Lamp LED,Home & Office,Medellín Poblado,Medellín,Northwest,0.0,No Campaign,92000,0.0,92000.0,2026-03,11,Sunday,21500000
+L00633,2026-03-02,S03,P008,1,78000,NONE,Cash,sales_medellin.xml,USB-C Charger,Electronics,Medellín Poblado,Medellín,Northwest,0.0,No Campaign,78000,0.0,78000.0,2026-03,10,Monday,21500000
+L00634,2026-03-01,S03,P005,1,220000,NONE,Transfer,sales_medellin.xml,Wireless Headphones,Electronics,Medellín Poblado,Medellín,Northwest,0.0,No Campaign,220000,0.0,220000.0,2026-03,9,Sunday,21500000
+L00635,2026-03-09,S03,P002,2,285000,NONE,Transfer,sales_medellin.xml,Coffee Maker Premium,Small Appliances,Medellín Poblado,Medellín,Northwest,0.0,No Campaign,570000,0.0,570000.0,2026-03,11,Monday,21500000
+L00636,2026-04-15,S03,P009,2,92000,NONE,Card,sales_medellin.xml,Desk Lamp LED,Home & Office,Medellín Poblado,Medellín,Northwest,0.0,No Campaign,184000,0.0,184000.0,2026-04,16,Wednesday,22500000
+L00637,2026-04-24,S03,P003,2,175000,NONE,Transfer,sales_medellin.xml,Blender 500W,Small Appliances,Medellín Poblado,Medellín,Northwest,0.0,No Campaign,350000,0.0,350000.0,2026-04,17,Friday,22500000
+L00638,2026-02-14,S03,P008,1,78000,NONE,Cash,sales_medellin.xml,USB-C Charger,Electronics,Medellín Poblado,Medellín,Northwest,0.0,No Campaign,78000,0.0,78000.0,2026-02,7,Saturday,20500000
+L00639,2026-02-27,S03,P012,1,35000,NONE,Transfer,sales_medellin.xml,Notebook Pack,Home & Office,Medellín Poblado,Medellín,Northwest,0.0,No Campaign,35000,0.0,35000.0,2026-02,9,Friday,20500000
+L00640,2026-02-16,S03,P013,1,135000,NONE,Cash,sales_medellin.xml,Hair Dryer,Personal Care,Medellín Poblado,Medellín,Northwest,0.0,No Campaign,135000,0.0,135000.0,2026-02,8,Monday,20500000
+L00641,2026-02-04,S03,P012,2,35000,NONE,Card,sales_medellin.xml,Notebook Pack,Home & Office,Medellín Poblado,Medellín,Northwest,0.0,No Campaign,70000,0.0,70000.0,2026-02,6,Wednesday,20500000
+L00642,2026-03-06,S03,P010,1,115000,NONE,Transfer,sales_medellin.xml,Ergonomic Mouse,Home & Office,Medellín Poblado,Medellín,Northwest,0.0,No Campaign,115000,0.0,115000.0,2026-03,10,Friday,21500000
+L00643,2026-03-16,S03,P005,1,220000,PROMO12,Cash,sales_medellin.xml,Wireless Headphones,Electronics,Medellín Poblado,Medellín,Northwest,0.12,Audio Campaign,220000,26400.0,193600.0,2026-03,12,Monday,21500000
+L00644,2026-02-04,S03,P005,1,220000,NONE,Cash,sales_medellin.xml,Wireless Headphones,Electronics,Medellín Poblado,Medellín,Northwest,0.0,No Campaign,220000,0.0,220000.0,2026-02,6,Wednesday,20500000
+L00645,2026-04-14,S03,P004,1,390000,NONE,Card,sales_medellin.xml,Air Fryer 4L,Small Appliances,Medellín Poblado,Medellín,Northwest,0.0,No Campaign,390000,0.0,390000.0,2026-04,16,Tuesday,22500000
+L00646,2026-03-26,S03,P012,1,35000,NONE,Card,sales_medellin.xml,Notebook Pack,Home & Office,Medellín Poblado,Medellín,Northwest,0.0,No Campaign,35000,0.0,35000.0,2026-03,13,Thursday,21500000
+L00647,2026-04-11,S03,P004,1,390000,NONE,Cash,sales_medellin.xml,Air Fryer 4L,Small Appliances,Medellín Poblado,Medellín,Northwest,0.0,No Campaign,390000,0.0,390000.0,2026-04,15,Saturday,22500000
+L00648,2026-04-28,S03,P008,3,78000,NONE,Card,sales_medellin.xml,USB-C Charger,Electronics,Medellín Poblado,Medellín,Northwest,0.0,No Campaign,234000,0.0,234000.0,2026-04,18,Tuesday,22500000
+L00649,2026-03-08,S03,P012,1,35000,NONE,Cash,sales_medellin.xml,Notebook Pack,Home & Office,Medellín Poblado,Medellín,Northwest,0.0,No Campaign,35000,0.0,35000.0,2026-03,10,Sunday,21500000
+L00650,2026-02-17,S03,P003,2,175000,NONE,Transfer,sales_medellin.xml,Blender 500W,Small Appliances,Medellín Poblado,Medellín,Northwest,0.0,No Campaign,350000,0.0,350000.0,2026-02,8,Tuesday,20500000
+L00651,2026-02-20,S03,P003,2,175000,NONE,Card,sales_medellin.xml,Blender 500W,Small Appliances,Medellín Poblado,Medellín,Northwest,0.0,No Campaign,350000,0.0,350000.0,2026-02,8,Friday,20500000
+L00652,2026-02-22,S03,P015,1,86000,NONE,Transfer,sales_medellin.xml,Digital Scale,Personal Care,Medellín Poblado,Medellín,Northwest,0.0,No Campaign,86000,0.0,86000.0,2026-02,8,Sunday,20500000
+L00653,2026-02-01,S03,P008,1,78000,NONE,Cash,sales_medellin.xml,USB-C Charger,Electronics,Medellín Poblado,Medellín,Northwest,0.0,No Campaign,78000,0.0,78000.0,2026-02,5,Sunday,20500000
+L00654,2026-03-20,S03,P005,3,220000,PROMO12,Transfer,sales_medellin.xml,Wireless Headphones,Electronics,Medellín Poblado,Medellín,Northwest,0.12,Audio Campaign,660000,79200.0,580800.0,2026-03,12,Friday,21500000
+L00655,2026-03-01,S03,P004,1,390000,NONE,Cash,sales_medellin.xml,Air Fryer 4L,Small Appliances,Medellín Poblado,Medellín,Northwest,0.0,No Campaign,390000,0.0,390000.0,2026-03,9,Sunday,21500000
+L00656,2026-03-31,S03,P004,1,390000,NONE,Transfer,sales_medellin.xml,Air Fryer 4L,Small Appliances,Medellín Poblado,Medellín,Northwest,0.0,No Campaign,390000,0.0,390000.0,2026-03,14,Tuesday,21500000
+L00657,2026-02-13,S03,P002,3,285000,NONE,Transfer,sales_medellin.xml,Coffee Maker Premium,Small Appliances,Medellín Poblado,Medellín,Northwest,0.0,No Campaign,855000,0.0,855000.0,2026-02,7,Friday,20500000
+L00658,2026-02-20,S03,P008,2,78000,NONE,Cash,sales_medellin.xml,USB-C Charger,Electronics,Medellín Poblado,Medellín,Northwest,0.0,No Campaign,156000,0.0,156000.0,2026-02,8,Friday,20500000
+L00659,2026-02-28,S03,P004,1,390000,NONE,Cash,sales_medellin.xml,Air Fryer 4L,Small Appliances,Medellín Poblado,Medellín,Northwest,0.0,No Campaign,390000,0.0,390000.0,2026-02,9,Saturday,20500000
+L00660,2026-02-14,S03,P001,1,145000,NONE,Transfer,sales_medellin.xml,Coffee Maker Basic,Small Appliances,Medellín Poblado,Medellín,Northwest,0.0,No Campaign,145000,0.0,145000.0,2026-02,7,Saturday,20500000
+L00661,2026-02-12,S03,P006,1,165000,NONE,Card,sales_medellin.xml,Bluetooth Speaker,Electronics,Medellín Poblado,Medellín,Northwest,0.0,No Campaign,165000,0.0,165000.0,2026-02,7,Thursday,20500000
+L00662,2026-03-15,S03,P002,1,285000,NONE,Transfer,sales_medellin.xml,Coffee Maker Premium,Small Appliances,Medellín Poblado,Medellín,Northwest,0.0,No Campaign,285000,0.0,285000.0,2026-03,11,Sunday,21500000
+L00663,2026-02-23,S03,P008,1,78000,NONE,Card,sales_medellin.xml,USB-C Charger,Electronics,Medellín Poblado,Medellín,Northwest,0.0,No Campaign,78000,0.0,78000.0,2026-02,9,Monday,20500000
+L00664,2026-04-25,S03,P009,2,92000,NONE,Card,sales_medellin.xml,Desk Lamp LED,Home & Office,Medellín Poblado,Medellín,Northwest,0.0,No Campaign,184000,0.0,184000.0,2026-04,17,Saturday,22500000
+L00665,2026-03-23,S03,P004,3,390000,NONE,Card,sales_medellin.xml,Air Fryer 4L,Small Appliances,Medellín Poblado,Medellín,Northwest,0.0,No Campaign,1170000,0.0,1170000.0,2026-03,13,Monday,21500000
+L00666,2026-03-04,S03,P005,1,220000,NONE,Card,sales_medellin.xml,Wireless Headphones,Electronics,Medellín Poblado,Medellín,Northwest,0.0,No Campaign,220000,0.0,220000.0,2026-03,10,Wednesday,21500000
+L00667,2026-04-06,S03,P010,1,115000,NONE,Cash,sales_medellin.xml,Ergonomic Mouse,Home & Office,Medellín Poblado,Medellín,Northwest,0.0,No Campaign,115000,0.0,115000.0,2026-04,15,Monday,22500000
+L00668,2026-02-10,S03,P015,2,86000,NONE,Transfer,sales_medellin.xml,Digital Scale,Personal Care,Medellín Poblado,Medellín,Northwest,0.0,No Campaign,172000,0.0,172000.0,2026-02,7,Tuesday,20500000
+L00669,2026-04-15,S03,P008,1,78000,NONE,Transfer,sales_medellin.xml,USB-C Charger,Electronics,Medellín Poblado,Medellín,Northwest,0.0,No Campaign,78000,0.0,78000.0,2026-04,16,Wednesday,22500000
+L00670,2026-02-12,S03,P015,1,86000,NONE,Cash,sales_medellin.xml,Digital Scale,Personal Care,Medellín Poblado,Medellín,Northwest,0.0,No Campaign,86000,0.0,86000.0,2026-02,7,Thursday,20500000
+L00671,2026-03-23,S03,P006,1,165000,NONE,Cash,sales_medellin.xml,Bluetooth Speaker,Electronics,Medellín Poblado,Medellín,Northwest,0.0,No Campaign,165000,0.0,165000.0,2026-03,13,Monday,21500000
+L00672,2026-02-19,S03,P003,1,175000,NONE,Card,sales_medellin.xml,Blender 500W,Small Appliances,Medellín Poblado,Medellín,Northwest,0.0,No Campaign,175000,0.0,175000.0,2026-02,8,Thursday,20500000
+L00673,2026-04-08,S03,P012,2,35000,NONE,Transfer,sales_medellin.xml,Notebook Pack,Home & Office,Medellín Poblado,Medellín,Northwest,0.0,No Campaign,70000,0.0,70000.0,2026-04,15,Wednesday,22500000
+L00674,2026-03-19,S03,P001,1,145000,NONE,Cash,sales_medellin.xml,Coffee Maker Basic,Small Appliances,Medellín Poblado,Medellín,Northwest,0.0,No Campaign,145000,0.0,145000.0,2026-03,12,Thursday,21500000
+L00675,2026-02-28,S03,P014,1,198000,NONE,Transfer,sales_medellin.xml,Electric Shaver,Personal Care,Medellín Poblado,Medellín,Northwest,0.0,No Campaign,198000,0.0,198000.0,2026-02,9,Saturday,20500000
+L00676,2026-03-01,S03,P001,2,145000,NONE,Cash,sales_medellin.xml,Coffee Maker Basic,Small Appliances,Medellín Poblado,Medellín,Northwest,0.0,No Campaign,290000,0.0,290000.0,2026-03,9,Sunday,21500000
+L00677,2026-03-07,S03,P005,1,220000,NONE,Transfer,sales_medellin.xml,Wireless Headphones,Electronics,Medellín Poblado,Medellín,Northwest,0.0,No Campaign,220000,0.0,220000.0,2026-03,10,Saturday,21500000
+L00678,2026-03-17,S03,P010,1,115000,NONE,Cash,sales_medellin.xml,Ergonomic Mouse,Home & Office,Medellín Poblado,Medellín,Northwest,0.0,No Campaign,115000,0.0,115000.0,2026-03,12,Tuesday,21500000
+L00679,2026-02-28,S03,P010,1,115000,NONE,Card,sales_medellin.xml,Ergonomic Mouse,Home & Office,Medellín Poblado,Medellín,Northwest,0.0,No Campaign,115000,0.0,115000.0,2026-02,9,Saturday,20500000
+L00680,2026-04-20,S03,P004,3,390000,NONE,Transfer,sales_medellin.xml,Air Fryer 4L,Small Appliances,Medellín Poblado,Medellín,Northwest,0.0,No Campaign,1170000,0.0,1170000.0,2026-04,17,Monday,22500000
+L00681,2026-03-11,S03,P012,1,35000,NONE,Card,sales_medellin.xml,Notebook Pack,Home & Office,Medellín Poblado,Medellín,Northwest,0.0,No Campaign,35000,0.0,35000.0,2026-03,11,Wednesday,21500000
+L00682,2026-02-01,S03,P004,2,390000,NONE,Transfer,sales_medellin.xml,Air Fryer 4L,Small Appliances,Medellín Poblado,Medellín,Northwest,0.0,No Campaign,780000,0.0,780000.0,2026-02,5,Sunday,20500000
+L00683,2026-02-27,S03,P012,3,35000,NONE,Transfer,sales_medellin.xml,Notebook Pack,Home & Office,Medellín Poblado,Medellín,Northwest,0.0,No Campaign,105000,0.0,105000.0,2026-02,9,Friday,20500000
+L00684,2026-04-14,S03,P003,1,175000,NONE,Card,sales_medellin.xml,Blender 500W,Small Appliances,Medellín Poblado,Medellín,Northwest,0.0,No Campaign,175000,0.0,175000.0,2026-04,16,Tuesday,22500000
+L00685,2026-03-22,S03,P008,3,78000,NONE,Card,sales_medellin.xml,USB-C Charger,Electronics,Medellín Poblado,Medellín,Northwest,0.0,No Campaign,234000,0.0,234000.0,2026-03,12,Sunday,21500000
+L00686,2026-04-28,S03,P009,2,92000,NONE,Cash,sales_medellin.xml,Desk Lamp LED,Home & Office,Medellín Poblado,Medellín,Northwest,0.0,No Campaign,184000,0.0,184000.0,2026-04,18,Tuesday,22500000
+L00687,2026-04-28,S03,P012,1,35000,NONE,Transfer,sales_medellin.xml,Notebook Pack,Home & Office,Medellín Poblado,Medellín,Northwest,0.0,No Campaign,35000,0.0,35000.0,2026-04,18,Tuesday,22500000
+L00688,2026-04-12,S03,P009,1,92000,NONE,Transfer,sales_medellin.xml,Desk Lamp LED,Home & Office,Medellín Poblado,Medellín,Northwest,0.0,No Campaign,92000,0.0,92000.0,2026-04,15,Sunday,22500000
+L00689,2026-02-14,S03,P003,1,175000,NONE,Card,sales_medellin.xml,Blender 500W,Small Appliances,Medellín Poblado,Medellín,Northwest,0.0,No Campaign,175000,0.0,175000.0,2026-02,7,Saturday,20500000
+L00690,2026-03-02,S03,P009,2,92000,NONE,Card,sales_medellin.xml,Desk Lamp LED,Home & Office,Medellín Poblado,Medellín,Northwest,0.0,No Campaign,184000,0.0,184000.0,2026-03,10,Monday,21500000
+L00691,2026-02-25,S03,P013,2,135000,NONE,Cash,sales_medellin.xml,Hair Dryer,Personal Care,Medellín Poblado,Medellín,Northwest,0.0,No Campaign,270000,0.0,270000.0,2026-02,9,Wednesday,20500000
+L00692,2026-02-02,S03,P002,1,285000,NONE,Transfer,sales_medellin.xml,Coffee Maker Premium,Small Appliances,Medellín Poblado,Medellín,Northwest,0.0,No Campaign,285000,0.0,285000.0,2026-02,6,Monday,20500000
+L00693,2026-04-12,S03,P005,2,220000,NONE,Transfer,sales_medellin.xml,Wireless Headphones,Electronics,Medellín Poblado,Medellín,Northwest,0.0,No Campaign,440000,0.0,440000.0,2026-04,15,Sunday,22500000
+L00694,2026-02-23,S03,P010,1,115000,NONE,Cash,sales_medellin.xml,Ergonomic Mouse,Home & Office,Medellín Poblado,Medellín,Northwest,0.0,No Campaign,115000,0.0,115000.0,2026-02,9,Monday,20500000
+L00695,2026-03-24,S03,P001,2,145000,NONE,Card,sales_medellin.xml,Coffee Maker Basic,Small Appliances,Medellín Poblado,Medellín,Northwest,0.0,No Campaign,290000,0.0,290000.0,2026-03,13,Tuesday,21500000
+L00696,2026-02-17,S03,P010,4,115000,NONE,Card,sales_medellin.xml,Ergonomic Mouse,Home & Office,Medellín Poblado,Medellín,Northwest,0.0,No Campaign,460000,0.0,460000.0,2026-02,8,Tuesday,20500000
+L00697,2026-04-26,S03,P004,1,390000,NONE,Card,sales_medellin.xml,Air Fryer 4L,Small Appliances,Medellín Poblado,Medellín,Northwest,0.0,No Campaign,390000,0.0,390000.0,2026-04,17,Sunday,22500000
+L00698,2026-04-20,S03,P011,1,138000,NONE,Card,sales_medellin.xml,Keyboard Compact,Home & Office,Medellín Poblado,Medellín,Northwest,0.0,No Campaign,138000,0.0,138000.0,2026-04,17,Monday,22500000
+L00699,2026-03-14,S03,P003,1,175000,NONE,Card,sales_medellin.xml,Blender 500W,Small Appliances,Medellín Poblado,Medellín,Northwest,0.0,No Campaign,175000,0.0,175000.0,2026-03,11,Saturday,21500000
+L00700,2026-02-10,S03,P004,1,390000,NONE,Transfer,sales_medellin.xml,Air Fryer 4L,Small Appliances,Medellín Poblado,Medellín,Northwest,0.0,No Campaign,390000,0.0,390000.0,2026-02,7,Tuesday,20500000
+L00701,2026-03-18,S03,P003,3,175000,NONE,Cash,sales_medellin.xml,Blender 500W,Small Appliances,Medellín Poblado,Medellín,Northwest,0.0,No Campaign,525000,0.0,525000.0,2026-03,12,Wednesday,21500000
+L00702,2026-02-02,S03,P007,1,310000,NONE,Card,sales_medellin.xml,Smartwatch Active,Electronics,Medellín Poblado,Medellín,Northwest,0.0,No Campaign,310000,0.0,310000.0,2026-02,6,Monday,20500000
+L00703,2026-02-04,S03,P008,1,78000,NONE,Transfer,sales_medellin.xml,USB-C Charger,Electronics,Medellín Poblado,Medellín,Northwest,0.0,No Campaign,78000,0.0,78000.0,2026-02,6,Wednesday,20500000
+L00704,2026-04-29,S03,P009,2,92000,NONE,Card,sales_medellin.xml,Desk Lamp LED,Home & Office,Medellín Poblado,Medellín,Northwest,0.0,No Campaign,184000,0.0,184000.0,2026-04,18,Wednesday,22500000
+L00705,2026-02-08,S03,P010,1,115000,NONE,Transfer,sales_medellin.xml,Ergonomic Mouse,Home & Office,Medellín Poblado,Medellín,Northwest,0.0,No Campaign,115000,0.0,115000.0,2026-02,6,Sunday,20500000
+L00706,2026-04-17,S03,P003,1,175000,NONE,Card,sales_medellin.xml,Blender 500W,Small Appliances,Medellín Poblado,Medellín,Northwest,0.0,No Campaign,175000,0.0,175000.0,2026-04,16,Friday,22500000
+L00707,2026-02-15,S03,P013,3,135000,NONE,Cash,sales_medellin.xml,Hair Dryer,Personal Care,Medellín Poblado,Medellín,Northwest,0.0,No Campaign,405000,0.0,405000.0,2026-02,7,Sunday,20500000
+L00708,2026-04-25,S03,P009,1,92000,NONE,Transfer,sales_medellin.xml,Desk Lamp LED,Home & Office,Medellín Poblado,Medellín,Northwest,0.0,No Campaign,92000,0.0,92000.0,2026-04,17,Saturday,22500000
+L00709,2026-03-18,S03,P003,2,175000,NONE,Cash,sales_medellin.xml,Blender 500W,Small Appliances,Medellín Poblado,Medellín,Northwest,0.0,No Campaign,350000,0.0,350000.0,2026-03,12,Wednesday,21500000
+L00710,2026-04-03,S03,P013,2,135000,NONE,Transfer,sales_medellin.xml,Hair Dryer,Personal Care,Medellín Poblado,Medellín,Northwest,0.0,No Campaign,270000,0.0,270000.0,2026-04,14,Friday,22500000
+L00711,2026-03-02,S03,P009,1,92000,PROMO08,Transfer,sales_medellin.xml,Desk Lamp LED,Home & Office,Medellín Poblado,Medellín,Northwest,0.08,Home Office,92000,7360.0,84640.0,2026-03,10,Monday,21500000
+L00712,2026-03-31,S03,P009,4,92000,NONE,Card,sales_medellin.xml,Desk Lamp LED,Home & Office,Medellín Poblado,Medellín,Northwest,0.0,No Campaign,368000,0.0,368000.0,2026-03,14,Tuesday,21500000
+L00713,2026-04-21,S03,P012,2,35000,NONE,Transfer,sales_medellin.xml,Notebook Pack,Home & Office,Medellín Poblado,Medellín,Northwest,0.0,No Campaign,70000,0.0,70000.0,2026-04,17,Tuesday,22500000
+L00714,2026-02-01,S03,P003,1,175000,NONE,Cash,sales_medellin.xml,Blender 500W,Small Appliances,Medellín Poblado,Medellín,Northwest,0.0,No Campaign,175000,0.0,175000.0,2026-02,5,Sunday,20500000
+L00715,2026-03-26,S03,P009,1,92000,NONE,Transfer,sales_medellin.xml,Desk Lamp LED,Home & Office,Medellín Poblado,Medellín,Northwest,0.0,No Campaign,92000,0.0,92000.0,2026-03,13,Thursday,21500000
+L00716,2026-02-03,S03,P003,1,175000,NONE,Card,sales_medellin.xml,Blender 500W,Small Appliances,Medellín Poblado,Medellín,Northwest,0.0,No Campaign,175000,0.0,175000.0,2026-02,6,Tuesday,20500000
+L00717,2026-03-09,S03,P003,2,175000,NONE,Transfer,sales_medellin.xml,Blender 500W,Small Appliances,Medellín Poblado,Medellín,Northwest,0.0,No Campaign,350000,0.0,350000.0,2026-03,11,Monday,21500000
+L00718,2026-03-06,S03,P005,1,220000,NONE,Cash,sales_medellin.xml,Wireless Headphones,Electronics,Medellín Poblado,Medellín,Northwest,0.0,No Campaign,220000,0.0,220000.0,2026-03,10,Friday,21500000
+L00719,2026-03-17,S03,P013,1,135000,NONE,Transfer,sales_medellin.xml,Hair Dryer,Personal Care,Medellín Poblado,Medellín,Northwest,0.0,No Campaign,135000,0.0,135000.0,2026-03,12,Tuesday,21500000
+L00720,2026-03-04,S03,P010,1,115000,NONE,Transfer,sales_medellin.xml,Ergonomic Mouse,Home & Office,Medellín Poblado,Medellín,Northwest,0.0,No Campaign,115000,0.0,115000.0,2026-03,10,Wednesday,21500000
+L00721,2026-02-24,S03,P012,1,35000,NONE,Cash,sales_medellin.xml,Notebook Pack,Home & Office,Medellín Poblado,Medellín,Northwest,0.0,No Campaign,35000,0.0,35000.0,2026-02,9,Tuesday,20500000
+L00722,2026-03-25,S03,P001,2,145000,NONE,Cash,sales_medellin.xml,Coffee Maker Basic,Small Appliances,Medellín Poblado,Medellín,Northwest,0.0,No Campaign,290000,0.0,290000.0,2026-03,13,Wednesday,21500000
+L00723,2026-02-16,S03,P001,1,145000,NONE,Cash,sales_medellin.xml,Coffee Maker Basic,Small Appliances,Medellín Poblado,Medellín,Northwest,0.0,No Campaign,145000,0.0,145000.0,2026-02,8,Monday,20500000
+L00724,2026-03-08,S03,P003,2,175000,NONE,Card,sales_medellin.xml,Blender 500W,Small Appliances,Medellín Poblado,Medellín,Northwest,0.0,No Campaign,350000,0.0,350000.0,2026-03,10,Sunday,21500000
+L00725,2026-02-14,S03,P012,1,35000,NONE,Card,sales_medellin.xml,Notebook Pack,Home & Office,Medellín Poblado,Medellín,Northwest,0.0,No Campaign,35000,0.0,35000.0,2026-02,7,Saturday,20500000
+L00726,2026-02-16,S03,P004,1,390000,NONE,Card,sales_medellin.xml,Air Fryer 4L,Small Appliances,Medellín Poblado,Medellín,Northwest,0.0,No Campaign,390000,0.0,390000.0,2026-02,8,Monday,20500000
+L00727,2026-04-09,S03,P008,1,78000,NONE,Cash,sales_medellin.xml,USB-C Charger,Electronics,Medellín Poblado,Medellín,Northwest,0.0,No Campaign,78000,0.0,78000.0,2026-04,15,Thursday,22500000
+L00728,2026-03-26,S03,P009,3,92000,NONE,Transfer,sales_medellin.xml,Desk Lamp LED,Home & Office,Medellín Poblado,Medellín,Northwest,0.0,No Campaign,276000,0.0,276000.0,2026-03,13,Thursday,21500000
+L00729,2026-03-18,S03,P006,1,165000,NONE,Cash,sales_medellin.xml,Bluetooth Speaker,Electronics,Medellín Poblado,Medellín,Northwest,0.0,No Campaign,165000,0.0,165000.0,2026-03,12,Wednesday,21500000
+L00730,2026-02-10,S03,P009,2,92000,NONE,Cash,sales_medellin.xml,Desk Lamp LED,Home & Office,Medellín Poblado,Medellín,Northwest,0.0,No Campaign,184000,0.0,184000.0,2026-02,7,Tuesday,20500000
+L00731,2026-03-20,S03,P012,4,35000,NONE,Cash,sales_medellin.xml,Notebook Pack,Home & Office,Medellín Poblado,Medellín,Northwest,0.0,No Campaign,140000,0.0,140000.0,2026-03,12,Friday,21500000
+L00732,2026-02-13,S03,P012,1,35000,NONE,Cash,sales_medellin.xml,Notebook Pack,Home & Office,Medellín Poblado,Medellín,Northwest,0.0,No Campaign,35000,0.0,35000.0,2026-02,7,Friday,20500000
+L00733,2026-03-04,S03,P001,2,145000,NONE,Transfer,sales_medellin.xml,Coffee Maker Basic,Small Appliances,Medellín Poblado,Medellín,Northwest,0.0,No Campaign,290000,0.0,290000.0,2026-03,10,Wednesday,21500000
+L00734,2026-04-24,S03,P008,1,78000,NONE,Transfer,sales_medellin.xml,USB-C Charger,Electronics,Medellín Poblado,Medellín,Northwest,0.0,No Campaign,78000,0.0,78000.0,2026-04,17,Friday,22500000
+L00735,2026-03-03,S03,P003,3,175000,NONE,Card,sales_medellin.xml,Blender 500W,Small Appliances,Medellín Poblado,Medellín,Northwest,0.0,No Campaign,525000,0.0,525000.0,2026-03,10,Tuesday,21500000
+L00736,2026-03-31,S03,P012,1,35000,NONE,Cash,sales_medellin.xml,Notebook Pack,Home & Office,Medellín Poblado,Medellín,Northwest,0.0,No Campaign,35000,0.0,35000.0,2026-03,14,Tuesday,21500000
+L00737,2026-03-30,S03,P010,2,115000,NONE,Card,sales_medellin.xml,Ergonomic Mouse,Home & Office,Medellín Poblado,Medellín,Northwest,0.0,No Campaign,230000,0.0,230000.0,2026-03,14,Monday,21500000
+L00738,2026-04-28,S03,P006,1,165000,NONE,Cash,sales_medellin.xml,Bluetooth Speaker,Electronics,Medellín Poblado,Medellín,Northwest,0.0,No Campaign,165000,0.0,165000.0,2026-04,18,Tuesday,22500000
+L00739,2026-03-04,S03,P004,1,390000,PROMO15,Cash,sales_medellin.xml,Air Fryer 4L,Small Appliances,Medellín Poblado,Medellín,Northwest,0.15,Kitchen Days,390000,58500.0,331500.0,2026-03,10,Wednesday,21500000
+L00740,2026-03-17,S03,P001,3,145000,NONE,Card,sales_medellin.xml,Coffee Maker Basic,Small Appliances,Medellín Poblado,Medellín,Northwest,0.0,No Campaign,435000,0.0,435000.0,2026-03,12,Tuesday,21500000
+L00741,2026-02-24,S03,P010,1,115000,NONE,Transfer,sales_medellin.xml,Ergonomic Mouse,Home & Office,Medellín Poblado,Medellín,Northwest,0.0,No Campaign,115000,0.0,115000.0,2026-02,9,Tuesday,20500000
+L00742,2026-03-29,S03,P001,1,145000,NONE,Transfer,sales_medellin.xml,Coffee Maker Basic,Small Appliances,Medellín Poblado,Medellín,Northwest,0.0,No Campaign,145000,0.0,145000.0,2026-03,13,Sunday,21500000
+L00743,2026-02-03,S03,P001,1,145000,NONE,Cash,sales_medellin.xml,Coffee Maker Basic,Small Appliances,Medellín Poblado,Medellín,Northwest,0.0,No Campaign,145000,0.0,145000.0,2026-02,6,Tuesday,20500000
+L00744,2026-02-05,S03,P010,1,115000,NONE,Card,sales_medellin.xml,Ergonomic Mouse,Home & Office,Medellín Poblado,Medellín,Northwest,0.0,No Campaign,115000,0.0,115000.0,2026-02,6,Thursday,20500000
+L00745,2026-02-10,S03,P013,2,135000,NONE,Cash,sales_medellin.xml,Hair Dryer,Personal Care,Medellín Poblado,Medellín,Northwest,0.0,No Campaign,270000,0.0,270000.0,2026-02,7,Tuesday,20500000
+L00746,2026-03-26,S03,P002,3,285000,NONE,Transfer,sales_medellin.xml,Coffee Maker Premium,Small Appliances,Medellín Poblado,Medellín,Northwest,0.0,No Campaign,855000,0.0,855000.0,2026-03,13,Thursday,21500000
+L00747,2026-03-17,S03,P004,2,390000,PROMO15,Card,sales_medellin.xml,Air Fryer 4L,Small Appliances,Medellín Poblado,Medellín,Northwest,0.15,Kitchen Days,780000,117000.0,663000.0,2026-03,12,Tuesday,21500000
+L00748,2026-03-08,S03,P005,3,220000,NONE,Cash,sales_medellin.xml,Wireless Headphones,Electronics,Medellín Poblado,Medellín,Northwest,0.0,No Campaign,660000,0.0,660000.0,2026-03,10,Sunday,21500000
+L00749,2026-03-23,S03,P008,1,78000,NONE,Card,sales_medellin.xml,USB-C Charger,Electronics,Medellín Poblado,Medellín,Northwest,0.0,No Campaign,78000,0.0,78000.0,2026-03,13,Monday,21500000
+L00750,2026-04-09,S03,P015,4,86000,NONE,Transfer,sales_medellin.xml,Digital Scale,Personal Care,Medellín Poblado,Medellín,Northwest,0.0,No Campaign,344000,0.0,344000.0,2026-04,15,Thursday,22500000
+L00751,2026-02-27,S03,P012,1,35000,NONE,Transfer,sales_medellin.xml,Notebook Pack,Home & Office,Medellín Poblado,Medellín,Northwest,0.0,No Campaign,35000,0.0,35000.0,2026-02,9,Friday,20500000
+L00752,2026-04-06,S03,P003,2,175000,NONE,Transfer,sales_medellin.xml,Blender 500W,Small Appliances,Medellín Poblado,Medellín,Northwest,0.0,No Campaign,350000,0.0,350000.0,2026-04,15,Monday,22500000
+L00753,2026-02-19,S03,P012,2,35000,NONE,Card,sales_medellin.xml,Notebook Pack,Home & Office,Medellín Poblado,Medellín,Northwest,0.0,No Campaign,70000,0.0,70000.0,2026-02,8,Thursday,20500000
+L00754,2026-03-12,S03,P008,3,78000,NONE,Transfer,sales_medellin.xml,USB-C Charger,Electronics,Medellín Poblado,Medellín,Northwest,0.0,No Campaign,234000,0.0,234000.0,2026-03,11,Thursday,21500000
+L00755,2026-03-25,S03,P003,1,175000,NONE,Cash,sales_medellin.xml,Blender 500W,Small Appliances,Medellín Poblado,Medellín,Northwest,0.0,No Campaign,175000,0.0,175000.0,2026-03,13,Wednesday,21500000
+L00756,2026-04-21,S03,P013,1,135000,PROMO20,Transfer,sales_medellin.xml,Hair Dryer,Personal Care,Medellín Poblado,Medellín,Northwest,0.2,Personal Care Month,135000,27000.0,108000.0,2026-04,17,Tuesday,22500000
+L00757,2026-03-31,S03,P013,1,135000,NONE,Card,sales_medellin.xml,Hair Dryer,Personal Care,Medellín Poblado,Medellín,Northwest,0.0,No Campaign,135000,0.0,135000.0,2026-03,14,Tuesday,21500000
+L00758,2026-03-09,S03,P009,1,92000,PROMO08,Cash,sales_medellin.xml,Desk Lamp LED,Home & Office,Medellín Poblado,Medellín,Northwest,0.08,Home Office,92000,7360.0,84640.0,2026-03,11,Monday,21500000
+L00759,2026-04-20,S03,P008,1,78000,NONE,Transfer,sales_medellin.xml,USB-C Charger,Electronics,Medellín Poblado,Medellín,Northwest,0.0,No Campaign,78000,0.0,78000.0,2026-04,17,Monday,22500000
+L00760,2026-02-15,S03,P002,2,285000,NONE,Card,sales_medellin.xml,Coffee Maker Premium,Small Appliances,Medellín Poblado,Medellín,Northwest,0.0,No Campaign,570000,0.0,570000.0,2026-02,7,Sunday,20500000
